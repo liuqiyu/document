@@ -45,11 +45,9 @@ const app = new Vue({
 ## 基础
 
 <a name="dynamicRouter"></a>
-### 动态路由
+#### 动态路由
 
-> 同一个组件不同的路由
-
-> 例如：`/user/93` `/user/92` 都将映射到同一个路由。获取当前路由的参数使用`this.$route.params.id`
+ 同一个组件不同的路由。例如：`/user/93` `/user/92` 都将映射到同一个路由。获取当前路由的参数使用`this.$route.params.id`
 
 ```
 routes:[{
@@ -75,19 +73,19 @@ beforeRouteUpdate守卫
 ```
 
 <a name="visit"></a>
-### 路由访问
+#### 路由访问
 
-    ```
-    this.$router.push({path: '/user', params: { id: '123'}})
-    等同于
-    <router-link :to='{path: '/user', params: {id: '123'}}'></router-link>
-    ```
+```
+this.$router.push({path: '/user', params: { id: '123'}})
+等同于
+<router-link :to='{path: '/user', params: {id: '123'}}'></router-link>
+```
 
 <a name="redirect"></a>
-### 重定向和别名
+#### 重定向和别名
 
 > 重定向
-##### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/info`
+###### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/info`
 ```
 routes: [{
     path: '/user',
@@ -98,7 +96,7 @@ routes: [{
 ```
 
 > 别名    
-##### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/user`
+###### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/user`
 ```
 routes: [{
     path: '/user',
@@ -110,17 +108,17 @@ routes: [{
 ## 进阶
 
 <a name="navigationGuard"></a>
-### 导航守卫 -- 路由变化
+#### 导航守卫 -- 路由变化
 
-#### 全局守卫
+##### 全局守卫
 
 > `router.beforeEach((to, from, next) {})`    会受`next()`影响
  
-#### 全局后置守卫
+##### 全局后置守卫
 
 > `router.afterEach((to, from){})`  不会受`next()`影响
 
-#### 路由独享的守卫
+##### 路由独享的守卫
 
 > beforeEnter: (to, from, next) => {}
 
@@ -138,7 +136,7 @@ const router = new VueRouter({
 })
 ```
 
-#### 组件内的守卫
+##### 组件内的守卫
 
 > `beforeRouteEnter`
 
@@ -188,13 +186,13 @@ const Foo = {
 
 
 <a name="meta"></a>
-### 路由元信息 - meta
+#### 路由元信息 - meta
 
 > 路由配置meta字段.  `meta: { requiresAuth: true }`
 
 
 <a name="getData"></a>
-### 数据获取
+#### 数据获取
 
 * 导航完成之后获取
     > 可以有load加载提示
@@ -202,7 +200,7 @@ const Foo = {
 
 
 <a name="lazyLoad"></a>
-### 路由懒加载
+#### 路由懒加载
 
 > 当打包构建应用时，Javascript 包会变得非常大，影响页面加载。如果我们能把不同路由对应的组件分割成不同的代码块，然后当路由被访问的时候才加载对应组件，这样就更加高效了。
 
@@ -218,7 +216,7 @@ routes: [{
 
 
 <a name="style"></a>
-### 样式 - router-link
+#### 样式 - router-link
 
 > router-link
 
