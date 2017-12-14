@@ -1,6 +1,7 @@
 # Vue-router
 文档管理
 
+## 目录
 
 1. [安装使用](#install)
 2. [基础](#basic)
@@ -11,6 +12,8 @@
     * [导航守卫 -- 路由变化](#navigationGuard)
     * [路由元信息 -- meta](#meta)
     * [数据获取](#getData)
+    * [路由懒加载](#lazyLoad)
+    * [样式 - router-link](#style)
 
 
 
@@ -196,3 +199,38 @@ const Foo = {
 * 导航完成之后获取
     > 可以有load加载提示
 * 导航完成之前获取
+
+
+<a name="lazyLoad"></a>
+### 路由懒加载
+
+> 当打包构建应用时，Javascript 包会变得非常大，影响页面加载。如果我们能把不同路由对应的组件分割成不同的代码块，然后当路由被访问的时候才加载对应组件，这样就更加高效了。
+
+```
+const Layout = r => require.ensure([], () => r(require('@/views/Basic/Layout')), 'init');
+
+routes: [{
+    path: '/',
+    name: Layout,
+    component: Layout
+}]
+```
+
+
+<a name="style"></a>
+### 样式 - router-link
+
+> router-link
+
+* active-class  链接激活使用的类名
+    * default : "router-link-active"
+    * 自定义 :  :active-link="avtive"
+    
+* 将激活 class 应用在外层元素
+    ```
+    <router-link tag="li" to="/foo">
+      <a>/foo</a>
+    </router-link>
+
+    ```
+    
