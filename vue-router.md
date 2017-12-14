@@ -4,7 +4,7 @@
 
 1. [安装使用](#install)
 2. [学习笔记](#studyNote)
-    * [动态路由](#dynamicRouter)
+    * [动态路由 - /user/:id](#dynamicRouter)
 
 
 
@@ -20,16 +20,13 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 
-
-1.
 const routes = {}
 
-2.
 const router = new VueRouter({
     routes
 })
 
-3.const app = new Vue({
+const app = new Vue({
     router
 }) // 路由已经启动
 
@@ -54,7 +51,7 @@ routes:[{
 > 相应参数变化
 
 ```
-1. `watch`监听
+watch监听
     watch: {
         '$route' (to, from) {
             // to  将要跳往的路由
@@ -62,7 +59,7 @@ routes:[{
         }
     }
 
-2. `beforeRouteUpdate`守卫
+beforeRouteUpdate守卫
     beforeRouteUpdate (to, from, next) {
         // 监听路由变化
     }
