@@ -3,8 +3,11 @@
 
 
 1. [安装使用](#install)
-2. [学习笔记](#studyNote)
+2. [学习笔记 - 基础](#studyNote)
     * [动态路由 - /user/:id](#dynamicRouter)
+    * [路由访问](#visit)
+    * [重定向和别名](#redirect)
+
 
 
 
@@ -63,4 +66,36 @@ beforeRouteUpdate守卫
     beforeRouteUpdate (to, from, next) {
         // 监听路由变化
     }
+```
+
+<a name="visit"></a>
+## 路由访问
+
+    ```
+    this.$router.push({path: '/user', params: { id: '123'}})
+    等同于
+    <router-link :to='{path: '/user', params: {id: '123'}}'></router-link>
+    ```
+
+<a name="redirect"></a>
+## 重定向和别名
+
+> 重定向
+##### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/info`
+```
+routes: [{
+    path: '/user',
+    redirect: '/info',
+    // redirect: { name : 'info'},  // name
+    // redirect: to => {} // 方法
+}]
+```
+
+> 别名    
+##### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/user`
+```
+routes: [{
+    path: '/user',
+    alias: '/info'
+}]
 ```
