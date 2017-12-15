@@ -5,10 +5,10 @@
 1. [说明](#explain)
 2. [安裝使用](#install)
 3. [核心概念](#core)
-    *[State](#State)
-    *[Getter](#Getter)
-    *[Mutation](#Mutation)
-    *[Action](#Action)
+    * [State](#State)
+    * [Getter](#Getter)
+    * [Mutation](#Mutation)
+    * [Action](#Action)
 
 
 <a name="explain"></a>
