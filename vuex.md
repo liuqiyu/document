@@ -10,6 +10,7 @@
     * [Getter](#Getter)
     * [Mutation](#Mutation)
     * [Action](#Action)
+    * [Module](#Module)
 
 
 <a name="explain"></a>
@@ -202,3 +203,9 @@ export default {
     }
 }
 ```
+
+
+<a name="Module"></a>
+### Module
+
+未完待续。。。
