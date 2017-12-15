@@ -60,6 +60,13 @@ __store.js__
     ├──  mutation-types.js
     ├──  actions.js
 ```
+#### 文件截图
+
+<img src="https://github.com/liuqiyu/docs/blob/master/images/vuex/index.js.png" width="300"></img>
+<img src="https://github.com/liuqiyu/docs/blob/master/images/vuex/mutations.js.png" width="300"></img>
+<img src="https://github.com/liuqiyu/docs/blob/master/images/vuex/mutation-types.js.png" width="300"></img>
+<img src="https://github.com/liuqiyu/docs/blob/master/images/vuex/actions.js.png" width="300"></img>
+
 <a name="core"></a>
 ## 核心概念
 深入理解所有的概念对于使用 Vuex 来说是必要的。
