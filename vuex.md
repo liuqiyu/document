@@ -130,6 +130,10 @@ mutations: {
         state.count + n
     }
 }
+
+使用
+
+this.$store.commit('increment', 2)
 ```
 
 * 使用常量代替Mutation事件类型
