@@ -24,7 +24,7 @@ Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用�
 ```
 npm install vuex --save
 
-// main.js
+## main.js
 
 import Vue from 'vue'
 
@@ -32,11 +32,11 @@ import Vuex from 'Vuex'
 
 Vue.use(Vuex)
 
-使用
+## 使用
 
 import store from './vuex/'
 
-// store.js
+## store.js
 
 export default new Vuex.Store({
     state,
@@ -79,14 +79,14 @@ __store.js__
 ```
 this.$store.state.city
 
-// mapState 辅助函数
+## mapState 辅助函数
 import {mapState} from 'vuex'
 
 computed : {
     ...mapState([
         'city',
     ])
-}   // 或者
+}   ## 或者
 computed: mapState([
     'city'
 ])
@@ -101,14 +101,14 @@ computed: mapState([
 ```
 this.$store.getters.getCity
 
-// mapGetters 辅助函数
+## mapGetters 辅助函数
 import {mapGetters} from 'vuex'
 
 computed: {
     ...mapGetters:([
         'getCity'
     ])
-}   // 或者
+}  ## 或者
 computed: mapGetters([
     'getCity'
 ])
@@ -139,10 +139,10 @@ this.$store.commit('increment', 2)
 * 使用常量代替Mutation事件类型
 
 ```
-// mutation-types.js
+## mutation-types.js
 export const CITY_UPDATE = 'CITY_UPDATE'
 
-// mutations.js
+## mutations.js
 import {CITY_UPDATE} from './mutation-types.js'
 
 const mutations = {
@@ -151,16 +151,16 @@ const mutations = {
     }
 }
 
-// index.vue 使用
+## index.vue 使用
 import { mapMutations } from 'vuex'
 
 export default {
     methods: {
         ...mapMutations: ([
-            'CITY_UPDATE'    // 相当于一个方法，介意使用 `this.CITY_UPDATE('深圳')` 调用
-        ]) // 如下
+            'CITY_UPDATE'    ## 相当于一个方法，介意使用 `this.CITY_UPDATE('深圳')` 调用
+        ]) ## 如下
         click () {
-            this.CITY_UPDATE('深圳') // 或者不使用辅助函数
+            this.CITY_UPDATE('深圳') ## 或者不使用辅助函数
             this.$store.commit('CITY_UPDATE')
         }
     }
@@ -175,20 +175,20 @@ export default {
 > Action类似Mutation。 但是它提交的是Mutation,而不是直接改变状态。可以 `异步`
 
 ```
-// actions.js
+## actions.js
 import {CITY_UPDATE} from './mutation-types'
 import { getCity } from './../utils/getData'
 
 const cityUpdate = ({commit}) => {
-    let city = getCity()        // 异步获取当前城市
-    commit(CITY_UPDATE, city)   // 提交Mutation事件
+    let city = getCity()        ## 异步获取当前城市
+    commit(CITY_UPDATE, city)   ## 提交Mutation事件
 }
 
 export default  {
     cityUpdate
 }
 
-// 使用 index.vue 
+## 使用 index.vue 
 import { mapActions} from 'vuex'
 
 export default {
@@ -197,7 +197,7 @@ export default {
             'cityUpdate'
         ]),
         click () {
-            this.cityUpdate()  // 使用action
+            this.cityUpdate()  ## 使用action
         }
     }
 }
