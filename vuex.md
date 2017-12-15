@@ -4,7 +4,8 @@
 
 1. [说明](#explain)
 2. [安裝使用](#install)
-3. [核心概念](#core)
+2. [项目结构](#structure)
+4. [核心概念](#core)
     * [State](#State)
     * [Getter](#Getter)
     * [Mutation](#Mutation)
@@ -46,6 +47,19 @@ export default new Vuex.Store({
 ```
 
 
+<a name="structure"></a>
+## 项目结构
+
+__store.js__
+
+```
+├── vuex
+    ├──  index.js
+    ├──  getters.js
+    ├──  mutations.js
+    ├──  mutation-types.js
+    ├──  actions.js
+```
 <a name="core"></a>
 ## 核心概念
 深入理解所有的概念对于使用 Vuex 来说是必要的。

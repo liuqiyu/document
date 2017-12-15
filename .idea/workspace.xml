@@ -46,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/vuex.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="147" column="3" lean-forward="false" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
+              <first_editor relative-caret-position="506">
+                <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -93,8 +93,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="124" />
-    <option name="y" value="76" />
+    <option name="x" value="94" />
+    <option name="y" value="432" />
     <option name="width" value="1713" />
     <option name="height" value="990" />
   </component>
@@ -168,12 +168,12 @@
       <workItem from="1513229933023" duration="7110000" />
       <workItem from="1513245521994" duration="2119000" />
       <workItem from="1513300891295" duration="908000" />
-      <workItem from="1513318254917" duration="2993000" />
+      <workItem from="1513318254917" duration="4431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14453000" />
+    <option name="totallyTimeSpent" value="15891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
@@ -359,8 +359,8 @@
     <entry file="file://$PROJECT_DIR$/vuex.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="147" column="3" lean-forward="false" selection-start-line="147" selection-start-column="3" selection-end-line="147" selection-end-column="3" />
+          <first_editor relative-caret-position="506">
+            <caret line="61" column="3" lean-forward="true" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />
