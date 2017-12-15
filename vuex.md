@@ -51,7 +51,7 @@ export default new Vuex.Store({
 深入理解所有的概念对于使用 Vuex 来说是必要的。
 
 <a name="State"></a>
-#### State
+### State
 
 > 单一状态树
 
@@ -73,7 +73,7 @@ computed: mapState([
 ```
 
 <a name="Getter"></a>
-#### Getter
+### Getter
 
 > 计算属性
 
@@ -94,7 +94,7 @@ computed: mapGetters([
 ```
 
 <a name="Mutation"></a>
-#### Mutation
+### Mutation
 
 > 更改Vuex中state的状态唯一方法是提交Mutation。类似`事件`
 
@@ -145,7 +145,7 @@ export default {
 * mutation必须是同步
 
 <a name="Action"></a>
-#### Action
+### Action
 
 > Action类似Mutation。 但是它提交的是Mutation,而不是直接改变状态。可以 `异步`
 
