@@ -7,11 +7,16 @@
 <body>
 <script>
     var arr = [1, 2, 3, 4]
-    arr.forEach(function(val, index, arr) {
-        console.log(val);
-        console.log(index);
-        console.log(arr);
-    })
+
+    console.log(arr.lastIndexOf(4));
+
+    var data = [2, 5, 7, 3, 5];
+
+    console.log(arr.lastIndexOf(3)); // 4
+    console.log(data.lastIndexOf(5, 3)); // 1 (从后往前，索引值小于3的开始搜索)
+
+    console.log(arr.lastIndexOf(4)); // -1 (未找到)
+
 </script>
 </body>
 </html>
