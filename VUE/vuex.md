@@ -120,7 +120,7 @@ computed: mapGetters([
 
 > 更改Vuex中state的状态唯一方法是提交Mutation。类似`事件`
 
-* 简单用法
+#### 简单用法
 
 ```
 state: {
@@ -135,7 +135,7 @@ mutations: {
 this.$store.commit('increment', 2)
 ```
 
-* 使用常量代替Mutation事件类型
+#### 使用常量代替Mutation事件类型
 
 ```
 // mutation-types.js
@@ -166,7 +166,7 @@ export default {
 }
 ```
 
-* mutation必须是同步
+#### mutation必须是同步
 
 <a name="Action"></a>
 ### Action
