@@ -89,6 +89,7 @@ console.log(newArr)
 > `某些`，指是否`某些项`符合条件。与`every`是好基友，`every`表示每一项都合乎条件。
 
 > 用法: `array.some(callback,[ thisObject]);`
+
 ```
 var arr = [1, 2, 3, 4];
 
