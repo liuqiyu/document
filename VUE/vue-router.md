@@ -223,6 +223,10 @@ routes: [{
 * active-class  链接激活使用的类名
     * default : "router-link-active"
     * 自定义 :  :active-link="avtive"
+
+```
+    :active-class="activeClass"
+```
     
 * 将激活 class 应用在外层元素
     ```
