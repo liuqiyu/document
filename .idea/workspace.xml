@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a86411-58bc-413f-9b90-c3e521155816" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/optimization/build.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/promise.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/ES6/ES5.array.ie.js" afterPath="$PROJECT_DIR$/javascript/js/ES5.array.ie.js" />
+      <change beforePath="$PROJECT_DIR$/ES6/ES5新增的Array方法详解.md" afterPath="$PROJECT_DIR$/javascript/new-array.md" />
+      <change beforePath="$PROJECT_DIR$/ES6/promise.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/VUE/component.md" afterPath="$PROJECT_DIR$/vue/component.md" />
+      <change beforePath="$PROJECT_DIR$/VUE/vue-cli/build.js.md" afterPath="$PROJECT_DIR$/vue/vue-cli/build.js.md" />
+      <change beforePath="$PROJECT_DIR$/VUE/vue-cli/utils.js.md" afterPath="$PROJECT_DIR$/vue/vue-cli/utils.js.md" />
+      <change beforePath="$PROJECT_DIR$/VUE/vue-cli/webpack.base.conf.js.md" afterPath="$PROJECT_DIR$/vue/vue-cli/webpack.base.conf.js.md" />
+      <change beforePath="$PROJECT_DIR$/VUE/vue-router.md" afterPath="$PROJECT_DIR$/vue/vue-router.md" />
+      <change beforePath="$PROJECT_DIR$/VUE/vuex.md" afterPath="$PROJECT_DIR$/vue/vuex.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +26,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/optimization/build.md">
+      <file leaf-file-name="promise.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/promise.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="679">
-                <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-                <folding>
-                  <element signature="e#533#591#0" expanded="false" />
-                  <element signature="e#630#1487#0" expanded="false" />
-                </folding>
+              <first_editor relative-caret-position="213">
+                <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+                <folding />
               </first_editor>
               <second_editor />
             </state>
@@ -88,9 +94,9 @@
         <option value="$PROJECT_DIR$/ES6/ES5新增的Array方法详解.md" />
         <option value="$PROJECT_DIR$/VUE/组件上传.vue" />
         <option value="$PROJECT_DIR$/VUE/组件上传.md" />
-        <option value="$PROJECT_DIR$/ES6/promise.md" />
         <option value="$PROJECT_DIR$/VUE/vue-router.md" />
         <option value="$PROJECT_DIR$/optimization/build.md" />
+        <option value="$PROJECT_DIR$/ES6/promise.md" />
       </list>
     </option>
   </component>
@@ -126,29 +132,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="b2602c69:ProjectViewProjectNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="docs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="b2602c69:ProjectViewProjectNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yaoling-gpo-fe-trade" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bi_statistics" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -157,15 +163,15 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="A:\my-demo\docs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\document\Javascript\js" />
       <recent name="E:\work\docs\Vdocs\src" />
       <recent name="E:\work\docs\Vdocs\src\assets" />
       <recent name="A:\my-demo\docs\VUE" />
       <recent name="A:\my-demo\docs\ES6" />
-      <recent name="A:\my-demo\docs" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="A:\my-demo\docs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,28 +222,33 @@
       <workItem from="1515142057256" duration="2860000" />
       <workItem from="1515373891884" duration="14000" />
       <workItem from="1515374193310" duration="1714000" />
+      <workItem from="1517988248735" duration="373000" />
+      <workItem from="1518248946565" duration="2480000" />
+      <workItem from="1518315792320" duration="723000" />
+      <workItem from="1518318549935" duration="5975000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44249000" />
+    <option name="totallyTimeSpent" value="53800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.103793465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44046363" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5410959" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57173914" sideWeight="0.52107483" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.45890412" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.45047417" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40261152" sideWeight="0.48314014" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57173914" sideWeight="0.4789252" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -245,6 +256,7 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -306,24 +318,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ES6/ES5新增的Array方法详解.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md">
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md">
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -331,8 +333,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -345,52 +347,52 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/ES5新增的Array方法详解.md" />
+    <entry file="file://$PROJECT_DIR$/javascript/new-array.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
     <entry file="file://$PROJECT_DIR$/flow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
     <entry file="file://$PROJECT_DIR$/flow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
     <entry file="file://$PROJECT_DIR$/flow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
     <entry file="file://$PROJECT_DIR$/flow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/110.gif" />
     <entry file="file://$PROJECT_DIR$/flow.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vue-cli/utils.js.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-cli/utils.js.md" />
     <entry file="file://$PROJECT_DIR$/VUE/vue-cli/utils1.js.md" />
-    <entry file="file://$PROJECT_DIR$/VUE/vue-cli/webpack.base.conf.js.md" />
+    <entry file="file://$PROJECT_DIR$/vue/vue-cli/webpack.base.conf.js.md" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -411,33 +413,52 @@
     <entry file="file://$PROJECT_DIR$/Vdocs/src/App.vue" />
     <entry file="file://$PROJECT_DIR$/Vdocs/src/md.css" />
     <entry file="file://$PROJECT_DIR$/Vdocs/src/components/HelloWorld.vue" />
-    <entry file="file://$PROJECT_DIR$/ES6/ES5.array.ie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vuex.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/vue/vuex.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ES6/ES5新增的Array方法详解.md">
+    <entry file="file://$PROJECT_DIR$/vue/vue-cli/build.js.md" />
+    <entry file="file://$PROJECT_DIR$/VUE/组件上传.vue" />
+    <entry file="file://$PROJECT_DIR$/VUE/组件上传.md" />
+    <entry file="file://$PROJECT_DIR$/vue/component.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-13">
-            <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue-router.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/js/ES5.array.ie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="111" column="40" lean-forward="false" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/new-array.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -448,47 +469,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vue-cli/build.js.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-540">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/组件上传.vue" />
-    <entry file="file://$PROJECT_DIR$/VUE/组件上传.md" />
-    <entry file="file://$PROJECT_DIR$/ES6/promise.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VUE/vue-router.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="376">
-            <caret line="227" column="31" lean-forward="false" selection-start-line="227" selection-start-column="31" selection-end-line="227" selection-end-column="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/optimization/build.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="679">
-            <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
-            <folding>
-              <element signature="e#533#591#0" expanded="false" />
-              <element signature="e#630#1487#0" expanded="false" />
-            </folding>
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/promise.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="213">
+            <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
