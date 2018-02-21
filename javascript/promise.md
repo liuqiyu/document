@@ -4,7 +4,7 @@
    *  三种状态： `pending` 进行中  `fulfilled` 已成功  `rejected` 已失败。Promise对象会出现两种状态的改变。 `pending` 进行中 => `fulfilled` 已成功 、`pending` 进行中 => `rejected` 已失败。
    
    *  `Promise.prototype.then()` 方法可接受两个回调函数作为参数
-    ```
+   
            
            .then(resolveCallback, rejectCallback)；
            
@@ -98,4 +98,5 @@
         }, (error) => {
           console.log(error)
         })
+        ```
        
