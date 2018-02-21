@@ -1,7 +1,7 @@
-#git 常用的命令
+# git 常用的命令
 
 
-#### 基本命令行  
+## 基本命令行  
 repositories => repo => 仓库
 
 > git init : 创建仓库
@@ -53,7 +53,7 @@ repositories => repo => 仓库
     说明本地的代码不是最新的,Git会拒绝你的push,让你先fetch,merge,之后再push,这样就保证了所有人的改动都会被考虑进来.
     
 
-#### 创建管理远程分支
+## 创建管理远程分支
 
 > 查看本地分支： git branch
 
