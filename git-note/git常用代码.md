@@ -61,4 +61,4 @@ repositories => repo => 仓库
 
 > 将新建的本地分支push到远程服务器，远程分支与本地分支同名： git push origin develop:develop
 
-> 删除远程分支： git push origin --delete develop
+> 删除远程分支： git push origin --delete develgit op
