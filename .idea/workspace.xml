@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20fdfe67-67f7-4f61-9467-3bcce8d6dd06" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dics.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="20fdfe67-67f7-4f61-9467-3bcce8d6dd06" name="Default" comment="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git-note/base.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <first_editor relative-caret-position="221">
+                <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -35,12 +30,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="19" column="0" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="19" selection-end-column="0" />
+              <first_editor relative-caret-position="357">
+                <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -97,16 +92,6 @@
               <item name="document" type="b2602c69:ProjectViewProjectNode" />
               <item name="document" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="document" type="b2602c69:ProjectViewProjectNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-              <item name="git-note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="document" type="b2602c69:ProjectViewProjectNode" />
-              <item name="document" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519184729152</updated>
       <workItem from="1519184730235" duration="477000" />
-      <workItem from="1519261749181" duration="2828000" />
+      <workItem from="1519261749181" duration="2914000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
       <created>1519185020843</created>
@@ -168,11 +153,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519265084128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
+      <created>1519266774780</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519266774780</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3305000" />
+    <option name="totallyTimeSpent" value="3391000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -326,22 +318,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/git-note/base.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="19" column="0" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="19" selection-end-column="0" />
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/git-note/base.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <first_editor relative-caret-position="357">
+            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
