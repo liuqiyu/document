@@ -21,12 +21,12 @@
         <entry file="file://$PROJECT_DIR$/tools/better-scroll/better-scroll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <first_editor relative-caret-position="324">
+                <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
                 <folding>
-                  <marker date="1519464845947" expanded="true" signature="202:325" ph="..." />
-                  <marker date="1519464845947" expanded="true" signature="231:313" ph="..." />
-                  <marker date="1519464845947" expanded="true" signature="605:630" ph="{...}" />
+                  <marker date="1519464897977" expanded="true" signature="208:331" ph="..." />
+                  <marker date="1519464897977" expanded="true" signature="237:319" ph="..." />
+                  <marker date="1519464897977" expanded="true" signature="613:638" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -194,7 +194,7 @@
       <workItem from="1519433844451" duration="787000" />
       <workItem from="1519458732679" duration="292000" />
       <workItem from="1519459227015" duration="700000" />
-      <workItem from="1519463953224" duration="897000" />
+      <workItem from="1519463953224" duration="947000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
       <created>1519185020843</created>
@@ -266,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519464800133</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
+      <created>1519464854724</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1519464854724</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6825000" />
+    <option name="totallyTimeSpent" value="6875000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -609,12 +616,12 @@
     <entry file="file://$PROJECT_DIR$/tools/better-scroll/better-scroll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <first_editor relative-caret-position="324">
+            <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             <folding>
-              <marker date="1519464845947" expanded="true" signature="202:325" ph="..." />
-              <marker date="1519464845947" expanded="true" signature="231:313" ph="..." />
-              <marker date="1519464845947" expanded="true" signature="605:630" ph="{...}" />
+              <marker date="1519464897977" expanded="true" signature="208:331" ph="..." />
+              <marker date="1519464897977" expanded="true" signature="237:319" ph="..." />
+              <marker date="1519464897977" expanded="true" signature="613:638" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

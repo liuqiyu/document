@@ -2,17 +2,17 @@
 
 使用better-scroll可以使滑动更顺畅
 
-## 原理结构
+#### 原理结构
 
 <img src="./scroll.jpg" width="60%"></img>
 
-## npm
+#### npm
 
 ```
   npm install better-scroll --save
 ```
 
-## 使用
+#### 使用
 
 > html代码
 
@@ -35,7 +35,7 @@
   let scroll = new BScroll(wrapper, {})
 ```
 
-## 遇见问题和解决方案
+#### 遇见问题和解决方案
 
 > 使用better-scroll导致click无效
 
