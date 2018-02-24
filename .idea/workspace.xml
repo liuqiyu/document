@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20fdfe67-67f7-4f61-9467-3bcce8d6dd06" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tools/better-scroll/better-scroll.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tools/better-scroll/scroll.jpg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tools/better-scroll/better-scroll.md" afterPath="$PROJECT_DIR$/tools/better-scroll/better-scroll.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,12 +21,12 @@
         <entry file="file://$PROJECT_DIR$/tools/better-scroll/better-scroll.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <first_editor relative-caret-position="187">
+                <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
                 <folding>
-                  <marker date="1519464789179" expanded="true" signature="203:326" ph="..." />
-                  <marker date="1519464789179" expanded="true" signature="232:314" ph="..." />
-                  <marker date="1519464789179" expanded="true" signature="606:631" ph="{...}" />
+                  <marker date="1519464845947" expanded="true" signature="202:325" ph="..." />
+                  <marker date="1519464845947" expanded="true" signature="231:313" ph="..." />
+                  <marker date="1519464845947" expanded="true" signature="605:630" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -195,7 +194,7 @@
       <workItem from="1519433844451" duration="787000" />
       <workItem from="1519458732679" duration="292000" />
       <workItem from="1519459227015" duration="700000" />
-      <workItem from="1519463953224" duration="842000" />
+      <workItem from="1519463953224" duration="897000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
       <created>1519185020843</created>
@@ -260,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519459363259</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
+      <created>1519464800133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1519464800133</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6770000" />
+    <option name="totallyTimeSpent" value="6825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -603,12 +609,12 @@
     <entry file="file://$PROJECT_DIR$/tools/better-scroll/better-scroll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <first_editor relative-caret-position="187">
+            <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             <folding>
-              <marker date="1519464789179" expanded="true" signature="203:326" ph="..." />
-              <marker date="1519464789179" expanded="true" signature="232:314" ph="..." />
-              <marker date="1519464789179" expanded="true" signature="606:631" ph="{...}" />
+              <marker date="1519464845947" expanded="true" signature="202:325" ph="..." />
+              <marker date="1519464845947" expanded="true" signature="231:313" ph="..." />
+              <marker date="1519464845947" expanded="true" signature="605:630" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />

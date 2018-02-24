@@ -4,7 +4,7 @@
 
 ## 原理结构
 
-<img src="./scroll.jpg" width="100%"></img>
+<img src="./scroll.jpg" width="60%"></img>
 
 ## npm
 
