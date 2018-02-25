@@ -2,5 +2,5 @@
 
 * [promise](promise.html)
 
-* [vue-router](vue-router.html)
+* [new-array](new-array.html)
 
