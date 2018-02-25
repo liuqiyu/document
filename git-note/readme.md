@@ -4,8 +4,4 @@
 
 * [new-array](new-array.html)
 
-* [import&export](import&export.html)
-
-* [async&await](async&await.html)
-
 
