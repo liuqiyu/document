@@ -7,6 +7,7 @@
 * [vue](vue/vue.md)
   * [vuex](vue/vuex.md)
   * [vue-router](vue/vue-router.md)
+  * [自定义指令](vue/zi-ding-yi-zhi-ling.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
