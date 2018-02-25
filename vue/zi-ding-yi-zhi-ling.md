@@ -42,8 +42,8 @@ directives: {
 
 ```javascript
 // 初始化时往div添加元素
-<div v-demo:foo.a.b="message"></div>
+<div v-add:foo.a.b="message"></div>
 
-
+Vue.directive('addHtml')
 ```
 
