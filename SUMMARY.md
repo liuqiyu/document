@@ -4,7 +4,7 @@
 
 ## Javascript
 
-* [promise](javascript/promise.md)
 * [new-array](javascript/new-array.md)
+* [      promise](javascript/promise.md)
 * [import&export](javascript/import&export.md)
 
