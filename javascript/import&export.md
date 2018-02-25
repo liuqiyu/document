@@ -19,6 +19,7 @@ export const str = 'STR';
 export const func = () => {};
 
 import {str, func} from './export';
+
 ```
 
 #### export default
