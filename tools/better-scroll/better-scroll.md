@@ -40,7 +40,9 @@
 
 > 使用better-scroll导致click无效
 
-```ecmascript 6
+```javascript
+
+
     解决方案
     
     let scroll = new BScroll(wrapper, {
