@@ -6,3 +6,4 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进
 
 #### 目录
 
+* [兼容代码](https://github.com/liuqiyu/docs/blob/master/ES5.array.ie.js)
