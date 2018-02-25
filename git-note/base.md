@@ -17,4 +17,3 @@
 
 git  rm -r --cached .idea    
 ```
-2. 
