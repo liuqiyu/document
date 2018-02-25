@@ -29,7 +29,6 @@
 > js 代码
 
 ```javascript
-
   import BScroll from 'better-scroll'
   
   let wrapper = document.querySelector('.wrapper') 
@@ -41,7 +40,6 @@
 > 使用better-scroll导致click无效
 
 ```javascript
-
     解决方案
     
     let scroll = new BScroll(wrapper, {
