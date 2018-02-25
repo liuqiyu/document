@@ -2,12 +2,8 @@
 
 * [promise](promise.html)
 
-* [promise](promise.html)
+* [new-array](pronew-arraymise.html)
 
-* [promise](promise.html)
+* [import&export](import&export.html)
 
-* [promise](promise.html)
-
-new-array
-import&export
-async&await
+* [async&await](async&await.html)
