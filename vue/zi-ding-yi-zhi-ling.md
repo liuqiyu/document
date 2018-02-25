@@ -57,4 +57,11 @@ Vue.directive('addHtml', {
 
 > `el`: 绑定的元素
 
-> `binding`：对象，
+> `binding`：对象，包含以下属性：
+  > `name`
+  > `name`
+  > `name`
+  > `name`
+  > `name`
+
+
