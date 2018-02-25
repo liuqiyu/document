@@ -12,7 +12,6 @@
 #### export
 
 ```javascript
-
 // export.js
 export const str = 'STR';
 
@@ -25,7 +24,6 @@ import {str, func} from './export';
 #### export default
 
 ```javascript
-
 // export.js
 const str = 'STR';
 
