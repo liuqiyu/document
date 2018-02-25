@@ -1,1 +1,1 @@
-# document for leaner
+# document for learner
