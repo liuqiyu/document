@@ -61,7 +61,7 @@ Vue.directive('addHtml', {
   > `name`
   > `value`
   > `oldValue`
-  > `naexpressionme`
+  > `expression`
   > `name`
 
 
