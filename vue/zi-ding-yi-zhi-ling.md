@@ -41,6 +41,6 @@ directives: {
 > `bind`: 只能调用一次，初始化使用。
 
 ```javascript
-
+<div id="hook-arguments-example" v-demo:foo.a.b="message"></div>
 ```
 
