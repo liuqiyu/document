@@ -51,7 +51,7 @@ arr.forEach((value, index, array) => {});
 
 > 用法： `array.map(callback,[ thisObject]);`
 
-```
+```javascript
 var arr = [1, 2, 3,]
 
 var newArr = arr.map((value, index, array) => {
