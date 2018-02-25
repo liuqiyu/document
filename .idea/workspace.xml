@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20fdfe67-67f7-4f61-9467-3bcce8d6dd06" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/javascript/class.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/git-note/base.md" afterPath="$PROJECT_DIR$/git-note/base.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,13 +30,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/git-note/base.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <first_editor relative-caret-position="238">
+                <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
                 <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-array.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/new-array.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="718">
+                <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="67" />
+                <folding>
+                  <marker date="1519525383687" expanded="true" signature="623:626" ph="code fence: ```&#10;var arr = [1, 2, 3...;&#10;```" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vue.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/vue.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="async&amp;await.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/async&amp;await.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="353">
+                <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+                <folding>
+                  <marker date="1519265043547" expanded="true" signature="236:388" ph="{...}" />
+                  <marker date="1519265043547" expanded="true" signature="282:385" ph="{...}" />
+                  <marker date="1519265043547" expanded="true" signature="309:373" ph="{...}" />
+                  <marker date="1519265043547" expanded="true" signature="416:575" ph="{...}" />
+                  <marker date="1519265043547" expanded="true" signature="586:634" ph="//..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="class.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/class.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="162">
+                <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+                <folding>
+                  <marker date="1519551439289" expanded="true" signature="140:179" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="221:250" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="397:518" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="425:470" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="483:516" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="748:868" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="776:821" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="834:866" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="899:1145" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="938:1047" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="944:997" ph="//..." />
+                  <marker date="1519551439289" expanded="true" signature="1060:1094" ph="{...}" />
+                  <marker date="1519551439289" expanded="true" signature="1110:1143" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -66,6 +140,7 @@
         <option value="$PROJECT_DIR$/javascript/new-array.md" />
         <option value="$PROJECT_DIR$/javascript/import&amp;export.md" />
         <option value="$PROJECT_DIR$/git-note/base.md" />
+        <option value="$PROJECT_DIR$/javascript/class.md" />
       </list>
     </option>
   </component>
@@ -106,7 +181,7 @@
             <path>
               <item name="document" type="b2602c69:ProjectViewProjectNode" />
               <item name="document" type="462c0819:PsiDirectoryNode" />
-              <item name="git-note" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +235,8 @@
       <workItem from="1519458732679" duration="292000" />
       <workItem from="1519459227015" duration="700000" />
       <workItem from="1519463953224" duration="1775000" />
-      <workItem from="1519525149037" duration="1839000" />
+      <workItem from="1519525149037" duration="3928000" />
+      <workItem from="1519548598657" duration="2883000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md">
       <created>1519185020843</created>
@@ -267,11 +343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519526944820</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="1">
+      <created>1519527066480</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1519527066480</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9542000" />
+    <option name="totallyTimeSpent" value="14514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -281,12 +364,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22934783" sideWeight="0.561117" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41086957" sideWeight="0.43888304" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21956521" sideWeight="0.43888304" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45217392" sideWeight="0.42676502" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35869566" sideWeight="0.42676502" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14392324" sideWeight="0.504329" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -333,23 +416,54 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'test'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;git-note/base.md" />
     <MESSAGE value="Merge branch 'master' of https://github.com/liuqiyu/document&#10;&#10;# Conflicts:&#10;#&#9;javascript/import&amp;export.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/liuqiyu/document&#10;&#10;# Conflicts:&#10;#&#9;javascript/import&amp;export.md" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/git-note/git常用代码.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="170">
+            <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/git-note/base.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/new-array.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2839">
+            <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="67" />
+            <folding>
+              <marker date="1519525383687" expanded="true" signature="623:626" ph="code fence: ```&#10;var arr = [1, 2, 3...;&#10;```" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/better-scroll/better-scroll.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1519464897977" expanded="true" signature="208:331" ph="..." />
-              <marker date="1519464897977" expanded="true" signature="237:319" ph="..." />
-              <marker date="1519464897977" expanded="true" signature="613:638" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -360,7 +474,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -371,7 +484,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -382,7 +494,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -393,10 +504,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1519526952491" expanded="true" signature="488:509" ph="{&quot;str&quot;: str...}" />
-              <marker date="1519526952491" expanded="true" signature="541:579" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -568,16 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/async&amp;await.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="272">
-            <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/better-scroll">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -590,7 +687,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -601,7 +697,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -612,7 +707,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -623,24 +717,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="324">
             <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            <folding>
-              <marker date="1519464897977" expanded="true" signature="208:331" ph="..." />
-              <marker date="1519464897977" expanded="true" signature="237:319" ph="..." />
-              <marker date="1519464897977" expanded="true" signature="613:638" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/new-array.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="15" />
-            <folding>
-              <marker date="1519525383687" expanded="true" signature="623:626" ph="code fence: ```&#10;var arr = [1, 2, 3...;&#10;```" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -651,26 +727,12 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="289">
             <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-            <folding>
-              <marker date="1519526952491" expanded="true" signature="488:509" ph="{&quot;str&quot;: str...}" />
-              <marker date="1519526952491" expanded="true" signature="541:579" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/1321.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/1321.md" />
     <entry file="file://$PROJECT_DIR$/git-note/git常用代码.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -685,9 +747,86 @@
     <entry file="file://$PROJECT_DIR$/git-note/base.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <first_editor relative-caret-position="238">
+            <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/new-array.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="718">
+            <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="67" />
+            <folding>
+              <marker date="1519525383687" expanded="true" signature="623:626" ph="code fence: ```&#10;var arr = [1, 2, 3...;&#10;```" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/vue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/async&amp;await.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="353">
+            <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <folding>
+              <marker date="1519265043547" expanded="true" signature="236:388" ph="{...}" />
+              <marker date="1519265043547" expanded="true" signature="282:385" ph="{...}" />
+              <marker date="1519265043547" expanded="true" signature="309:373" ph="{...}" />
+              <marker date="1519265043547" expanded="true" signature="416:575" ph="{...}" />
+              <marker date="1519265043547" expanded="true" signature="586:634" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/class.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+            <folding>
+              <marker date="1519551439289" expanded="true" signature="140:179" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="221:250" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="397:518" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="425:470" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="483:516" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="748:868" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="776:821" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="834:866" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="899:1145" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="938:1047" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="944:997" ph="//..." />
+              <marker date="1519551439289" expanded="true" signature="1060:1094" ph="{...}" />
+              <marker date="1519551439289" expanded="true" signature="1110:1143" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
