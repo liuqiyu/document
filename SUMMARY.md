@@ -13,6 +13,7 @@
   * [new-array](javascript/new-array.md)
   * [import&export](javascript/import&export.md)
   * [async&await](javascript/async&await.md)
+  * [class](javascript/class.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [base](git-note/base.md)
