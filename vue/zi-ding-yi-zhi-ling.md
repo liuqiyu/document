@@ -10,7 +10,6 @@
 > 进入页面时，Input默认获取焦点。
 
 注册一个全局的自定义指令 `v-focus`
-
 ```javascript
 
 Vue.directive('focus', {
