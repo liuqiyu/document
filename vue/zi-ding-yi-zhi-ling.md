@@ -19,7 +19,7 @@ Vue.directive('focus', {
   }   
 })
 ```
-注册局部自定义指令,
+注册局部自定义指令,组件也接受一个directives参数
 
 ```javascript
 directives: {
