@@ -10,3 +10,7 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进
 
 * [vue-router](vue-router.html)
 
+* [自定义指令](vue-router.html)
+
+
+
