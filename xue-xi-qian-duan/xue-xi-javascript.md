@@ -2,5 +2,5 @@
 
 * [promise](promise.html)
 * [new-array](new-array.html)
-* [promise](promise.html)
+* [import&export](import&export.html)
 * [promise](promise.html)
