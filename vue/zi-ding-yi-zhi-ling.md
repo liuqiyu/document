@@ -59,7 +59,7 @@ Vue.directive('addHtml', {
 
 > `binding`：对象，包含以下属性：
   > `name`
-  > `name`
+  > `value`
   > `name`
   > `name`
   > `name`
