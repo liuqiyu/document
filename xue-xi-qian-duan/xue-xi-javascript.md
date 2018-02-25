@@ -3,4 +3,4 @@
 * [promise](promise.html)
 * [new-array](new-array.html)
 * [import&export](import&export.html)
-* [async&await](promise.html)
+* [async&await](async&await.html)
