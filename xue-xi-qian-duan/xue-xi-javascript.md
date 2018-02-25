@@ -1,6 +1,6 @@
 ### 目录
 
-* [promise](vuex.html)
+* [promise](promise.html)
 
 * [vue-router](vue-router.html)
 
