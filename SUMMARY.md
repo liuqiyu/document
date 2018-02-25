@@ -12,9 +12,9 @@
   * [new-array](javascript/new-array.md)
   * [import&export](javascript/import&export.md)
   * [async&await](javascript/async&await.md)
-* [git](xue-xi-qian-duan/xue-xi-git.md)
+* [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [base](git-note/base.md)
-* [如何优雅的使用工具](xue-xi-qian-duan/ru-he-you-ya-de-shi-yong-gong-ju.md)
+* [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
 
