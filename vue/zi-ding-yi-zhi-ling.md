@@ -46,7 +46,7 @@ directives: {
 
 Vue.directive('addHtml', {
   bind (el) {
-    
+    el.innerHTML = '<span>addHtml</span>'
   }
 })
 ```
