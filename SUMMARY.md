@@ -4,7 +4,7 @@
 
 ## 我的大前端
 
-* [学习VUE](xue-xi-qian-duan/vue.md)
+* [vue](xue-xi-qian-duan/vue.md)
   * [vuex](vue/vuex.md)
   * [vue-router](vue/vue-router.md)
 * [学习JAVASCRIPT](xue-xi-qian-duan/xue-xi-javascript.md)
