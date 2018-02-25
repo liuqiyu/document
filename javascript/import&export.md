@@ -24,7 +24,9 @@ import {str, func} from './export';
 
 #### export default
 
-```vue
+```javascript
+
+
 // export.js
 const str = 'STR';
 
