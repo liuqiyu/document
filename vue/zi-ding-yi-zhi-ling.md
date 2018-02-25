@@ -62,6 +62,6 @@ Vue.directive('addHtml', {
   > `value`
   > `oldValue`
   > `expression`
-  > `name`
+  > `arg`
 
 
