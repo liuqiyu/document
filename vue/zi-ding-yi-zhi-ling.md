@@ -63,5 +63,7 @@ Vue.directive('addHtml', {
   > `oldValue`
   > `expression`
   > `arg`
+> `vnode`：Vue 编译生成的虚拟节点
+> `oldVnode`：上一个虚拟节点
 
 
