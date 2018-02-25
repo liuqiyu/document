@@ -45,7 +45,7 @@ directives: {
 <div v-addHtml:foo.a.b="message"></div>
 
 Vue.directive('addHtml', {
-  bind (el) {
+  bind (el, binding, vnode) {
     el.innerHTML = '<span>addHtml</span>'
   }
 })
