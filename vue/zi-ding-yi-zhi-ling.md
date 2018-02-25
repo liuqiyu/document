@@ -48,7 +48,7 @@ directives: {
 // binding --> message 参数
 Vue.directive('addHtml', {
   bind (el, binding, vnode) {
-    el.innerHTML = '<span>binding。value</span>'
+    el.innerHTML = '<span>binding.value</span>'
   }
 })
 ```
