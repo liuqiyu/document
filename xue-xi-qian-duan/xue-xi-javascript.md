@@ -4,7 +4,7 @@
 
 * [new-array](new-array.html)
 
-* [new-array](new-array.html)
+* [import&export](import&export.html)
 
 * [new-array](new-array.html)
 
