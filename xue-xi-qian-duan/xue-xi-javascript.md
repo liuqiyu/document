@@ -4,3 +4,7 @@
 
 * [new-array](new-array.html)
 
+* [new-array](new-array.html)
+
+* [new-array](new-array.html)
+
