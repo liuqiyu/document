@@ -28,7 +28,7 @@
 
 > js 代码
 
-```ecmascript 6
+```javascript
 
   import BScroll from 'better-scroll'
   
