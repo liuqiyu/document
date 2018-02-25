@@ -7,5 +7,5 @@
 * [学习vue](xue-xi-qian-duan/vue.md)
 * [学习javascript](xue-xi-qian-duan/xue-xi-javascript.md)
 * [学习GIT](xue-xi-qian-duan/xue-xi-git.md)
-* 如何优雅的使用工具
+* [如何优雅的使用工具](xue-xi-qian-duan/ru-he-you-ya-de-shi-yong-gong-ju.md)
 
