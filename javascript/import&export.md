@@ -26,7 +26,6 @@ import {str, func} from './export';
 
 ```javascript
 
-
 // export.js
 const str = 'STR';
 
