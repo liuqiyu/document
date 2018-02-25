@@ -41,7 +41,7 @@ directives: {
 > `bind`: 只能调用一次，初始化使用。
 
 ```javascript
-// 往div添加元素
+// 初始化时往div添加元素
 <div v-demo:foo.a.b="message"></div>
 ```
 
