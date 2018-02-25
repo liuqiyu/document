@@ -6,7 +6,7 @@
    *  `Promise.prototype.then()` 方法可接受两个回调函数作为参数
    
            
-           promiose.then(resolveCallback, rejectCallback)；
+           .then(resolveCallback, rejectCallback)；
            
            ## 实例
     
