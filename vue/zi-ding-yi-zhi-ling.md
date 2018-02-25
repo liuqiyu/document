@@ -37,5 +37,6 @@ directives: {
 > `bind`: 只能调用一次，初始化使用。
 
 ```javascript
+
 ```
 
