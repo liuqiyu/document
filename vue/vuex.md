@@ -63,10 +63,10 @@ __store.js__
 ```
 #### 文件截图
 
-<img src="https://liuqiyu.github.io/document/images/vuex/index.png" width="400"></img>
-<img src="https://liuqiyu.github.io/document/images/vuex/mutations.png" width="400"></img>
-<img src="https://liuqiyu.github.io/document/images/vuex/mutation-types.png" width="400"></img>
-<img src="https://liuqiyu.github.io/document/images/vuex/actions.png" width="400"></img>
+<img src="https://liuqiyu.github.io/document/images/vuex/index.png" width="400">
+<img src="https://liuqiyu.github.io/document/images/vuex/mutations.png" width="400">
+<img src="https://liuqiyu.github.io/document/images/vuex/mutation-types.png" width="400">
+<img src="https://liuqiyu.github.io/document/images/vuex/actions.png" width="400">
 
 <a name="core"></a>
 ## 核心概念
