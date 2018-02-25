@@ -12,8 +12,12 @@
 ## 学习Vue
 
 * [vuex](vue/vuex.md)
+* [vue-router](vue/vue-router.md)
 
 ## 学习Git
+
+* [base](git-note/base.md)
+* [git常用代码](git-note/git常用代码.md)
 
 ## 如何优雅的使用工具
 
