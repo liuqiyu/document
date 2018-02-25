@@ -6,5 +6,5 @@
 
 * [import&export](import&export.html)
 
-* [async&await](new-array.html)
+* [async&await](async&await.html)
 
