@@ -11,6 +11,8 @@
 
 ## 学习Vue
 
+* [vuex](vue/vuex.md)
+
 ## 学习Git
 
 ## 如何优雅的使用工具
