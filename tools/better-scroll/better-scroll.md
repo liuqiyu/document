@@ -29,6 +29,7 @@
 > js 代码
 
 ```ecmascript 6
+
   import BScroll from 'better-scroll'
   
   let wrapper = document.querySelector('.wrapper') 
