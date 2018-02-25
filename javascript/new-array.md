@@ -28,7 +28,7 @@ ES5新增了很多新的方法，简单编码，简单生活。由于ES5不兼�
 
 > 用法: `array.forEach(callback,[ thisObject])`
 
-```
+```javascript
 var arr = [1, 2, 3, 4, 5];
 
 arr.forEach(function(value, index, array)){

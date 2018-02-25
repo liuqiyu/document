@@ -4,5 +4,6 @@
 
 ## Javascript
 
-* [promise](javascript/1321.md)
+* [promise](javascript/promise.md)
+* [new-array](javascript/new-array.md)
 
