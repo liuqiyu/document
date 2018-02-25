@@ -11,5 +11,7 @@
 
 ```javascript
 // 注册一个全局的自定义指令 `v-focus`
-Vue.directive('focus', )
+Vue.directive('focus', {
+
+})
 ```
