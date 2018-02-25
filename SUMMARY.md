@@ -7,7 +7,7 @@
 * [vue](vue/vue.md)
   * [vuex](vue/vuex.md)
   * [vue-router](vue/vue-router.md)
-* [javascript](javascript/readme)
+* [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
   * [import&export](javascript/import&export.md)
