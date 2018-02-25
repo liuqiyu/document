@@ -11,7 +11,7 @@
  
 #### export
 
-```
+```ecmascript 6
 // export.js
 export const str = 'STR';
 
@@ -22,7 +22,7 @@ import {str, func} from './export';
 
 #### export default
 
-```
+```vue
 // export.js
 const str = 'STR';
 
