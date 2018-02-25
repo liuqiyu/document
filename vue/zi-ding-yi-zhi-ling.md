@@ -44,6 +44,8 @@ directives: {
 // 初始化时往div添加元素
 <div v-addHtml:foo.a.b="message"></div>
 
+// el --> dom
+// binding --> message 参数
 Vue.directive('addHtml', {
   bind (el, binding, vnode) {
     el.innerHTML = '<span>addHtml</span>'
