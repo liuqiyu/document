@@ -12,6 +12,7 @@
 #### export
 
 ```ecmascript 6
+
 // export.js
 export const str = 'STR';
 
