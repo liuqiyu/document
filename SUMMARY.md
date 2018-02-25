@@ -5,6 +5,6 @@
 ## Javascript
 
 * [new-array](javascript/new-array.md)
-* [      promise](javascript/promise.md)
+* [        promise](javascript/promise.md)
 * [import&export](javascript/import&export.md)
 
