@@ -22,5 +22,12 @@ Vue.directive('focus', {
 ```
 注册局部自定义指令
 ```javascript
-
+directives: {
+  focus: {
+    // 指令的定义
+    inserted: function (el) {
+      el.focus()
+    }
+  }
+}
 ```
