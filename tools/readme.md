@@ -1,5 +1,5 @@
 ### 目录
 
-* [base](base.html)
+* [better-scroll](base.html)
 
 
