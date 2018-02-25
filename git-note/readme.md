@@ -1,6 +1,6 @@
 ### 目录
 
-* [promise](promise.html)
+* [base](promise.html)
 
 * [new-array](new-array.html)
 
