@@ -28,7 +28,7 @@ ES5新增了很多新的方法，简单编码，简单生活。由于ES5不兼�
 
 > 用法: `array.forEach(callback,[ thisObject])`
 
-```
+```javascript
 var arr = [1, 2, 3, 4, 5];
 
 arr.forEach(function(value, index, array)){
@@ -51,7 +51,7 @@ arr.forEach((value, index, array) => {});
 
 > 用法： `array.map(callback,[ thisObject]);`
 
-```
+```javascript
 var arr = [1, 2, 3,]
 
 var newArr = arr.map((value, index, array) => {
@@ -72,7 +72,8 @@ console.log(newArr)
 
 > filter的callback函数需要返回布尔值`true`或者`false`。`true`则通过，`false`则不返回
 
-```
+```javascript
+
 var arr = [1, 2, 3, 4]
 
 var newArr = arr.filter((value, index, array) => {
@@ -90,7 +91,8 @@ console.log(newArr)
 
 > 用法: `array.some(callback,[ thisObject]);`
 
-```
+```javascript
+
 var arr = [1, 2, 3, 4];
 
 var pp = arr.some((value) => {
@@ -108,7 +110,8 @@ console.log(pp)
 
 > 用法： `array.every(callback,[ thisObject]);`
 
-```
+```javascript
+
 var arr = [1, 2, 3, 4]
 
 var pp = arr.every((value) => {
@@ -125,7 +128,8 @@ var pp = arr.every((value) => {
 
 > 用法：`array.indexOf(searchElement[, fromIndex])`
 
-```
+```javascript
+
 var arr = [1, 2, 3, 4]
 
 console.log(arr.indexOf(1)) // 0
@@ -145,7 +149,8 @@ console.log(arr.indexOf(1)) // 0
 
 > callback函数接受4个参数：之前值、当前值、索引值以及数组本身
 
-```$xslt
+```javascript
+
 var sum = [1, 2, 3, 4].reduce(function (previous, current, index, array) {
   return previous + current;
 });
