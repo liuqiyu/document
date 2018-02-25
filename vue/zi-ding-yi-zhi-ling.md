@@ -42,8 +42,11 @@ directives: {
 
 ```javascript
 // 初始化时往div添加元素
-<div v-add:foo.a.b="message"></div>
+<div v-addHtml:foo.a.b="message"></div>
 
-Vue.directive('addHtml')
+Vue.directive('addHtml', {
+  bind () {
+  }
+})
 ```
 
