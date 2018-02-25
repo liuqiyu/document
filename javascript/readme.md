@@ -8,7 +8,7 @@
 
 * [async&await](async&await.html)
 
-* [async&await](class.html)
+* [class](class.html)
 
 
 
