@@ -11,7 +11,7 @@
  
 #### export
 
-```
+```javascript
 
 // export.js
 export const str = 'STR';
