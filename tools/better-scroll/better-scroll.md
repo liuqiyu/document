@@ -42,7 +42,6 @@
 
 ```javascript
 
-
     解决方案
     
     let scroll = new BScroll(wrapper, {
