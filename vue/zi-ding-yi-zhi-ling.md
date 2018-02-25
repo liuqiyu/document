@@ -53,3 +53,8 @@ Vue.directive('addHtml', {
 })
 ```
 
+### 钩子函数参数
+
+> `el`: 绑定的元素
+
+> `binding`：对象，
