@@ -19,4 +19,5 @@
   * [base](git-note/base.md)
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
+  * [echarts](tools/better-scroll/echarts.md)
 
