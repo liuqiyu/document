@@ -5,6 +5,7 @@
 > 附加： 避免使用echarts造成内存泄露问题
 
 ```js
+// 避免使用echarts造成内存泄露问题
 let myChart = echarts.getInstanceByDom(document.getElementById('main-chart'))
   if (myChart === undefined) {
     /* global echarts:true */
