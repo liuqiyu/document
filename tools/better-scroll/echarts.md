@@ -8,9 +8,9 @@
 // 避免使用echarts造成内存泄露问题
 
 let myChart = echarts.getInstanceByDom(document.getElementById('main-chart'))
-  if (myChart === undefined) {
-    /* global echarts:true */
-    /* eslint no-undef: "error" */
-    myChart = echarts.init(document.getElementById('main-chart'))
-  }
+if (myChart === undefined) {
+  /* global echarts:true */
+  /* eslint no-undef: "error" */
+  myChart = echarts.init(document.getElementById('main-chart'))
+}
 ```
