@@ -2,6 +2,7 @@
 
 
 > 问题1： 使用echarts外链导致出现`echarts is not defined`问题
+> 附加： 避免使用echarts造成内存泄露问题
 
 ```js
 let myChart = echarts.getInstanceByDom(document.getElementById('main-chart'))
