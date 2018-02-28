@@ -14,3 +14,9 @@ if (myChart === undefined) {
   myChart = echarts.init(document.getElementById('main-chart'))
 }
 ```
+
+> 问题2： 不支持 `new`
+
+```JS
+
+```
