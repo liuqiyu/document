@@ -3,6 +3,6 @@
 
 > 问题1： 使用echarts外链导致出现`echarts is not defined`问题
 
-```
+```js
 123
 ```
