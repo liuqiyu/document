@@ -18,5 +18,5 @@ if (myChart === undefined) {
 > 问题2： 不支持 `new`
 
 ```JS
-
+/* eslint-disable no-new */
 ```
