@@ -35,16 +35,26 @@ export default {
 </script>
 ```
 
-> index.js 目录：packages/button/index.js
+> `index.js` 目录：packages/button/index.js
 
 ```js
-
 import ICEButton from './src/button'
-
-// ICEButton.install = function(Vue) {
-//   Vue.component(ICEButton.name, ICEButton)
-// }
 
 export default ICEButton
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
