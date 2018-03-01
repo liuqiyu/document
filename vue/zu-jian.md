@@ -34,3 +34,5 @@ export default {
 }
 </script>
 ```
+
+> index.js
