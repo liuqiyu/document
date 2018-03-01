@@ -84,13 +84,10 @@ Vue.use(ICEMANUI )
 import Vue from 'vue'
 
 import {
-  ICEButton,
-  ICEInput
+  ICEButton
 } from './ui'
 
 Vue.use(ICEButton)
-Vue.use(ICEInput)
-
 ```
 
 
