@@ -48,15 +48,11 @@ export default ICEButton
 
 ```js
 import Vue from 'vue'
-
 import {
-  ICEButton,
-  ICEInput
+  ICEButton
 } from './ui'
 
 Vue.use(ICEButton)
-Vue.use(ICEInput)
-
 ```
 
 ###全部加载
