@@ -4,7 +4,7 @@
 
 ### 实例
 
-> button.vue  >> packages/button/src/button.vue
+> `button.vue` 目录： packages/button/src/button.vue
 
 ```js
 // 
