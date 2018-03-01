@@ -60,7 +60,7 @@ Vue.use(ICEButton)
 ```js
 // main.js
 
-
+import ICEMANUI from './ui'
 ```
 
 
