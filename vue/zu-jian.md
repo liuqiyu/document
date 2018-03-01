@@ -59,6 +59,8 @@ Vue.use(ICEButton)
 
 ```js
 // main.js
+
+
 ```
 
 
