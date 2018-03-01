@@ -81,6 +81,15 @@ Vue.use(ICEMANUI )
 ### 按需加载
 
 ```js
+import Vue from 'vue'
+
+import {
+  ICEButton,
+  ICEInput
+} from './ui'
+
+Vue.use(ICEButton)
+Vue.use(ICEInput)
 
 ```
 
