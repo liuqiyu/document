@@ -49,11 +49,9 @@ export default ICEButton
 ```js
 import Vue from 'vue'
 import ICEButton from './packages/button'
-import ICEInput from './packages/input'
 
 const conponents = [
-  ICEButton,
-  ICEInput
+  ICEButton
 ]
 
 conponents.map(component => {
@@ -61,8 +59,7 @@ conponents.map(component => {
 })
 
 export {
-  ICEButton,
-  ICEInput
+  ICEButton
 }
 
 export default {
