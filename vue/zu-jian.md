@@ -74,6 +74,13 @@ export default {
 // main.js
 
 import ICEMANUI from './ui'
+
+Vue.use(ICEMANUI )
+```
+
+### 按需加载
+
+```js
 ```
 
 
