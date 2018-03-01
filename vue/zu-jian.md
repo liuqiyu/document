@@ -6,7 +6,7 @@
 
 > `button.vue` 目录： packages/button/src/button.vue
 
-```js
+```vue
 <template>
   <button
     class="ice-button"
