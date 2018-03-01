@@ -7,6 +7,13 @@
 > `button.vue` 目录： packages/button/src/button.vue
 
 ```js
+import ICEButton from './src/button'
+
+// ICEButton.install = function(Vue) {
+//   Vue.component(ICEButton.name, ICEButton)
+// }
+
+export default ICEButton
 
 
 ```
