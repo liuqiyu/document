@@ -47,6 +47,16 @@ export default ICEButton
 > ui.js
 
 ```js
+import Vue from 'vue'
+
+import {
+  ICEButton,
+  ICEInput
+} from './ui'
+
+Vue.use(ICEButton)
+Vue.use(ICEInput)
+
 ```
 
 ###全部加载
