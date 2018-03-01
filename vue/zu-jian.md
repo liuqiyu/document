@@ -4,8 +4,9 @@
 
 ### 实例
 
-> button
+> button.vue  >> packages/button/src/button.vue
 
 ```js
+// 
 
 ```
