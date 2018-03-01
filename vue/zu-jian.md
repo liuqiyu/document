@@ -57,7 +57,9 @@ Vue.use(ICEButton)
 
 ### 全部加载
 
-
+```js
+// main.js
+```
 
 
 
