@@ -48,11 +48,27 @@ export default ICEButton
 
 ```js
 import Vue from 'vue'
-import {
-  ICEButton
-} from './ui'
+import ICEButton from './packages/button'
+import ICEInput from './packages/input'
 
-Vue.use(ICEButton)
+const conponents = [
+  ICEButton,
+  ICEInput
+]
+
+conponents.map(component => {
+  Vue.component(component.name, component)
+})
+
+export {
+  ICEButton,
+  ICEInput
+}
+
+export default {
+  conponents
+}
+
 ```
 
 ### 全部加载
