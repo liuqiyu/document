@@ -35,4 +35,5 @@ export default {
 </script>
 ```
 
-> index.js
+> index.js 目录：packages/button/index.js
+
