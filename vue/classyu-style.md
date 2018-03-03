@@ -34,6 +34,5 @@ data: {
 data:{
     whatColor: red
 }
-
 ```
 
