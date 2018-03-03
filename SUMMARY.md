@@ -18,4 +18,5 @@
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
   * [echarts](tools/better-scroll/echarts.md)
+* [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 
