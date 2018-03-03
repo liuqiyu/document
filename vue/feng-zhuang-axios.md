@@ -41,7 +41,15 @@ export default {
 ```js
 module.exports = {
   dev: {
-    
+     proxyTable: {
+      '/api': {
+        target: 'http://bi.stosz.com/',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': '/'
+        }
+      },
+    },
   }
 }
 ```
