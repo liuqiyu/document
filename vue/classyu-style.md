@@ -54,5 +54,11 @@ data: {
   }
 }
 
+// 渲染结果
+
+<div v-bind:style="[baseStyles, overridingStyles]"></div>
+
+
+
 ```
 
