@@ -10,5 +10,5 @@
 
 ```js
 import axios from 'axios'
-import config from './../comfig'
+import config from './../config'
 ```
