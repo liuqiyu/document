@@ -46,7 +46,7 @@ data:{
 <div v-bind:style="[baseStyles, overridingStyles]"></div>
 
 data: {
-  baseStyles: 'active',
+  baseStyles: ,
   overridingStyles: 'text-danger'
 }
 
