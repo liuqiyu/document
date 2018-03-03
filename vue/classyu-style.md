@@ -56,7 +56,7 @@ data: {
 
 // 渲染结果
 
-<div v-bind:style="[baseStyles, overridingStyles]"></div>
+<div style="color: red, font-size: 12px"></div>
 
 
 
