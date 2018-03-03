@@ -5,17 +5,17 @@
 
 ```js
 function unique(arr) {
-      var newArr = []
+  var newArr = []
 
-      for (var i = 0; i < arr.length; i ++) {
-        if (newArr.indexOf(arr[i]) < 0) {
-          newArr.push(arr[i])
-        }
-      }
-      return newArr
+  for (var i = 0; i < arr.length; i ++) {
+    if (newArr.indexOf(arr[i]) < 0) {
+      newArr.push(arr[i])
     }
+  }
+  return newArr
+}
 
-    var arr = [1, 2, 3, 4, 4, 5, 6, 7]
+var arr = [1, 2, 3, 4, 4, 5, 6, 7]
 
-    console.log(unique(arr))
+console.log(unique(arr))
 ```
