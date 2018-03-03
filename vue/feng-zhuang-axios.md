@@ -20,7 +20,6 @@ const instance = axios.create({
 > config.js:可用于大型项目
 
 ```js
-
 let apiHopst = `${location.protocol}//${location.host}/api/`
 
 if (process.env.NODE_ENV === 'development') {
