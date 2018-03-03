@@ -44,7 +44,7 @@ module.exports = {
      proxyTable: {
       '/api': {
         target: 'http://bi.stosz.com/',
-        changeOrigin: true,
+        changeOrigin: true,   // 是否跨域
         pathRewrite: {
           '^/api': '/'
         }
