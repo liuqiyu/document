@@ -17,5 +17,5 @@ function unique(arr) {
 
 var arr = [1, 2, 3, 4, 4, 5, 6, 7]
 
-console.log(unique(arr))
+unique(arr)  // [1,2,3,4,5,6,7]
 ```
