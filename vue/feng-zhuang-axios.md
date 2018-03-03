@@ -39,5 +39,8 @@ export default {
 > config/index.js 配置文件
 
 ```js
-
+module.exports = {
+  dev: {
+  }
+}
 ```
