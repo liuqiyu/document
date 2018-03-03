@@ -85,5 +85,11 @@ const getRraffic = (page, count, filterForm) => api.get(path.traffic, {
     order: filterForm.order
   }
 })
+
+
+export default {
+  getRraffic,
+  getAdTraffic
+}
 ```
 
