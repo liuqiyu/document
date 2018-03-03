@@ -39,3 +39,9 @@ data:{
 
 ##### 数组语法
 
+```
+<div v-bind:style="[baseStyles, overridingStyles]"></div>
+
+
+```
+
