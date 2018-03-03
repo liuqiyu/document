@@ -7,6 +7,7 @@
 ```
 <div v-bind:class="{ active: isActive }"></div>
 
-
-
+data:{
+    isActive: true
+}
 ```
