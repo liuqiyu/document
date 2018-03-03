@@ -3,6 +3,7 @@
 ### 数字排序
 
 ```js
+
   var arr = [1,4,1,2,6,12,9,8]
   
   console.log(arr.sort())
