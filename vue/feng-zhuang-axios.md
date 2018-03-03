@@ -60,5 +60,30 @@ module.exports = {
 
 ```js
 import api from 'index'
+
+const path = {
+  // 流量分析
+  traffic: '/analytics/traffic'
+}
+
+/**
+ * 流量分析
+ *
+ * @param page
+ * @param count
+ * @param filterForm
+ * @returns {AxiosPromise<any>}
+ */
+const getRraffic = (page, count, filterForm) => api.get(path.traffic, {
+  params: {
+    page: page,
+    count: count,
+    search_time: filterForm.search_time,
+    url: filterForm.url,
+    page_url: filterForm.page_url,
+    targets: filterForm.targets.length > 0 ? JSON.stringify(filterForm.targets) : null,
+    order: filterForm.order
+  }
+})
 ```
 
