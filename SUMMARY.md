@@ -22,5 +22,6 @@
 * [算法](suan-fa.md)
   * [数组](suan-fa/shu-zu.md)
     * [数组去重](suan-fa/shu-zu/shu-zu-qu-zhong.md)
+    * [排序](suan-fa/shu-zu/pai-xu.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 
