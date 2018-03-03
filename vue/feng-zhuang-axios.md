@@ -88,8 +88,7 @@ const getRraffic = (page, count, filterForm) => api.get(path.traffic, {
 
 
 export default {
-  getRraffic,
-  getAdTraffic
+  getRraffic
 }
 ```
 
