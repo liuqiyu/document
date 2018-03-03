@@ -1,12 +1,12 @@
 # Summary
 
-* [前言](README.md)
-* [vue](vue/vue.md)
+* [0. 前言](README.md)
+* [1. vue](vue/vue.md)
   * [vuex](vue/vuex.md)
   * [vue-router](vue/vue-router.md)
   * [自定义指令](vue/zi-ding-yi-zhi-ling.md)
   * [自定义组件](vue/zu-jian.md)
-* [javascript](javascript/readme.md)
+* [2. javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
   * [import&export](javascript/import&export.md)
