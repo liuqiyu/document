@@ -7,6 +7,7 @@
   * [自定义指令](vue/zi-ding-yi-zhi-ling.md)
   * [自定义组件](vue/zu-jian.md)
   * [Class与Style](vue/classyu-style.md)
+  * [封装axios](vue/feng-zhuang-axios.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
