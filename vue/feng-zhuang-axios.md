@@ -4,7 +4,7 @@
 
 `npm install axios`
 
-### 使用
+### 代码
 
 > 封装axios： index.js
 
