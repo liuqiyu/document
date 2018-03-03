@@ -6,6 +6,4 @@
 
 ```html
 <div v-bind:class="{ active: isActive }"></div>
-
-
 ```
