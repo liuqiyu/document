@@ -6,6 +6,7 @@
   * [vue-router](vue/vue-router.md)
   * [自定义指令](vue/zi-ding-yi-zhi-ling.md)
   * [自定义组件](vue/zu-jian.md)
+  * [Class与Style](vue/classyu-style.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
