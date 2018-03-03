@@ -38,7 +38,6 @@ axios.interceptors.response.use(function (response) {
   return Promise.reject(error);
 });
 
-
 ```
 
 > config.js:可用于大型项目
