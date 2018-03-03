@@ -13,6 +13,6 @@ import axios from 'axios'
 import config from './../config'
 
 const instance = axios.create({
-    baseUrl: config.apiHost
+    baseUrl: config.apiHost,
 })
 ```
