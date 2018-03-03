@@ -11,3 +11,15 @@ data:{
     isActive: true
 }
 ```
+
+##### 数组语法
+
+```
+<div v-bind:class="[activeClass, errorClass]"></div>
+
+data: {
+  activeClass: 'active',
+  errorClass: 'text-danger'
+}
+```
+
