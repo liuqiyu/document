@@ -31,6 +31,8 @@ data: {
 ```
 <div v-bind:style="color: whatColor"></div>
 
+<div v-bind:style="{color: whatColor, background: whatBg}"></div>
+
 data:{
     whatColor: red
 }
