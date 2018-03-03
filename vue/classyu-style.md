@@ -49,7 +49,9 @@ data: {
   baseStyles: {
     'color': 'red'
   },
-  overridingStyles: 'text-danger'
+  overridingStyles: {
+    'font-size': 12 + 'px'
+    }
 }
 
 ```
