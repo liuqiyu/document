@@ -51,7 +51,7 @@ data: {
   },
   overridingStyles: {
     'font-size': 12 + 'px'
-    }
+  }
 }
 
 ```
