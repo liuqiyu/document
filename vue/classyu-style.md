@@ -29,7 +29,7 @@ data: {
 ##### 对象语法
 
 ```
-<div v-bind:style="{ color: whatColor}"></div>
+<div v-bind:style="color: whatColor"></div>
 
 data:{
     whatColor: red
