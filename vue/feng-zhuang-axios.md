@@ -59,6 +59,6 @@ module.exports = {
 > api.js
 
 ```js
-
+import api from 'index'
 ```
 
