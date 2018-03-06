@@ -31,6 +31,11 @@
 meta: {
     keepAlive: false // 不需要被缓存
 }
+
+meta: {
+    keepAlive: false // 不需要被缓存
+}
+
 ```
 
 
