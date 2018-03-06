@@ -8,3 +8,11 @@
     * include - 字符串或正则表达式。只有匹配的组件会被缓存。
     * exclude - 字符串或正则表达式。任何匹配的组件都不会被缓存。
 
+### 生命周期
+
+* `activated` - keep-alive路由切换开始触发
+
+* `deactivated` - keep-alive路由切换结束触发
+
+
+
