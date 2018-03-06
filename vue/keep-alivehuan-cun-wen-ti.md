@@ -19,10 +19,18 @@
 > 判断路由是否需要缓存
 
 ```js
+
+// .vue
 <keep-alive>
     <router-view v-if="$route.meta.keepAlive"></router-view>
 </keep-alive>
 <router-view v-if="!$route.meta.keepAlive"></router-view>
+
+// route.js
+
+    meta: {
+        keepAlive: false // 不需要被缓存
+      }
 ```
 
 
