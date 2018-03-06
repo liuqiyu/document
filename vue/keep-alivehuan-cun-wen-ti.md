@@ -14,5 +14,16 @@
 
 * `deactivated` - keep-alive路由切换结束触发
 
+### 实例
+
+> 判断路由是否需要缓存
+
+```js
+  <keep-alive>
+            <router-view v-if="$route.meta.keepAlive"></router-view>
+          </keep-alive>
+          <router-view v-if="!$route.meta.keepAlive"></router-view>
+```
+
 
 
