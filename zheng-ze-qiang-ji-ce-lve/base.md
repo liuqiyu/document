@@ -6,5 +6,5 @@
 var patt = /\S/    // 匹配非空字符
 var val = ''
 
-patt.test(val)     // true
+patt.test(val)     // false
 ```
