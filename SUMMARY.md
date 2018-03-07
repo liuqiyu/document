@@ -25,5 +25,7 @@
   * [数组](suan-fa/shu-zu.md)
     * [数组去重](suan-fa/shu-zu/shu-zu-qu-zhong.md)
     * [排序](suan-fa/shu-zu/pai-xu.md)
+* [正则强记策略](zheng-ze-qiang-ji-ce-lve.md)
+  * [base](zheng-ze-qiang-ji-ce-lve/base.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 
