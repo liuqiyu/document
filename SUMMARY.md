@@ -20,7 +20,7 @@
   * [base](git-note/base.md)
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
-  * [echarts](tools/better-scroll/echarts.md)
+  * [eslint](tools/better-scroll/echarts.md)
 * [算法](suan-fa.md)
   * [数组](suan-fa/shu-zu.md)
     * [数组去重](suan-fa/shu-zu/shu-zu-qu-zhong.md)
