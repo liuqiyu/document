@@ -22,7 +22,7 @@
 
 ### 方括号
 
-`var test = 'abc'`
+`var test = 'abcd'`
 
 * `/[abc]/` ： 匹配包含abc中任意
 
