@@ -1,7 +1,3 @@
 # 正则表单系列
 
-> 非空验证
-
-```js
-
-```
+https://www.cnblogs.com/Strive-count/p/5908631.html
