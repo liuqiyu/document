@@ -20,7 +20,7 @@
 <a name="install"></a>
 ## 安装使用
 
-```
+```js
 npm install vue-router
 
 import Vue from 'vue'
@@ -49,7 +49,7 @@ const app = new Vue({
 
  同一个组件不同的路由。例如：`/user/93` `/user/92` 都将映射到同一个路由。获取当前路由的参数使用`this.$route.params.id`
 
-```
+```js
 routes:[{
     path: "/user/:id",
     component: User
@@ -57,7 +57,7 @@ routes:[{
 ```
 > 相应参数变化
 
-```
+```js
 watch监听
     watch: {
         '$route' (to, from) {
@@ -75,7 +75,7 @@ beforeRouteUpdate守卫
 <a name="visit"></a>
 #### 路由访问
 
-```
+```js
 this.$router.push({path: '/user', params: { id: '123'}})
 等同于
 <router-link :to='{path: '/user', params: {id: '123'}}'></router-link>
@@ -86,7 +86,7 @@ this.$router.push({path: '/user', params: { id: '123'}})
 
 > 重定向
 ###### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/info`
-```
+```js
 routes: [{
     path: '/user',
     redirect: '/info',
@@ -97,7 +97,7 @@ routes: [{
 
 > 别名    
 ###### 访问 `/user` 但是url会被替换成`/info`，然后匹配路由为`/user`
-```
+```js
 routes: [{
     path: '/user',
     alias: '/info'
@@ -122,7 +122,7 @@ routes: [{
 
 > beforeEnter: (to, from, next) => {}
 
-```
+```js
 const router = new VueRouter({
   routes: [
     {
@@ -144,7 +144,7 @@ const router = new VueRouter({
 
 > `beforeRouteLeave`
 
-```
+```js
 const Foo = {
   template: `...`,
   beforeRouteEnter (to, from, next) {
@@ -204,7 +204,7 @@ const Foo = {
 
 > 当打包构建应用时，Javascript 包会变得非常大，影响页面加载。如果我们能把不同路由对应的组件分割成不同的代码块，然后当路由被访问的时候才加载对应组件，这样就更加高效了。
 
-```
+```js
 const Layout = r => require.ensure([], () => r(require('@/views/Basic/Layout')), 'init');
 
 routes: [{
@@ -224,12 +224,12 @@ routes: [{
     * default : "router-link-active"
     * 自定义 :  :active-link="avtive"
 
-```
+```js
     :active-class="activeClass"
 ```
     
 * 将激活 class 应用在外层元素
-    ```
+    ```js
     <router-link tag="li" to="/foo">
       <a>/foo</a>
     </router-link>
