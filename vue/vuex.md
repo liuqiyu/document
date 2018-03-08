@@ -77,7 +77,7 @@ __store.js__
 
 > 单一状态树
 
-```
+```js
 this.$store.state.city
 
 // mapState 辅助函数
@@ -99,7 +99,7 @@ computed: mapState([
 
 > 计算属性
 
-```
+```js
 this.$store.getters.getCity
 
 // mapGetters 辅助函数
@@ -122,7 +122,7 @@ computed: mapGetters([
 
 #### 简单用法
 
-```
+```js
 state: {
     count : 1
 }
@@ -137,7 +137,7 @@ this.$store.commit('increment', 2)
 
 #### 使用常量代替Mutation事件类型
 
-```
+```js
 // mutation-types.js
 export const CITY_UPDATE = 'CITY_UPDATE'
 
@@ -173,7 +173,7 @@ export default {
 
 > Action类似Mutation。 但是它提交的是Mutation,而不是直接改变状态。可以 `异步`
 
-```
+```js
 // actions.js
 import {CITY_UPDATE} from './mutation-types'
 import { getCity } from './../utils/getData'
