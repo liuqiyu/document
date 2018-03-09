@@ -9,6 +9,7 @@
   * [Class与Style](vue/classyu-style.md)
   * [封装axios](vue/feng-zhuang-axios.md)
   * [keep-alive缓存问题](vue/keep-alivehuan-cun-wen-ti.md)
+  * [使用echarts](vue/shi-yong-echarts.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
