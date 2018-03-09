@@ -12,6 +12,4 @@ let myChart = echarts.getInstanceByDom(document.getElementById('chart'))
 if (myChart === undefined) {
   /* global echarts:true */
   /* eslint no-undef: "error" */
-  myChart = echarts.init(document.getElementById('chart'))
-}
-```
+  myChart = echarts.init(document.getElementBy+-  
