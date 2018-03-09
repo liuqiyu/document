@@ -7,9 +7,9 @@
 ```js
 // index.html    
 <script src="./static/script/echarts.common.min.js"></script>
-
-let myChart = echarts.getInstanceByDom(document.getElementById('chart'))
-if (myChart === undefined) {
-  /* global echarts:true */
-  /* eslint no-undef: "error" */
-  myChart = echarts.init(document.getElementBy+-  
+   let myChart = echarts.getInstanceByDom(document.getElementById('chart'))
+      if (myChart === undefined) {
+        /* global echarts:true */
+        /* eslint no-undef: "error" */
+        myChart = echarts.init(document.getElementById('chart'))
+      }
