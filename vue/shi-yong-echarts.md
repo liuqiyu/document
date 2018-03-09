@@ -15,3 +15,4 @@ let myChart = echarts.getInstanceByDom(document.getElementById('chart'))
     /* eslint no-undef: "error" */
     myChart = echarts.init(document.getElementById('chart'))
   }
+```
