@@ -37,3 +37,13 @@ const mutatiosn = {
 
 export default mutations
 ```
+
+> `actions.js`
+
+```js
+import {HEIGHT} from './mutation-types.js'
+
+const setHeight = ()=> {
+
+}
+```
