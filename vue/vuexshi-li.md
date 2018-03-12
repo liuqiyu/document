@@ -34,4 +34,6 @@ const mutatiosn = {
         state.height = value
     }
 }
+
+export default mutations
 ```
