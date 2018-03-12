@@ -24,6 +24,12 @@ export default new Vuex.store({
 })
 ```
 
+> `mutation-types.js`
+
+```js
+export const HEIGHT = 'HEIGHT'
+```
+
 > `mutations.js`
 
 ```js
@@ -42,8 +48,10 @@ export default mutations
 
 ```js
 import {HEIGHT} from './mutation-types.js'
+import heights from './utils/heights'
 
-const setHeight = ()=> {
-
+const setHeight = async ({commit}, value) => {
+    const height = await heights(val)             ===> 异步操作
+    commit(HEIGHT, height)
 }
 ```
