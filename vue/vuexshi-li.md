@@ -12,6 +12,12 @@ import actions from 'actions'
 Vuex.use(vue)
 
 const state = {
-    
+    height: 0,
 }
+
+export default new Vuex.store({
+    state,
+    mutations,
+    actions
+})
 ```
