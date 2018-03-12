@@ -82,3 +82,9 @@ const heights = (dom) => {
 
 export default heights
 ```
+
+> 使用该异步的场景
+
+```js
+ this.setHeight(['.i-topbar', '.copyright', '.breadcrumb', '.i-search', '.i-pagination']);
+```
