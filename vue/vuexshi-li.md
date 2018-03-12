@@ -12,5 +12,6 @@ import actions from 'actions'
 Vuex.use(vue)
 
 const state = {
+    
 }
 ```
