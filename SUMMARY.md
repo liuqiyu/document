@@ -3,6 +3,7 @@
 * [前言](README.md)
 * [vue](vue/vue.md)
   * [vuex](vue/vuex.md)
+  * [vuex实例](vue/vuexshi-li.md)
   * [vue-router](vue/vue-router.md)
   * [自定义指令](vue/zi-ding-yi-zhi-ling.md)
   * [自定义组件](vue/zu-jian.md)
