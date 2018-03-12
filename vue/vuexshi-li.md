@@ -79,4 +79,6 @@ const heights = (dom) => {
         })
     })
 }
+
+export default heights
 ```
