@@ -23,3 +23,15 @@ export default new Vuex.store({
     actions
 })
 ```
+
+> `mutations.js`
+
+```js
+import {HEIGHT} from './mutation-types.js'
+
+const mutatiosn = {
+    [HEIGHT] (state, value) {
+        state.height = value
+    }
+}
+```
