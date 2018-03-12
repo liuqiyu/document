@@ -3,6 +3,8 @@
 
 ### vuex异步操作
 
+> `index.js`
+
 ```js
 import Vue from 'vue'
 import Vuex from 'vuex'
