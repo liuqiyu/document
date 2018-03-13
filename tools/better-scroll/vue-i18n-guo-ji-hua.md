@@ -18,6 +18,18 @@
 
 ```js
 import Vue from 'vue';
-import VueI18n from 'vue-i18n'
+import VueI18n from 'vue-i18n';
+
+Vue.use(VueI18n);
+
+export default new VueI18n({
+    locale: 'zh-CN',
+    messages: {
+         'zh-CN': require('./common/lang/zh'),   // 中文语言包
+    'ja-JP': require('./common/lang/ja'),   // 日文语言包
+    'th-TH': require('./common/lang/thai'), // 泰文语言包
+    'en-US': require('./common/lang/en')    // 英文语言包
+    },
+});
 ```
 
