@@ -68,7 +68,7 @@ export const m = {
 ```
 ...... 补充
 
-###### html使用
+###### html使用 -- 切换语言
 
 ```vue
 {{$t('m.title')}}
