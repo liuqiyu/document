@@ -76,6 +76,9 @@ export const m = {
 // change
 
 this.$i18n.locale = 'zh-CN';
+this.$i18n.locale = 'ja-JP';
+this.$i18n.locale = 'th-TH';
+this.$i18n.locale = 'en-US';
 ```
 
 
