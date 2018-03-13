@@ -59,3 +59,13 @@ export const m = {
 };
 ```
 
+>> `en.js`
+
+```js
+export const m = {
+  title: '英文',
+};
+```
+
+
+
