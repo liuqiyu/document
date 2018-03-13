@@ -35,7 +35,7 @@ export default new VueI18n({
 ```
 
 
-> 'main.js'
+> `main.js`
 
 ```js
 import i18n from 'i18n'  // 切记小写
