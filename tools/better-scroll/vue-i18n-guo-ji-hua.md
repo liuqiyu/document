@@ -49,3 +49,14 @@ new Vue({
 });
 ```
 
+> `common -> lang -> all`
+
+>> `zh.js`
+
+```js
+export const m = {
+  title: '中文',
+};
+
+```
+
