@@ -23,7 +23,8 @@ import VueI18n from 'vue-i18n';
 Vue.use(VueI18n);
 
 export default new VueI18n({
-    locale: 'zh-CN',
+    locale: 'zh-CN',    // 默认语言
+    //this.$i18n.locale // 通过切换locale的值来实现语言切换
     messages: {
         'zh-CN': require('./common/lang/zh'),    // 中文语言包
         'ja-JP': require('./common/lang/ja'),    // 日文语言包
