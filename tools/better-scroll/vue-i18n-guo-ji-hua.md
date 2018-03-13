@@ -57,6 +57,5 @@ new Vue({
 export const m = {
   title: '中文',
 };
-
 ```
 
