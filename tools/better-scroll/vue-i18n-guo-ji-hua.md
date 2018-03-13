@@ -68,5 +68,15 @@ export const m = {
 ```
 ...... 补充
 
+###### html使用
+
+```vue
+{{$t('m.title')}}
+
+// change
+
+this.$i18n.locale = 'zh-CN';
+```
+
 
 
