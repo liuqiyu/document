@@ -6,7 +6,7 @@
 
 * [eslint](eslint.html)
 
-* [vue-i18n-guo-ji-hua](vue-i18n-guo-ji-hua.html)
+* [vue-i18n国际化](vue-i18n-guo-ji-hua.html)
 
 
 
