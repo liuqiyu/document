@@ -40,6 +40,12 @@ export default new VueI18n({
 ```js
 import i18n from 'i18n'  // 切记小写
 
-
+new Vue({
+  el: '#app',
+  i18n,  ---->>>> 记得挂在
+  router,
+  store,
+  render: h => h(App),
+});
 ```
 
