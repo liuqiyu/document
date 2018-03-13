@@ -6,7 +6,7 @@
 
 * [eslint](eslint.html)
 
-* [better-scroll](better-scroll.html)
+* [vue-i18n-guo-ji-hua](vue-i18n-guo-ji-hua.html)
 
 
 
