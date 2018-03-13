@@ -14,5 +14,10 @@
 
 ##### 使用
 
-> `i18n.js` 与`mian.js`
+> `i18n.js` 与`mian.js`同级
+
+```js
+import Vue from 'vue';
+import VueI18n from 'vue-i18n'
+```
 
