@@ -14,7 +14,7 @@
 
 ##### 使用
 
-> `i18n.js` 与`mian.js`同级
+> `i18n.js` 与`main.js`同级
 
 ```js
 import Vue from 'vue';
@@ -32,5 +32,14 @@ export default new VueI18n({
         'en-US': require('./common/lang/en'),    // 英文语言包
     },
 });
+```
+
+
+> 'main.js'
+
+```js
+import i18n from 'i18n'  // 切记小写
+
+
 ```
 
