@@ -42,7 +42,7 @@ import i18n from 'i18n'  // 切记小写
 
 new Vue({
   el: '#app',
-  i18n,  ---->>>> 记得挂在
+  i18n,  ---->>>> 记得挂载
   router,
   store,
   render: h => h(App),
