@@ -28,3 +28,10 @@
     <p>1px + scaleY(0.5)</p>
     <div class="hr scale-half"></div>
 ```
+
+我们发现Chrome/Safari都变虚了，只有Firefox比较完美看起来是实的而且还很细，效果和直接设置0.5px一样。所以通过transform: scale会导致Chrome变虚了，而粗细几乎没有变化，所以这个效果不好。我们还想到做移动端的时候还使用了rem做缩放，但实际上rem的缩放最后还是会转化成px，所以和直接使用0.5px的方案是一样的。还有什么办法呢？还可以用线性渐变linear-gradient，如下代码所示：
+
+作者：李银城
+链接：https://zhuanlan.zhihu.com/p/34908005
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
