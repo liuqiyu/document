@@ -16,7 +16,15 @@
 
 其中Chrome把0.5px四舍五入变成了1px，而firefox/safari能够画出半个像素的边，并且Chrome会把小于0.5px的当成0，而Firefox会把不小于0.55px当成1px，Safari是把不小于0.75px当成1px，进一步在手机上观察IOS的Chrome会画出0.5px的边，而安卓(5.0)原生浏览器是不行的。所以直接设置0.5px不同浏览器的差异比较大，并且我们看到不同系统的不同浏览器对小数点的px有不同的处理。所以如果我们把单位设置成小数的px包括宽高等，其实不太可靠，因为不同浏览器表现不一样。
 
-作者：李银城
-链接：https://zhuanlan.zhihu.com/p/34908005
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+第二种能想到的方法是缩放，能否设置1px，然后scale 0.5呢，我们可以尝试一下，如下代码所示：
+
+```html
+<style>
+.hr.scale-half {
+    height: 1px;
+    transform: scaleY(0.5);
+}
+</style>
+    <p>1px + scaleY(0.5)</p>
+    <div class="hr scale-half"></div>
+```
