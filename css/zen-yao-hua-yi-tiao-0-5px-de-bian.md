@@ -71,9 +71,13 @@ linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，�
 <div class="hr svg"></div>
 
 ```
-设置background为一个svg文件，这个svg单独拷出来是这样的：<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1px'>
+设置background为一个svg文件，这个svg单独拷出来是这样的：
+```
+<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1px'>
     <line x1='0' y1='0' x2='100%' y2='0' stroke='#000'></line>
 </svg>
+
+```
 使用svg的line元素画线，stroke表示描边颜色，默认的宽度stroke-width="1"，由于svg的1px是物理像素的px，相当于高清屏的0.5px，另外还可以使用svg的rect等元素进行绘制。在Chrome和Safari的效果如下：这个方案也是很完美，但是在firefox挂了，究其原因是因为firefox的background-image如果是svg的话只支持命名的颜色，如"black"、"red"等，如果把上面代码的svg里面的#000改成black的话就可以显示出来，但是这样就很不灵活了。否则只能把svg转成base64的形式，我们把svg的内容转成base64（可以找一些在线的工具），对比如下：
 ```
 .hr.svg {
