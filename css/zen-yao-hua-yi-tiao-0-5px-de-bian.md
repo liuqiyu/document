@@ -74,10 +74,13 @@ linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，�
 设置background为一个svg文件，这个svg单独拷出来是这样的：<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1px'>
     <line x1='0' y1='0' x2='100%' y2='0' stroke='#000'></line>
 </svg>
-使用svg的line元素画线，stroke表示描边颜色，默认的宽度stroke-width="1"，由于svg的1px是物理像素的px，相当于高清屏的0.5px，另外还可以使用svg的rect等元素进行绘制。在Chrome和Safari的效果如下：这个方案也是很完美，但是在firefox挂了，究其原因是因为firefox的background-image如果是svg的话只支持命名的颜色，如"black"、"red"等，如果把上面代码的svg里面的#000改成black的话就可以显示出来，但是这样就很不灵活了。否则只能把svg转成base64的形式，我们把svg的内容转成base64（可以找一些在线的工具），对比如下：.hr.svg {
+使用svg的line元素画线，stroke表示描边颜色，默认的宽度stroke-width="1"，由于svg的1px是物理像素的px，相当于高清屏的0.5px，另外还可以使用svg的rect等元素进行绘制。在Chrome和Safari的效果如下：这个方案也是很完美，但是在firefox挂了，究其原因是因为firefox的background-image如果是svg的话只支持命名的颜色，如"black"、"red"等，如果把上面代码的svg里面的#000改成black的话就可以显示出来，但是这样就很不灵活了。否则只能把svg转成base64的形式，我们把svg的内容转成base64（可以找一些在线的工具），对比如下：
+```
+.hr.svg {
     background: url("data:image/svg+xml;utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1px'><line x1='0' y1='0' x2='100%' y2='0' stroke='#000'></line></svg>");
     background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAlJyBoZWlnaHQ9JzFweCc+PGxpbmUgeDE9JzAnIHkxPScwJyB4Mj0nMTAwJScgeTI9JzAnIHN0cm9rZT0nIzAwMCc+PC9saW5lPjwvc3ZnPg==");
 }
+```
 这样在firefox也能完美展示了。其实0.5px的需求在移动端应该会更常见，比较一下以上五种方法在IOS和安卓的表现，如下图所示：IOS下的Safari和Chrome表现一致，都是以直接设置0.5px的效果最好，而安卓浏览器则是以box-shadow的效果最好（试了5和7），而svg的方案在IOS和安卓的设备上都能完美支持。读者可以打开这个网页，看一下在你的设备是哪种效果最好。结合以上，我们初步得到以下结论：使用SVG相对于box-shadow等方法，还有一个好处是可以借助svg的元素画出任意图形，如四边形，圆角等。最后还有一个万能的方法，那就是通过控制viewport，在移端开发里面一般会把viewport的scale设置成1：<meta name="viewport" content="width=device-width,initial-sacle=1">
 其中width=device-width表示将viewport视窗的宽度调整为设备的宽度，这个宽度通常是指物理上宽度。默认的缩放比例为1，如iphone 6竖屏的宽度为750px，它的dpr=2，用2px表示1px，这样设置之后viewport的宽度就变成375px。这时候0.5px的边就使用我们上面讨论的方法。但是你可以把scale改成0.5：<meta name="viewport" content="width=device-width,initial-sacle=0.5">
 这样的话，viewport的宽度就是原本的750px，所以1个px还是1px，正常画就行，但这样也意味着UI需要按2倍图的出，整体面面的单位都会放大一倍。在iPone X和一些安卓手机等dpr = 3的设备上，需要设置scale为0.333333，这个时候就是3倍地画了。综上讨论了像素和viewport的一些概念，并介绍和比较了在高清屏上画0.5px的几种方法——可以通过直接设置宽高border为0.5px、设置box-shadow的垂直方向的偏移量为0.5px、借助线性渐变linear-gradient、使用transform: scaleY(0.5)的方法，使用SVG的方法。最后发现SVG的方法兼容性和效果都是最好的，所以在viewport是1的情况下，可以使用SVG画0.5px，而如果viewport的缩放比例不是1的话，那么直接画1px即可。
