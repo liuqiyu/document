@@ -27,14 +27,17 @@
 </html>
 
 ```
-在PC上的不同浏览器上测试测试结果如下所示：其中Chrome把0.5px四舍五入变成了1px，而firefox/safari能够画出半个像素的边，并且Chrome会把小于0.5px的当成0，而Firefox会把不小于0.55px当成1px，Safari是把不小于0.75px当成1px，进一步在手机上观察IOS的Chrome会画出0.5px的边，而安卓(5.0)原生浏览器是不行的。所以直接设置0.5px不同浏览器的差异比较大，并且我们看到不同系统的不同浏览器对小数点的px有不同的处理。所以如果我们把单位设置成小数的px包括宽高等，其实不太可靠，因为不同浏览器表现不一样。第二种能想到的方法是缩放，能否设置1px，然后scale 0.5呢，我们可以尝试一下，如下代码所示：<style>
+在PC上的不同浏览器上测试测试结果如下所示：其中Chrome把0.5px四舍五入变成了1px，而firefox/safari能够画出半个像素的边，并且Chrome会把小于0.5px的当成0，而Firefox会把不小于0.55px当成1px，Safari是把不小于0.75px当成1px，进一步在手机上观察IOS的Chrome会画出0.5px的边，而安卓(5.0)原生浏览器是不行的。所以直接设置0.5px不同浏览器的差异比较大，并且我们看到不同系统的不同浏览器对小数点的px有不同的处理。所以如果我们把单位设置成小数的px包括宽高等，其实不太可靠，因为不同浏览器表现不一样。第二种能想到的方法是缩放，能否设置1px，然后scale 0.5呢，我们可以尝试一下，如下代码所示：
+```
+<style>
 .hr.scale-half {
     height: 1px;
     transform: scaleY(0.5);
 }
 </style>
-    <p>1px + scaleY(0.5)</p>
-    <div class="hr scale-half"></div>
+<p>1px + scaleY(0.5)</p>
+<div class="hr scale-half"></div>
+```
 效果如下图所示：我们发现Chrome/Safari都变虚了，只有Firefox比较完美看起来是实的而且还很细，效果和直接设置0.5px一样。所以通过transform: scale会导致Chrome变虚了，而粗细几乎没有变化，所以这个效果不好。我们还想到做移动端的时候还使用了rem做缩放，但实际上rem的缩放最后还是会转化成px，所以和直接使用0.5px的方案是一样的。还有什么办法呢？还可以用线性渐变linear-gradient，如下代码所示：<style>
 .hr.gradient {
     height: 1px;
@@ -43,7 +46,9 @@
 </style>
 <p>linear-gradient(0deg, #fff, #000)</p>
 <div class="hr gradient"></div>
-linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，从白色#fff渐变到黑色#000，而且是线性的，在高清屏上，1px的逻辑像素代表的物理（设备）像素有2px，由于是线性渐变，所以第1个px只能是#fff，而剩下的那个像素只能是#000，这样就达到了画一半的目的。逻辑分析很完美，实际的效果又怎么样呢，如下图所示：我们发现这种方法在各个流览器上面都不完美，效果都是虚的，和完美的0.5px还是有差距。这个效果和scale 0.5的差不多，都是通过虚化线，让人觉得变细了。还有另外一种方法，使用boxshadow，如下代码所示：<style>
+linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，从白色#fff渐变到黑色#000，而且是线性的，在高清屏上，1px的逻辑像素代表的物理（设备）像素有2px，由于是线性渐变，所以第1个px只能是#fff，而剩下的那个像素只能是#000，这样就达到了画一半的目的。逻辑分析很完美，实际的效果又怎么样呢，如下图所示：我们发现这种方法在各个流览器上面都不完美，效果都是虚的，和完美的0.5px还是有差距。这个效果和scale 0.5的差不多，都是通过虚化线，让人觉得变细了。还有另外一种方法，使用boxshadow，如下代码所示：
+```
+<style>
 .hr.boxshadow {
     height: 1px;
     background: none;
@@ -52,7 +57,10 @@ linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，�
 </style>
 <p>box-shadow: 0 0.5px 0 #000</p>
 <div class="hr boxshadow"></div>
-设置box-shadow的第二个参数为0.5px，表示阴影垂直方向的偏移为0.5px，效果如下：这个方法在Chrome和Firefox都非常完美，但是Safari不支持小于1px的boxshadow，所以完全没显示出来了。不过至少找到了一种方法能够让PC的Chrome显示0.5px。还可以使用SVG，利用SVG的1px还是物理像素的1px，不是高清屏的1px。如下代码所示：<style>
+```
+设置box-shadow的第二个参数为0.5px，表示阴影垂直方向的偏移为0.5px，效果如下：这个方法在Chrome和Firefox都非常完美，但是Safari不支持小于1px的boxshadow，所以完全没显示出来了。不过至少找到了一种方法能够让PC的Chrome显示0.5px。还可以使用SVG，利用SVG的1px还是物理像素的1px，不是高清屏的1px。如下代码所示：
+```
+<style>
 .hr.svg {
     background: none;
     height: 1px;
@@ -61,6 +69,8 @@ linear-gradient(0deg, #fff, #000)的意思是：渐变的角度从下往上，�
 </style>
 <p>svg</p>
 <div class="hr svg"></div>
+
+```
 设置background为一个svg文件，这个svg单独拷出来是这样的：<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='1px'>
     <line x1='0' y1='0' x2='100%' y2='0' stroke='#000'></line>
 </svg>
