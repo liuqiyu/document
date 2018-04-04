@@ -1,5 +1,6 @@
 # module
 
+```js
 import Vue from 'vue';
 import Vuex from 'vuex';
 import vux from './vux';
@@ -17,3 +18,5 @@ export default new Vuex.Store({
     cart,
   },
 });
+
+```
