@@ -2,6 +2,7 @@
 
 > 文件夹分布
 
+```
 |-- all
 |----store
       |-- index.js
@@ -10,6 +11,8 @@
             |-- mutations.js
             |-- mutation-types.js
             |-- actions.js
+
+```
 ...同理
 
 > index.js
