@@ -3,8 +3,7 @@
 > 文件夹分布
 
 ```
-|-- all
-|----store
+|-- store
       |-- index.js
       |-- cart
             |-- index.js
