@@ -12,6 +12,7 @@
   * [封装axios](vue/feng-zhuang-axios.md)
   * [keep-alive缓存问题](vue/keep-alivehuan-cun-wen-ti.md)
   * [element-ui自定义表头](vue/element-uizi-ding-yi-biao-tou.md)
+  * [混入mixins](vue/hun-ru-mixins.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
