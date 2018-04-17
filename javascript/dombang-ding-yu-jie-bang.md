@@ -8,7 +8,7 @@
 var btn = document.getElementById('btn');
 
 // 绑定1
-btn.onclick = 
+btn.onclick = action ();
 
 function action () {
     alert(123);
