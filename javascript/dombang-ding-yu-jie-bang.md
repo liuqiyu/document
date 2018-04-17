@@ -13,6 +13,9 @@ btn.onclick = action ();
 // 绑定2
 btn.addEventListener('click', action);
 
+// 解绑1
+btn.onclick = null;
+
 function action () {
     alert(123);
 }
