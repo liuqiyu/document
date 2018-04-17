@@ -16,6 +16,9 @@ btn.addEventListener('click', action);
 // 解绑1
 btn.onclick = null;
 
+// 解绑2
+btn.removeEventListener('click', action)
+
 function action () {
     alert(123);
 }
