@@ -10,6 +10,9 @@ var btn = document.getElementById('btn');
 // 绑定1
 btn.onclick = action ();
 
+// 绑定2
+btn.addEventListener('click', action);
+
 function action () {
     alert(123);
 }
