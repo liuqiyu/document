@@ -39,9 +39,28 @@ module: {
       }
     ]
   }
+```
 
-作者：飞奔的阿加西
-链接：https://www.jianshu.com/p/8e60048baeb7
-來源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+* base.scss
+
+```css
+$primary-color: red;
+```
+
+* login.vue
+
+```js
+<style scoped lang="scss">
+  @import './../../assets/css/base';
+
+  div {
+    color: $primary-color;
+    p {
+      color: $primary-color;
+      &:hover {
+        color: pink;
+      }
+    }
+  }
+</style>
 ```
