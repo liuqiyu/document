@@ -64,3 +64,18 @@ $primary-color: red;
   }
 </style>
 ```
+
+* 使用混合器
+
+```css
+@mixin rounded-corners {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+notice {
+  background-color: green;
+  border: 2px solid #00aa00;
+  @include rounded-corners;
+}
+```
