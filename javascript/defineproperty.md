@@ -37,7 +37,6 @@ console.log(obj.age)   // 24 不可被重写
 
 // 将`writable`改为`true`，即可编辑.
 // writable: true,
-
 ```
 
 
