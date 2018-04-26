@@ -5,7 +5,9 @@
 `Object.defineProperty(obj, prop, descriptor)`.
 
 > obj:<必须> 目标对象
+
 > prop:<必须> 需要定义或者修改的属性名字
+
 > descriptor:<必须> 目标属性所拥有的特性
 
 ```js
@@ -110,8 +112,11 @@ console.log(obj)
 #### 总结
 
 > value: 设置属性的值
+
 > writable: 值是否可以重写。true | false
+
 > enumerable: 目标属性是否可以被枚举。true | false
+
 > configurable: 目标属性是否可以被删除或是否可以再次修改特性 true | false
 
 
