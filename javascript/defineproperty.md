@@ -33,7 +33,7 @@ console.log(obj.age)   // 24
 
 obj.age = 25;
 
-console.log(obj.age)   // 25
+console.log(obj.age)   // 24 不可被重写
 ```
 
 
