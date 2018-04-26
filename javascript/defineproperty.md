@@ -10,7 +10,7 @@
 
 ```js
 //对象已有的属性添加特性描述
-Object.defineProperty(obj,"test",{
+Object.defineProperty(obj,"age",{
     configurable:true | false,
     enumerable:true | false,
     value:任意类型的值,
