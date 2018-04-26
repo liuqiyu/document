@@ -80,7 +80,7 @@ for (var i in obj) {
 
 #### configurable
 
-
+>是否可以删除目标属性或是否可以再次修改属性的特性（writable, configurable, enumerable）。设置为true可以被删除或可以重新设置特性；设置为false，不能被可以被删除或不可以重新设置特性。默认为false。
 
 
 
