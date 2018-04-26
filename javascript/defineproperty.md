@@ -109,6 +109,28 @@ console.log(obj)
 
 * setter是一种设置属性值的方法。
 
+```js
+var obj = {};
+var initValue = 'hello';
+Object.defineProperty(obj,"newKey",{
+    get:function (){
+        //当获取值的时候触发的函数
+        return initValue;    
+    },
+    set:function (value){
+        //当设置值的时候触发的函数,设置的新值通过参数value拿到
+        initValue = value;
+    }
+});
+//获取值
+console.log( obj.newKey );  //hello
+
+//设置值
+obj.newKey = 'change value';
+
+console.log( obj.newKey ); //change value
+```
+
 #### 兼容问题
 
 ie8一下会报错！！！
