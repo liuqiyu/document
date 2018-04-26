@@ -28,6 +28,10 @@ Object.defineProperty(obj,"age",{
 Object.defineProperty(obj, 'age', {
   value: 24,
 });
+
+obj.age = 25;
+
+console.log(obj.age)
 ```
 
 
