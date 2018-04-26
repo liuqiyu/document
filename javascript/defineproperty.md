@@ -9,7 +9,10 @@
 > descriptor:<必须> 目标属性所拥有的特性
 
 ```js
-//对象已有的属性添加特性描述
+var obj = {
+    name: 'lqy',
+};
+
 Object.defineProperty(obj,"age",{
     writable: true | false,  // 属性是否可以被重写，默认false
     enumerable: true | false,    // 属性是否可以被枚举，默认false
@@ -18,7 +21,11 @@ Object.defineProperty(obj,"age",{
 });
 ```
 
-#### configurable
+#### writable
+
+```js
+
+```
 
 
 
