@@ -78,7 +78,7 @@ for (var i in obj) {
 // age
 ```
 
-#### enumerable
+#### configurable
 
 
 
