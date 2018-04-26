@@ -107,6 +107,13 @@ console.log(obj)
 // Uncaught TypeError: Cannot redefine property: age...
 ```
 
+#### 总结
+
+> value: 设置属性的值
+> writable: 值是否可以重写。true | false
+> enumerable: 目标属性是否可以被枚举。true | false
+> configurable: 目标属性是否可以被删除或是否可以再次修改特性 true | false
+
 
 
 
