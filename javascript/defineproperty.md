@@ -103,6 +103,12 @@ console.log(obj)
 
 > configurable: 目标属性是否可以被删除或是否可以再次修改特性 true | false
 
+#### getter/setter
+
+* getter 是一种获得属性值的方法
+
+* setter是一种设置属性值的方法。
+
 #### 兼容问题
 
 ie8一下会报错！！！
