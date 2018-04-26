@@ -29,6 +29,7 @@ Object.defineProperty(obj, 'age', {
   value: 24,
 });
 
+console.log(obj.age)
 obj.age = 25;
 
 console.log(obj.age)
