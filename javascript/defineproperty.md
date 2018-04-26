@@ -23,8 +23,11 @@ Object.defineProperty(obj,"age",{
 
 #### writable
 
+> 新属性：默认不能重写 writable：false
 ```js
-
+Object.defineProperty(obj, 'age', {
+  value: 24,
+});
 ```
 
 
