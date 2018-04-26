@@ -21,6 +21,7 @@
   * [class](javascript/class.md)
   * [浅拷贝与深拷贝](javascript/qian-kao-bei-yu-shen-kao-bei.md)
   * [dom绑定与解绑](javascript/dombang-ding-yu-jie-bang.md)
+  * [defineProperty](javascript/defineproperty.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [base](git-note/base.md)
