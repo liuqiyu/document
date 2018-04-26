@@ -103,6 +103,10 @@ console.log(obj)
 
 > configurable: 目标属性是否可以被删除或是否可以再次修改特性 true | false
 
+#### 兼容问题
+
+ie8一下会报错！！！
+
 
 
 
