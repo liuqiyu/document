@@ -39,6 +39,33 @@ console.log(obj.age)   // 24 不可被重写
 // writable: true,
 ```
 
+#### writable
+
+> 新属性：默认不能重写 `writable：false`
+```js
+Object.defineProperty(obj, 'age', {
+  value: 24,
+});
+
+console.log(obj.age)   // 24
+
+obj.age = 25;
+
+console.log(obj.age)   // 24 不可被重写
+
+// 将`writable`改为`true`，即可编辑.
+// writable: true,
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
