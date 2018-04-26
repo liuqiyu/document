@@ -13,7 +13,7 @@
 Object.defineProperty(obj,"age",{
     configurable:true | false,
     enumerable:true | false,
-    value:任意类型的值,
+    value: 24,
     writable:true | false
 });
 ```
