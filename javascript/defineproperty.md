@@ -74,6 +74,9 @@ Object.defineProperty(obj, 'age', {
 for (var i in obj) {
   console.log(i)
 }
+
+// name
+// age
 ```
 
 
