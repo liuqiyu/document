@@ -47,6 +47,7 @@ console.log(obj.age)   // 24 不可被重写
 #### enumerable
 
 > 原有属性：可以被枚举
+
 > 新属性：默认不能重写 `enumerable：false`
 
 ```js
