@@ -11,12 +11,14 @@
 ```js
 //对象已有的属性添加特性描述
 Object.defineProperty(obj,"age",{
-    configurable: true | false,  // 属性是否可以被重写，默认false
+    writable: true | false,  // 属性是否可以被重写，默认false
     enumerable: true | false,    // 属性是否可以被枚举，默认false
     value: 24,
-    writable: true | false       // 是否可以删除目标属性或是否可以再次修改属性的特性，默认false
+    configurable: true | false       // 是否可以删除目标属性或是否可以再次修改属性的特性，默认false
 });
 ```
+
+#### configurable
 
 
 
