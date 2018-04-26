@@ -104,7 +104,7 @@ Object.defineProperty(obj, 'age', {
 
 console.log(obj)
 
-// Uncaught TypeError: Cannot redefine property: age
+// Uncaught TypeError: Cannot redefine property: age...
 ```
 
 
