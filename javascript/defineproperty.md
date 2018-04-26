@@ -8,7 +8,15 @@
 > prop:<必须> 需要定义或者修改的属性名字
 > descriptor:<必须> 目标属性所拥有的特性
 
-
+```js
+//对象已有的属性添加特性描述
+Object.defineProperty(obj,"test",{
+    configurable:true | false,
+    enumerable:true | false,
+    value:任意类型的值,
+    writable:true | false
+});
+```
 
 
 
