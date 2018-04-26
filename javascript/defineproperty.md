@@ -59,7 +59,6 @@ console.log(obj.age)   // 24 不可被重写
 // writable: true,
 ```
 
-
 #### enumerable
 
 > 原有属性：可以被枚举
@@ -78,6 +77,10 @@ for (var i in obj) {
 // name
 // age
 ```
+
+#### enumerable
+
+
 
 
 
