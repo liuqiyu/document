@@ -14,7 +14,8 @@
   * [element-ui自定义表头](vue/element-uizi-ding-yi-biao-tou.md)
   * [混入mixins](vue/hun-ru-mixins.md)
   * [原理大纲](vue/yuan-li-da-gang.md)
-    * 实现双向绑定
+    * [实现双向绑定](vue/yuan-li-da-gang/shi-xian-shuang-xiang-bang-ding.md)
+    * [生命周期](vue/yuan-li-da-gang/sheng-ming-zhou-qi.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
