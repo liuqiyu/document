@@ -28,3 +28,9 @@ export default {
 </style>
 
 ```
+
+> 父组件
+
+```vue
+    <Iinput :value="value" @input="value = arguments[0]"></Iinput>{{value}}
+```
