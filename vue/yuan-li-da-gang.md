@@ -4,6 +4,8 @@
 
 > input 子组件
 
+> 小知识： input事件当输入框改变会处罚change方法。
+ 
 ```vue
 <template>
   <div>
@@ -21,10 +23,6 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-
-</style>
 
 ```
 
