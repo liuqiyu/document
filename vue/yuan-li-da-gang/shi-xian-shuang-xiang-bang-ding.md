@@ -6,7 +6,7 @@
 
 > 小知识： input事件当输入框改变会处罚change方法。
  
-```vue
+```
 <template>
   <div>
     <input type="text" :value="value" @input="change">
@@ -28,6 +28,6 @@ export default {
 
 > 父组件
 
-```vue
+```
     <Iinput :value="value" @input="value = arguments[0]"></Iinput>{{value}}
 ```
