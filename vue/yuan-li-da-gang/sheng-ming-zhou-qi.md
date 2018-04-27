@@ -81,3 +81,5 @@ var vm = new Vue({
 后续的钩子函数执行的过程都是需要外部的触发才会执行。比如说有数据的变化，会调用`beforeUpdate`，然后经过`Virtual DOM`，最后`updated`更新完毕。当组件被销毁的时候，它会调用`beforeDestory`，以及`destoryed`。
 
 [文章地址]（https://juejin.im/post/5ad10800f265da23826e681e）
+
+![](/assets/162c087d49e9be5d)
