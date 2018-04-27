@@ -109,6 +109,8 @@ console.log(obj)
 
 * setter是一种设置属性值的方法。
 
+* `Configurable`  `Enumerable` 没有`writable`
+
 ```js
 var obj = {};
 var initValue = 'hello';
