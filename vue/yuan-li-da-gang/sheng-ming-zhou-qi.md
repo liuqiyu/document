@@ -70,3 +70,5 @@ var vm = new Vue({
 `beforeMount`实在有了`render function`后才会去执行。然后再去调用`mounted`这个`hook`钩子,当`mounted`挂载玩，这个`instance`算是走完了流程。
 
 后续的钩子函数执行的过程都是需要外部的触发才会执行。比如说有数据的变化，会调用`beforeUpdate`，然后经过`Virtual DOM`，最后`updated`更新完毕。当组件被销毁的时候，它会调用`beforeDestory`，以及`destoryed`。
+
+[文章地址]（https://juejin.im/post/5ad10800f265da23826e681e）
