@@ -17,7 +17,6 @@ export default {
   methods: {
     change(e) {
       this.$emit('input', e.target.value)
-      console.log(e.target.value)
     }
   }
 };
