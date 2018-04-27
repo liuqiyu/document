@@ -70,6 +70,7 @@ var vm = new Vue({
 * 如果vue实例对象中有template参数选项，则将其作为模板编译成render函数。
 * 如果没有template选项，则将外部HTML作为模板编译。
 * 可以看到template中的模板优先级要高于outer HTML的优先级。
+> render函数选项 > template选项 > outer HTML.
 
 在使用`.vue`文件开发的过程中，我们会写`template`模板。在结果`vue-loader`处理之后，就变成了`render function`,最终放到了`vue-loader`解析的文件里面。这样做有什么好处呢？原因是由于在解析template变成render function的过程，是一个非常耗时的过程，vue-loader帮我们处理了这些内容之后，当我们在页面上执行vue代码的时候，效率会变得更高。
 
