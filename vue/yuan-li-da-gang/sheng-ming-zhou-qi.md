@@ -10,7 +10,7 @@ var vm = new Vue({
     console.group('------beforeCreate创建前状态------');
     console.log("%c%s", "color:red" , "el     : " + this.$el); //undefined
     console.log("%c%s", "color:red","data   : " + this.$data); //undefined 
-    console.log("%c%s", "color:red","message: " + this.message) 
+    console.log("%c%s", "color:red","message: " + this.message)  //undefined 
   },
   created: function() {
     console.group('------created创建完毕状态------');
@@ -62,3 +62,5 @@ var vm = new Vue({
   }
 })
 ```
+
+最开始的时候，我们会创建一个`instace`（实例），在`new Vue（）`的对象过程中。首先会执行init初始化。我们会调用`beforeCreate`。在`beforeCreate`时，`$el`选项和`$data`属性都是没有的`undefined`。然后injections（注射）和reactivity（反应性）的时候，他会调用`created`
