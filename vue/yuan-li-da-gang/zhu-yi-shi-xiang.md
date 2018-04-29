@@ -49,4 +49,14 @@
 props:['name'],
 ```
 
+* 2、子组件 => 父组件
+
+```js
+// parent
+<Parent @change="name"></Parent>
+
+
+
+```
+
 
