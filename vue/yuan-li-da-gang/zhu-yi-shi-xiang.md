@@ -55,7 +55,8 @@ props:['name'],
 // parent
 <Parent @changeName="change"></Parent>
 
-
+// child
+this.$emit('changeName', this.name);
 ```
 
 
