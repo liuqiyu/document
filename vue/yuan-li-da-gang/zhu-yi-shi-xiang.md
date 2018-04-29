@@ -38,4 +38,13 @@
 
 ### 4、vue组件通信
 
+* 1、父组件 => 子组件
+
+```js
+// parent
+
+<Parent :name="name"></Parent>
+
+```
+
 
