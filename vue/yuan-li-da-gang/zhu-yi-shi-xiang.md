@@ -42,9 +42,11 @@
 
 ```js
 // parent
-
 <Parent :name="name"></Parent>
 
+
+// child 
+props:['name'],
 ```
 
 
