@@ -56,7 +56,6 @@ props:['name'],
 <Parent @changeName="change"></Parent>
 
 
-
 ```
 
 
