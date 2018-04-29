@@ -12,5 +12,11 @@
 
 * `this.$set(this.userProfile, 'age', '12');`
 
-* `this.someObject = Object.assign({}, this.someObject, { a: 1, b: 2 })`
+* `this.someObject = Object.assign({}, this.someObject, { a: 1, b: 2 });`
+
+### 3、什么周期详解
+
+* beforeCreate: 实例刚刚创建，组件属性还未出现
+
+* created: 组件实例创建完成，属性被绑定，但是DOM还未完成。`#el`为`Undefined`
 
