@@ -33,12 +33,3 @@
 
 
 
-
-
-
-
-
-```js
-JSON.parse(JSON.stringify(a))
-```
-
