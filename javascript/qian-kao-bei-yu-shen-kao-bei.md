@@ -13,6 +13,26 @@
 ### 1、浅克隆
 
 浅克隆之所以被称为浅克隆，是因为对象只会被克隆最外面的一层。更深层的东西，则依旧指向通过引用指向同一堆块内存。
+```js
+// 浅克隆函数
+function shallowClone(o) {
+  const obj = {};
+  for ( let i in o) {
+    obj[i] = o[i];
+  }
+  return obj;
+}
+// 被克隆对象
+const oldObj = {
+  a: 1,
+  b: [ 'e', 'f', 'g' ],
+  c: { h: { i: 2 } }
+};
+
+const newObj = shallowClone(oldObj);
+console.log(newObj.c.h, oldObj.c.h); // { i: 2 } { i: 2 }
+console.log(oldObj.c.h === newObj.c.h); // true
+```
 
 `Object.assign()`
 
