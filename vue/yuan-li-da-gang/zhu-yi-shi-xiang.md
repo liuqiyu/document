@@ -51,6 +51,8 @@ props:['name'],
 
 * 2、子组件 => 父组件
 
+子组件通过触发父组件事件传输参数。
+
 ```js
 // parent
 <Parent @changeName="change"></Parent>
