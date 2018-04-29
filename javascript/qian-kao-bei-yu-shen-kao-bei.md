@@ -5,7 +5,7 @@
 
 首先，`Javascript`基本类型了解一下。
 
-> Javascript基本数据类型：Undefined,Null,Boolean,Number,String,Symbol
+> Javascript基本数据类型：Undefined,Null,Boolean,Number,String
 
 > Javascript复杂数据类型：Object
 
