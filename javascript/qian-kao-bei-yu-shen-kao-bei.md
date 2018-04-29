@@ -10,6 +10,33 @@
 > Javascript复杂数据类型：Object
 
 
+### 1、浅克隆
+
+浅克隆之所以被称为浅克隆，是因为对象只会被克隆最外面的一层。更深层的东西，则依旧指向通过引用指向同一堆块内存。
+
+`Object.assign()`
+
+### 2、深克隆
+
+`const newObj = JSON.parse(JSON.stringify(oldObj));`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```js
 JSON.parse(JSON.stringify(a))
