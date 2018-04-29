@@ -61,4 +61,8 @@ props:['name'],
 this.$emit('changeName', this.name);
 ```
 
+* 3、子组件向子组件传输数据
+
+vuex
+
 
