@@ -18,5 +18,24 @@
 
 * beforeCreate: 实例刚刚创建，组件属性还未出现
 
-* created: 组件实例创建完成，属性被绑定，但是DOM还未完成。`#el`为`Undefined`
+* created: 组件实例创建完成，属性被绑定，但是DOM还未完成。`#el`为`Undefined`.
+
+* beforeMount: 模板编译/挂载之前
+
+* mounted: 模板编译/挂载之后
+
+* beforeUpdate: 组件更新之前
+
+* updated: 组件更新之后
+
+* activated: for `keep-alive`,组件被激活时调用
+
+* deactivated: for `keep-alive`,组件被移除时调用
+
+* beforeDestroy: 组件销毁前被调用
+
+* destoryed: 组件销毁后调用
+
+### 4、vue组件通信
+
 
