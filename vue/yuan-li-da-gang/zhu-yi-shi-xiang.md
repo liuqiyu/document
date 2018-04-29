@@ -53,7 +53,7 @@ props:['name'],
 
 ```js
 // parent
-<Parent @change="name"></Parent>
+<Parent @changeName="name"></Parent>
 
 
 
