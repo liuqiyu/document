@@ -5,7 +5,9 @@
 
 首先，`Javascript`基本类型了解一下。
 
-> Javascript原始类型：Undefined,Null,Boolean,Number,String
+> Javascript原始类型：Undefined,Null,Boolean,Number,String,Symbol
+
+> Javascript引用类型：Object
 
 ```js
 JSON.parse(JSON.stringify(a))
