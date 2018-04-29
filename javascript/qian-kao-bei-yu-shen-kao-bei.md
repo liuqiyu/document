@@ -39,8 +39,7 @@ console.log(oldObj.c.h === newObj.c.h); // true
 
 ### 2、深克隆
 
-`const newObj = JSON.parse(JSON.stringify(oldObj));`
-
+* `const newObj = JSON.parse(JSON.stringify(oldObj));`
 
 
 
