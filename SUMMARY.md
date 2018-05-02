@@ -50,4 +50,5 @@
   * [多页面打包](webpack/duo-ye-mian-da-bao.md)
   * [引用css](webpack/yin-yong-css.md)
   * [引用图片](webpack/yin-yong-tu-pian.md)
+  * [转译ES6](webpack/zhuan-yi-es6.md)
 
