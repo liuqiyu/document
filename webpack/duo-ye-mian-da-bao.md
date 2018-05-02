@@ -34,6 +34,8 @@ module.exports = {
 }
 ```
 
+**.html最终打包后的地址会根据`output`地址打包，所哟可以配置`HtmlWebpackPlugin`的`filename`：filename: './../index.html'**
+
 最终允许`webpack`命令会生成`/dist`文件夹如下：
 
 ```
