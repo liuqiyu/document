@@ -22,4 +22,4 @@ module.exports = {
 
 **当然在npm run dev命令下，打包的文件存在于内存中，并不会产生在dist目录下**
 
-**but It's not so simple**
+**but It's not so simple**,因为热更新还需要配置一个webpack自带的插件并且还要在主要js文件里检查是否有module.hot
