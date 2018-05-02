@@ -33,3 +33,13 @@ module.exports = {
     ]
 }
 ```
+
+最终允许`webpack`命令会生成`/dist`文件夹如下：
+
+```
+├── dist
+    ├── login.html
+    ├── login.js
+    ├── main.html
+    ├── main.js
+```
