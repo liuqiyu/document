@@ -4,6 +4,39 @@
 
 ### Object.defineProperty数据劫持
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="txt">
+<span id="sp"></span>
+<script>
+    var txt = document.getElementById('txt');
+    var sp = document.getElementById('sp');
+
+    var obj = {}
+
+    Object.defineProperty(obj, 'txt', {
+      Configurable: true,
+      Enumerable: true,
+      set: function(value) {
+        initValue = value
+        txt.value = value;
+        sp.innerText = value;
+      }
+    });
+
+    txt.addEventListener('input', function(e) {
+      obj.txt = e.target.value;
+    });
+</script>
+</body>
+</html>
+```
 
 ### 类似react实现
 
