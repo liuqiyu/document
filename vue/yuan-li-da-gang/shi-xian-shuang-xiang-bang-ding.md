@@ -24,7 +24,6 @@
       Configurable: true,
       Enumerable: true,
       set: function(value) {
-        initValue = value
         txt.value = value;
         sp.innerText = value;
       }
