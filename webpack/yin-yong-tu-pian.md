@@ -18,3 +18,24 @@
     ]
 }
 ```
+结果实践可以出现以下两种引用方式：
+
+* js引用
+
+```js
+import logo from './../images/19789062.jpg';
+const img = new Image();
+img.src = logo;
+document.querySelector('div').appendChild(img);
+```
+
+* css引用
+
+```css
+div {
+        width: 100px;
+        height: 100px;
+        background: url("./../images/19789062.jpg");
+        background-size: contain;
+}
+```
