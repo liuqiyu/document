@@ -42,4 +42,13 @@ module.exports = {
         port: 3000
     }
 }
+
+if (module.hot) {
+    // 实现热更新
+    module.hot.accept();
+}
 ```
+
+### 热替换
+
+
