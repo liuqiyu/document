@@ -52,5 +52,5 @@
   * [引用图片](webpack/yin-yong-tu-pian.md)
   * [转译ES6](webpack/zhuan-yi-es6.md)
   * [清空](webpack/qing-kong.md)
-  * 启动静态服务器
+  * [启动静态服务器](webpack/qi-dong-jing-tai-fu-wu-qi.md)
 
