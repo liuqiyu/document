@@ -20,3 +20,4 @@ npm i webpack-cli -D
 "build": "webpack",         npm run build   // 打包后的文件，这个是生产环境，生成/dist文件夹。上线需要
 "dev":"webpack-dev-server"  npm run dev     // 这是开发环境打包的文件，由于dev-server帮我们把文件放入内存当中，所以不会输出打包后的/dist文件夹
 ```
+
