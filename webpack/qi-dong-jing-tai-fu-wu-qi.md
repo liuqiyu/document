@@ -20,4 +20,4 @@ module.exports = {
 }
 ```
 
-当然在npm run dev命令下，打包的文件存在于内存中，并不会产生在dist目录下
+##当然在npm run dev命令下，打包的文件存在于内存中，并不会产生在dist目录下##
