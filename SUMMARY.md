@@ -49,4 +49,5 @@
   * [0配置打包](webpack/0pei-zhi-da-bao.md)
   * [多页面打包](webpack/duo-ye-mian-da-bao.md)
   * [引用css](webpack/yin-yong-css.md)
+  * [引用图片](webpack/yin-yong-tu-pian.md)
 
