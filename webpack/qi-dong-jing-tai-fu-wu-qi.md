@@ -45,7 +45,7 @@ module.exports = {
 
 if (module.hot) {
     // 实现热更新
-    console.log(123);d
+    console.log(123);
     module.hot.accept();
 }
 ```
