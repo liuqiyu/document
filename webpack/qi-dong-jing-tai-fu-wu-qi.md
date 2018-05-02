@@ -6,6 +6,8 @@
 
 * 开发环境中 -- 无需打包 -- `npm run dev` => `webpack-dev-server`
 
+* 自动刷新页面，不是热替换
+
 代码如下：
 
 ```js
