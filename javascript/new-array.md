@@ -1,6 +1,7 @@
 # ES5新增的Array的方法详解
 
 ## 前言
+https://juejin.im/post/5acb6186518825556a72b79b#comment
 
 ES5新增了很多新的方法，简单编码，简单生活。由于ES5不兼容IE8及以下的浏览器，所以要求兼容请查看
 [兼容地址](http://www.zhangxinxu.com/wordpress/2013/04/es5%E6%96%B0%E5%A2%9E%E6%95%B0%E7%BB%84%E6%96%B9%E6%B3%95)
