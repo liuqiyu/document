@@ -64,6 +64,5 @@
 　　};
 
 　　alert(object.getNameFunc()());
-// The Window
-
+// My Object
 ```
