@@ -39,7 +39,11 @@
 　　};
 
 　　alert(object.getNameFunc()());
+
+// The Window
 ```
+
+
 
 * 代码2
 
@@ -60,4 +64,6 @@
 　　};
 
 　　alert(object.getNameFunc()());
+// The Window
+
 ```
