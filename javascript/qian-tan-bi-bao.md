@@ -19,3 +19,22 @@
 
 * 闭包会在父函数外部，改变父函数内部变量的值。所以，如果你把父函数当作对象（object）使用，把闭包当作它的公用方法（Public Method），把内部变量当作它的私有属性（private value），这时一定要小心，不要随便改变父函数内部变量的值。
 
+#### 需要会
+
+```js
+　　var name = "The Window";
+
+　　var object = {
+　　　　name : "My Object",
+
+　　　　getNameFunc : function(){
+　　　　　　return function(){
+　　　　　　　　return this.name;
+　　　　　　};
+
+　　　　}
+
+　　};
+
+　　alert(object.getNameFunc()());
+```
