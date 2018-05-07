@@ -30,6 +30,7 @@
   * [Object.defineProperty](javascript/defineproperty.md)
   * [链式调用](javascript/lian-shi-diao-yong.md)
   * [浅谈闭包](javascript/qian-tan-bi-bao.md)
+  * [垃圾回收](javascript/la-ji-hui-shou.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [base](git-note/base.md)
