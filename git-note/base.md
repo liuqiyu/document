@@ -17,3 +17,11 @@
 
 git  rm -r --cached .idea    
 ```
+
+> 本地项目上传到github
+
+```
+git init
+
+
+```
