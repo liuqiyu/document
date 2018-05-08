@@ -23,5 +23,9 @@ git  rm -r --cached .idea
 ```
 git init
 
+git add .
 
+git remote add origin https://github.com/liuqiyu/dd.git
+
+git push -u origin master
 ```
