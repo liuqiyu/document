@@ -1,6 +1,6 @@
 # 多行超出隐藏省略号
 
-```
+```css
 overflow:hidden; 
 
 text-overflow:ellipsis;
