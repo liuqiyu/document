@@ -8,6 +8,8 @@
 
 * [vue-i18n国际化](vue-i18n-guo-ji-hua.html)
 
+* [vue-lazyload](vue-lazyload.html)
+
 
 
 
