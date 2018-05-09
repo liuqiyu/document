@@ -39,7 +39,7 @@
   * [echarts](vue/shi-yong-echarts.md)
   * [eslint](tools/echarts.md)
   * [vue-i18n 国际化](tools/vue-i18n-guo-ji-hua.md)
-  * [vue-lazyload](tools/better-scroll/vue-lazyload.md)
+  * [vue-lazyload](tools/vue-lazyload.md)
 * [算法](suan-fa.md)
   * [数组](suan-fa/shu-zu.md)
     * [数组去重](suan-fa/shu-zu/shu-zu-qu-zhong.md)
