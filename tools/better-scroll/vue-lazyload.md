@@ -16,4 +16,6 @@ Vue.use(VueLazyLoad,{
     error:'./static/error.png',
     loading:'./static/loading.png'
 })
+
+<img class="item-pic" v-lazy="newItem.picUrl"/>
 ```
