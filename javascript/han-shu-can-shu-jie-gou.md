@@ -30,11 +30,7 @@
 
 ```JS
 {
-component
-:
-ƒ Protected()
-path
-:
-"/protected"
+  component:ƒ Protected(),
+  path:"/protected"
 }
 ```
