@@ -34,3 +34,4 @@
   path:"/protected"
 }
 ```
+由此得知：`component: Component`指定参数输出，然后将其他的未指定的都放入`...rest`中。
