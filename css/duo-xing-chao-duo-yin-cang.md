@@ -11,6 +11,7 @@ display:-webkit-box;
 
 -webkit-line-clamp:2; 
 
+// 英文换行
 word-wrap:break-word; 
 word-break:break-all; 
 ```
