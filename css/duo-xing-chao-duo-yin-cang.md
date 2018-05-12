@@ -15,3 +15,8 @@ display:-webkit-box;
 word-wrap:break-word; 
 word-break:break-all; 
 ```
+### 一条省略号
+
+* overflow:hidden; // 文本超出隐藏
+* text-overflow:ellipsis; // 溢出用省略号显示
+* white-space:nowrap; // 溢出不换行,只显示一条
