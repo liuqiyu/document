@@ -113,6 +113,23 @@ routes: [{
 ##### 全局守卫
 
 > `router.beforeEach((to, from, next) {})`    会受`next()`影响
+
+在`main.js`配置以下代码：
+
+```js
+router.beforeEach((to, from, next) => {
+  if (!window.sessionStorage.getItem('userinfo')) {
+    if (to.path === '/login') {
+      next();
+    } else {
+      next('/login');
+    }
+  } else {
+    next();
+  }
+});
+
+```
  
 ##### 全局后置守卫
 
