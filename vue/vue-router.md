@@ -114,7 +114,7 @@ routes: [{
 
 > `router.beforeEach((to, from, next) {})`    会受`next()`影响
 
-在`main.js`配置以下代码：当地址是`http://localhost:8080/#/module/search`。但是未登录，无权限进入时。需要配置权限。不会进入`http://localhost:8080/#/module/search`这个理由，里面的代码也不出处罚。
+在`main.js`配置以下代码：当地址是`http://localhost:8080/#/module/search`。但是未登录，无权限进入时。需要配置权限。不会进入`http://localhost:8080/#/module/search`这个理由，里面的代码也不出执行。
 
 ```js
 router.beforeEach((to, from, next) => {
