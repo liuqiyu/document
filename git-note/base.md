@@ -29,3 +29,7 @@ git remote add origin https://github.com/liuqiyu/dd.git
 
 git push -u origin master
 ```
+
+> 强制本地代码覆盖服务器
+
+`git push -f`
