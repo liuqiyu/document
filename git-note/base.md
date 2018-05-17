@@ -17,9 +17,9 @@
 
 git  rm -r --cached .idea  
 
- git add .
+git add .
  
-  git commit -m 'delete workspace.xml' 
+git commit -m 'delete workspace.xml' 
 ```
 
 > 本地项目上传到github
