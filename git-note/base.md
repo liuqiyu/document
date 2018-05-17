@@ -15,7 +15,11 @@
 
 // 若添加后还存在.workspace.xml冲突问题，
 
-git  rm -r --cached .idea    
+git  rm -r --cached .idea  
+
+ git add .
+ 
+  git commit -m 'delete workspace.xml' 
 ```
 
 > 本地项目上传到github
