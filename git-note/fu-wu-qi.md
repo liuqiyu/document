@@ -13,6 +13,7 @@ pwd
 cd -
 logout
 ssh-keygen
-ssh-copy-id dev@192.168.105.112
+ssh-copy-id dev@192.168.1**.***
+
 
 ```
