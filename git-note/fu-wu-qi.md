@@ -15,5 +15,4 @@ logout
 ssh-keygen
 ssh-copy-id dev@192.168.1**.***
 
-
 ```
