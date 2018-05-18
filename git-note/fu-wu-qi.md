@@ -40,5 +40,4 @@ server {
      index index.html;
      root /data/www/msoa/dist;
 }
-
 ```
