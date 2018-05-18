@@ -16,3 +16,21 @@ ssh-keygen
 ssh-copy-id dev@192.168.1**.***
 
 ```
+
+### 前端发布代码并配置服务器
+
+```
+/data/www  git clone ~
+
+cd msoa
+git status
+ls
+cd dist
+pwd
+cd /etc/nginx/conf.d/
+ls
+cp ~~ msoa.stosz.com.conf
+vim msoa.stosz.com.conf
+service nginx restart
+cat ~ 查看
+```
