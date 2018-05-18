@@ -33,4 +33,12 @@ cp ~~ msoa.stosz.com.conf
 vim msoa.stosz.com.conf
 service nginx restart
 cat ~ 查看
+
+server {
+     listen 8099;
+     server_name msoa.stosz.com;
+     index index.html;
+     root /data/www/msoa/dist;
+}
+
 ```
