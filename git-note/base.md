@@ -19,7 +19,7 @@ git  rm -r --cached .idea
 
 git add .
  
-git commit -m 'delete workspace.xml' 
+git commit -am 'delete workspace.xml' 
 
 git push -f
 ```
