@@ -17,37 +17,3 @@ const instance = axios.create({
 export default instance;
 ```
 
-### POST表单
-
-```js
-const addParame = form => api.post(path.addParame, form, {
-  headers: {
-    'Content-Type': 'application/x-www-form-urlencoded',
-  },
-  transformRequest: [(data) => {
-  // Do whatever you want to transform the data
-    let ret = '';
-    const keys = Object.keys(data);
-    keys.forEach((key) => {
-      ret += `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}&`;
-    });
-    const newRet = ret.slice(0, ret.length - 1);
-    return newRet;
-  }],
-});
-```
-
-### GET方法
-
-```js
-const getPpoolInfos = (page, count, formValue) => api.get(path.ppoolInfos, {
-  params: {
-    page,
-    count,
-    score_type: formValue.score_type,
-    sort_type: formValue.sort_type,
-    category_id: formValue.category_id,
-    website_id: formValue.website_id,
-  },
-});
-```
