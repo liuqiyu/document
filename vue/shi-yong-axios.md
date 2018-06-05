@@ -36,3 +36,18 @@ const addParame = form => api.post(path.addParame, form, {
   }],
 });
 ```
+
+### GET方法
+
+```js
+const getPpoolInfos = (page, count, formValue) => api.get(path.ppoolInfos, {
+  params: {
+    page,
+    count,
+    score_type: formValue.score_type,
+    sort_type: formValue.sort_type,
+    category_id: formValue.category_id,
+    website_id: formValue.website_id,
+  },
+});
+```
