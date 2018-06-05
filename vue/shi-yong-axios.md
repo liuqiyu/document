@@ -20,33 +20,19 @@ export default instance;
 ### POST表单
 
 ```js
-axios.post(`${config.host}/psuser/login`, this.form, {
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        transformRequest: [(data) => {
-          // Do whatever you want to transform the data
-          let ret = '';
-          Object.keys(data).forEach((value) => {
-            ret += `${encodeURIComponent(value)}=${encodeURIComponent(data[value])}&`;
-          });
-          const newRet = ret.slice(0, ret.length - 1);
-          return newRet;
-        }],
-      })
-        .then((res) => {
-          if (res.data.info.status_code === 200) {
-            const data = res.data.info.data;
-            window.sessionStorage.setItem('userinfo', JSON.stringify(data));
-            setTimeout(() => {
-              this.$router.push({ path: '/search' });
-            }, 100);
-            this.$message({
-              message: '登录成功',
-              type: 'success',
-            });
-          } else {
-            this.$message.error(res.data.info.message);
-          }
-        });
+const addParame = form => api.post(path.addParame, form, {
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded',
+  },
+  transformRequest: [(data) => {
+  // Do whatever you want to transform the data
+    let ret = '';
+    const keys = Object.keys(data);
+    keys.forEach((key) => {
+      ret += `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}&`;
+    });
+    const newRet = ret.slice(0, ret.length - 1);
+    return newRet;
+  }],
+});
 ```
