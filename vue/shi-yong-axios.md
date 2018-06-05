@@ -3,7 +3,6 @@
 ### 封装方法
 
 ```js
-
 import axios from 'axios';
 import config from './../config';
 
