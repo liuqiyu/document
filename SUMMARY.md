@@ -19,6 +19,7 @@
     * [实现双向绑定](vue/yuan-li-da-gang/shi-xian-shuang-xiang-bang-ding.md)
     * [生命周期](vue/yuan-li-da-gang/sheng-ming-zhou-qi.md)
     * [注意事项](vue/yuan-li-da-gang/zhu-yi-shi-xiang.md)
+  * [使用axios](vue/shi-yong-axios.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
