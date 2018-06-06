@@ -39,3 +39,15 @@ git push -u origin master
 > 强制本地代码覆盖服务器
 
 `git push -f`
+
+<hr>
+
+
+查看所有版本： git log
+
+回退到某个版本： git reset --hard 139dcfaa558e3276b30b6b2e5cbbb9c00bbdca96  
+
+git push -f -u origin master  
+
+
+
