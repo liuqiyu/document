@@ -12,6 +12,8 @@ ll
 pwd
 cd -
 logout
+
+ssh码地址： `C:\Users\Administrator\.ssh\id_rsa.pub`
 ssh-keygen
 ssh-copy-id dev@192.168.1**.***
 
