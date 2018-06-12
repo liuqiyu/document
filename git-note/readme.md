@@ -39,3 +39,4 @@
         modified:   bb.txt
 
   ```
+  上面的提示告诉我们，`bb.txt`文件未被提交，`aa.txt`文件有更改未被commit。
