@@ -18,4 +18,24 @@
   
   第一步是用`git add .`把文件添加进去，将文件的修改放入暂存区
   第二步是用`git commit`提交更改，将暂存区的所有内容提交到当前的分支
+  
+  实践出真理，我们可以看看工作原理:
+  
+  ```
+  git status
+  
+  On branch master
+  Your branch is up-to-date with 'origin/master'.
+  Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
+        new file:   bb.txt
+
+  Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aa.txt
+        modified:   bb.txt
+
+  ```
