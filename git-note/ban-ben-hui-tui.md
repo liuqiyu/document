@@ -36,3 +36,17 @@ HEAD is now at cd8da40 'addIndex2'
 ```
 
 ### 3、回退到某个版本后，如果想要还原，要怎么办？
+
+> git reflog
+
+```
+cd8da40 HEAD@{0}: reset: moving to cd8da402c018e7a70aa81585664c657415cb65b7
+561285f HEAD@{1}: commit: '安安'
+cd8da40 HEAD@{2}: commit: 'aa'
+2bdb3e5 HEAD@{3}: commit (merge): 'aa'
+7adee8d HEAD@{4}: checkout: moving from lqy to master
+```
+
+> 还原版本
+
+`git reset --hard commit_id` `git reset --hard 561285f` `HEAD is now at 561285f '安安'`
