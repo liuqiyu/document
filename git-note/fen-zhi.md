@@ -20,6 +20,6 @@ git checkout master
 
 git mergin lqy    => lqy分支合并到master
 
-git branch -d lqy   删掉本地分支
+git branch -D lqy   删掉本地分支
 
 
