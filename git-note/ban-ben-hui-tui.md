@@ -34,3 +34,5 @@ cd8da402c018e7a70aa81585664c657415cb65b7 'aa'
 ```
 HEAD is now at cd8da40 'addIndex2'
 ```
+
+### 3、回退到某个版本后，如果想要还原，要怎么办？
