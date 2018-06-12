@@ -20,4 +20,6 @@ git checkout master
 
 git mergin lqy    => lqy分支合并到master
 
+git branch -d lqy 山吃本地分支
+
 
