@@ -31,3 +31,7 @@ git status 文件被修改了，但没有准备提交的修改。
 
 git diff 代码与版本的差异
 
+git commit -m 'update' 提交修改
+
+
+
