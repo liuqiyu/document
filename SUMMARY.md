@@ -37,6 +37,7 @@
   * [base](git-note/base.md)
   * [服务器](git-note/fu-wu-qi.md)
   * [分支](git-note/fen-zhi.md)
+  * [版本回退](git-note/ban-ben-hui-tui.md)
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
   * [echarts](vue/shi-yong-echarts.md)
