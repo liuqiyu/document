@@ -49,4 +49,4 @@ cd8da40 HEAD@{2}: commit: 'aa'
 
 >还原版本
 
-git reset --hard commit_id git reset --hard 561285f HEAD is now at 561285f '安安'
+`git reset --hard commit_id git reset --hard 561285f HEAD is now at 561285f '安安'`
