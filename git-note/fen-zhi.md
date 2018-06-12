@@ -29,3 +29,5 @@ git branch -D lqy   删掉本地分支
 
 git status 文件被修改了，但没有准备提交的修改。
 
+git diff 本地与版本的差异
+
