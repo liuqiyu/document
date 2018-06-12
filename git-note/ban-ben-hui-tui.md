@@ -39,7 +39,7 @@
     
 #### 3、回退到某个版本后，如果想要还原，要怎么办？
 
-  >  git reflog
+  > git reflog
     ```
     cd8da40 HEAD@{0}: reset: moving to cd8da402c018e7a70aa81585664c657415cb65b7
     561285f HEAD@{1}: commit: '安安'
