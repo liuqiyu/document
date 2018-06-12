@@ -24,7 +24,7 @@
   ```
   git status
   
-  On branch master
+  On branch master![](/assets/1.jpg)
   Your branch is up-to-date with 'origin/master'.
   Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -40,3 +40,13 @@
 
   ```
   上面的提示告诉我们，`bb.txt`文件未被提交，`aa.txt`文件有更改未被commit。
+  
+  先执行`git add .`，查看版本库的情况
+  
+  ![](/assets/1.jpg)
+  
+  在执行`git commit -m 'update'`，查看版本库的情况
+  
+  ![](/assets/2.jpg)
+  
+  
