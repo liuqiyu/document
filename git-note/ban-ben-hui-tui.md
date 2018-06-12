@@ -39,5 +39,5 @@
      * 回退到指定的版本
      * 完全回退，不保留之前版本
     ```
-    HEAD is now at cd8da40 'aa'
+    HEAD is now at cd8da40 'addIndex2'
     ```
