@@ -36,6 +36,7 @@
   * [git常用代码](git-note/git常用代码.md)
   * [base](git-note/base.md)
   * [服务器](git-note/fu-wu-qi.md)
+  * [分支](git-note/fen-zhi.md)
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
   * [echarts](vue/shi-yong-echarts.md)
