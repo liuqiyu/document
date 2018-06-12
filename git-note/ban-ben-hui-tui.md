@@ -35,6 +35,7 @@
     ```
     
 * 回退到指定的版本 git reset --hard 3414ee387213d0f57b823335c926047561429a79
+
     ```
     HEAD is now at cd8da40 'addIndex2'
     ```
