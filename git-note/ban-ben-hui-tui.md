@@ -48,8 +48,8 @@ cd8da40 HEAD@{2}: commit: 'aa'
 598df04 HEAD@{7}: checkout: moving from master to lqy
 
 ```
-  > 还原版本
+> 还原版本
 
-    `git reset --hard commit_id` `git reset --hard 561285f`
-    `HEAD is now at 561285f '安安'`
+`git reset --hard commit_id` `git reset --hard 561285f`
+`HEAD is now at 561285f '安安'`
     
