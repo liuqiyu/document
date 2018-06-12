@@ -10,3 +10,5 @@ git branch lqy 创建lqy分支
 
 git checkout lqy  切换到lqy分支
 
+
+git push origin lqy
