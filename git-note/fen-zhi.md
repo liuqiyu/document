@@ -33,6 +33,25 @@ lqy2
 
 <hr/>
 
+#### 查看分支情况
+
+** git log --graph --pretty=oneline --abbrev-commit **
+
+```
+* a68d2bc 'aa'
+* 51225c0 'aa'
+*   8bbf92a '推送'
+|\
+| * a7fa0fc 'lqy2修改'
+* | f33ba70 'master修改'
+|/
+* e5a4e9e '修改lqy2'
+* 24189d5 '提交Lqy2'
+* 561285f '安安'
+* cd8da40 'aa'
+:...skipping...
+```
+
 
 
 
