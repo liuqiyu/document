@@ -15,3 +15,7 @@ git tag v1.0
 查看所有版本: git log --pretty=oneline --abbrev-commit
 
 给指定版本打标签： git tag v0.9 f52c633
+
+#### 查看指定标签
+
+git show v1.1
