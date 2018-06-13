@@ -4,15 +4,15 @@
 
 #### 查看标签  
 
-git tag
+> git tag
 
 #### 创建标签
 
-git tag v1.0
+> git tag v1.0
 
 #### 给版本打标签
 
-查看所有版本: git log --pretty=oneline --abbrev-commit
+> 查看所有版本: git log --pretty=oneline --abbrev-commit
 
 ```
 7db38cd 'tag'
@@ -22,11 +22,11 @@ a68d2bc 'aa'
 a7fa0fc 'lqy2修改'
 ```
 
-给指定版本打标签： git tag v0.9 f52c633
+> 给指定版本打标签： git tag v0.9 f52c633
 
 #### 查看指定标签
 
-git show v1.1
+> git show v1.1
 
 ```
 commit 7db38cd99942a0daf8bfb447275d94a35a3cf0fb
