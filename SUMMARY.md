@@ -60,4 +60,5 @@
   * [多行超多隐藏](css/duo-xing-chao-duo-yin-cang.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
+  * [webSocket](html5/websocket.md)
 
