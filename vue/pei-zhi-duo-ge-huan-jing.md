@@ -36,8 +36,7 @@ module.exports = {
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "test": "node build/test.js",
-    "preview": "node build/preview.js"
+    "test": "node build/test.js"
   },
 ```
 
