@@ -20,6 +20,7 @@
     * [生命周期](vue/yuan-li-da-gang/sheng-ming-zhou-qi.md)
     * [注意事项](vue/yuan-li-da-gang/zhu-yi-shi-xiang.md)
   * [eslint解决方案](vue/eslintjie-jue-fang-an.md)
+  * [配置多个环境](vue/pei-zhi-duo-ge-huan-jing.md)
 * [javascript](javascript/readme.md)
   * [promise](javascript/promise.md)
   * [new-array](javascript/new-array.md)
