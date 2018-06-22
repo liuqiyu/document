@@ -30,7 +30,7 @@ module.exports = {
 
 ### 4、package.json
 
-```js
+```json
 "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
