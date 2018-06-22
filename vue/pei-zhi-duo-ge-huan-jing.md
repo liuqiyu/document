@@ -18,5 +18,17 @@ const webpackConfig = require('./webpack.test.conf')
 const env = require('../config/test.env')
 ```
 
+### 3、/config/test.env.js
+
+复制prod.env.js ==>test.env.js,代码如下：
+```js
+'use strict'
+module.exports = {
+  NODE_ENV: '"test"'
+}
+
+```
+
+
 
 
