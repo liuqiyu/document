@@ -2,7 +2,7 @@
 
 vue-cli默认只有两个环境，`development`和`production`。但是在实际开发中特别是大团队中，会要求有测试环境或者更多。要怎么办呢？
 
-### 1、/build/test.js
+### 1 /build/test.js
 
 复制build.js ==> test.js,代码如下：
 ```js
@@ -10,7 +10,7 @@ vue-cli默认只有两个环境，`development`和`production`。但是在实际
 const webpackConfig = require('./webpack.test.conf')
 ```
 
-### 2、/build/webpack.test.conf.js
+### 2 /build/webpack.test.conf.js
 
 复制webpack.prod.conf.js ==> /webpack.test.conf.js,代码如下：
 ```js
@@ -18,7 +18,7 @@ const webpackConfig = require('./webpack.test.conf')
 const env = require('../config/test.env')
 ```
 
-### 3、/config/test.env.js
+### 3 /config/test.env.js
 
 复制prod.env.js ==>test.env.js,代码如下：
 ```js
@@ -28,7 +28,7 @@ module.exports = {
 }
 ```
 
-### 4、package.json
+### 4 package.json
 
 ```json
 "scripts": {
