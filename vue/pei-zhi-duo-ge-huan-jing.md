@@ -26,7 +26,6 @@ const env = require('../config/test.env')
 module.exports = {
   NODE_ENV: '"test"'
 }
-
 ```
 
 
