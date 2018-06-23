@@ -36,6 +36,8 @@ http {
 		server_name www.example.com;
 # location / {}访问根路径
 		location / {
+# 实现反向代理
+
 			proxy_pass http://192.168.220.189:93;
 		}
 	}
