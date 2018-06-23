@@ -40,13 +40,14 @@ Nginx是一个高性能的`HTTP`和`反向代理`服务器，也是一个`IMAP/P
 ##### 反向代理 vs 正向代理
 
 ```json
-	server {
-		listen 4567;
-		server_name www.example.com;
-		location / {
-			proxy_pass http://192.168.220.189:93;
-		}
+server {
+	listen 4567;
+	server_name www.example.com;
+	location / {
+		proxy_pass http://192.168.220.189:93;
 	}
-	
+}
+
+
 ```
  
