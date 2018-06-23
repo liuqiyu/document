@@ -19,7 +19,7 @@ Nginx是一个高性能的`HTTP`和`反向代理`服务器，也是一个`IMAP/P
 * 检查配置: nginx -t
     ```
     nginx: the configuration file /usr/local/etc/nginx/nginx.conf syntax is ok
-     nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
+    nginx: configuration file /usr/local/etc/nginx/nginx.conf test is successful
     ```
 <hr/>
 
