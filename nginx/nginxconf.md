@@ -13,6 +13,8 @@ events {
 }
 http {
 # 负载均衡就靠它
+# 语法格式：upstream name {}
+# 里面写的两个server分别对应着不同的服务器
     upstream firstdemo {
         server 39.106.145.33;
         server 47.93.6.93;
