@@ -44,7 +44,7 @@ server {
 	listen 4567;  // 监听端口
 	server_name www.example.com; // 映射域名
 	location / {
-		proxy_pass http://192.168.220.189:93;
+		proxy_pass http://192.168.220.189:93;  // 代理的地址
 	}
 }
 ```
