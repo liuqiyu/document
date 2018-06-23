@@ -29,6 +29,7 @@ http {
 	server {
 		listen      4567;
 		server_name www.example.com;
+		# 实现反向代理
 		location / {
 			proxy_pass http://192.168.220.189:93;
 		}
