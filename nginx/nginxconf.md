@@ -12,6 +12,7 @@ events {
     worker_connections 1024;
 }
 http {
+# 负载均衡就靠它
     upstream firstdemo {
         server 39.106.145.33;
         server 47.93.6.93;
