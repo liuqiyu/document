@@ -2,7 +2,7 @@
 
 `nginx.conf`就是nginx服务器的配置文件。
 
-* 普通的配置文件
+* 配置文件
 ```json
 # 工作进程数，和CPU核数相同
 worker_processes 1;
@@ -34,6 +34,3 @@ http {
 	}
 }
 ```
-
-* 配置文件解释
-![](/assets/TIM截图20180623143109.png)
