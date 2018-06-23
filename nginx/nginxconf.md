@@ -31,6 +31,7 @@ http {
 	}
 	
 	server {
+# isten监督端口号
 		listen      4567;
 		server_name www.example.com;
 # 实现反向代理
