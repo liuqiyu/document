@@ -42,7 +42,7 @@ http {
 
 * 日常使用
 
-```json
+```
 server {
     listen       80;
     server_name  chd.news.so.m.qss.test.so.com ;
