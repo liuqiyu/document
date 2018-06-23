@@ -3,6 +3,7 @@
 `nginx.conf`就是nginx服务器的配置文件。
 
 * 配置文件
+
 ```json
 # 工作进程数，和CPU核数相同
 worker_processes 1;
