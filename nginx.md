@@ -63,5 +63,8 @@ server {
 * http重定向
 * DNS负载均衡
 * 反向代理负载均衡
+* IP负载均衡(LVS-NAT)
+* 直接路由(LVS-DR)
+* IP隧道(LVS-TUN)
 
 
