@@ -8,6 +8,7 @@
 worker_processes 1;
 
 events {
+# 每个进程允许的最大连接数
     worker_connections 1024;
 }
 http {
