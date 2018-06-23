@@ -16,30 +16,26 @@ http {
 # 负载均衡就靠它
 # 语法格式：upstream name {}
 # 里面写的两个server分别对应着不同的服务器
-    upstream firstdemo {
+   upstream firstdemo {
         server 39.106.145.33;
         server 47.93.6.93;
     }
-	
     server {
-		listen       1993;
-		server_name  www.abab.com;
-		location / {
-			root   html;
-			index  index.html index.htm;
-		}
-	}
-	
-	server {
+        listen 8080;
+        location / {
+            proxy_pass http://firstdemo;
+        }
+    }
+    server {
 # isten监督端口号
-		listen      4567;
-		server_name www.example.com;
+	listen      4567;
+	server_name www.example.com;
 # location / {}访问根路径
-		location / {
+	location / {
 # 实现反向代理
 # proxy_pass http://firstdemo，代理到firstdemo里两个服务器上
-			proxy_pass http://192.168.220.189:93;
-		}
+	    proxy_pass http://192.168.220.189:93;
 	}
+     }
 }
 ```
