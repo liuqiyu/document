@@ -63,4 +63,5 @@
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
 * [nginx](nginx.md)
+  * [nginx.conf](nginx/nginxconf.md)
 
