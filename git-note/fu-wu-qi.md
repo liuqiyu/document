@@ -60,3 +60,5 @@ andthe repository exists.
 
 * 将公钥复制到`github` `alicode` ssh.
 
+* 然后 git clone **************
+
