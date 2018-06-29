@@ -33,6 +33,7 @@ cd /etc/nginx/conf.d/
 ls
 cp ~~ msoa.stosz.com.conf
 vim msoa.stosz.com.conf
+**如果不可编辑，可按insert键**
 service nginx restart
 cat ~ 查看
 
