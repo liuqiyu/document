@@ -43,3 +43,16 @@ server {
      root /data/www/msoa/dist;
 }
 ```
+
+### 服务器克隆不了文件
+
+```
+Permissiondenied (publickey).
+
+fatal:Could not read from remote repository.
+
+Pleasemake sure you have the correct access rights
+
+andthe repository exists.
+```
+
