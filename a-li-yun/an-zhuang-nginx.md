@@ -1,6 +1,7 @@
 # 阿里云安装nginx
 
 <hr/>
+##### 1、安装gcc gcc-c++ PCRE库
 
 ```json
 
