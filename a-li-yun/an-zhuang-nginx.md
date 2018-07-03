@@ -3,7 +3,6 @@
 <hr/>
 
 ```json
-
 yum install -y gcc gcc-c++
 cd /usr/local/
 wget http://jaist.dl.sourceforge.net/project/pcre/pcre/8.33/pcre-8.33.tar.gz
@@ -20,12 +19,12 @@ make && make install
 <hr/>
 
 ```json
-$ cd /usr/local/
-$ wget http://www.openssl.org/source/openssl-1.0.1j.tar.gz
-$ tar -zxvf openssl-1.0.1j.tar.gz
-$ cd openssl-1.0.1j
-$ ./config
-$ make && make install
+cd /usr/local/
+wget http://www.openssl.org/source/openssl-1.0.1j.tar.gz
+tar -zxvf openssl-1.0.1j.tar.gz
+cd openssl-1.0.1j
+./config
+make && make install
 ```
 
 </hr>
