@@ -18,4 +18,7 @@
 export NODE_HOME=/kaway/software/node-v8.4.0-linux-x64/bin //解压后的文件目录，可用pwd查看，bin为文件家中的子目录
 export PATH=$NODE_HOME:$PATH
 ```
+#### 4、重启
+
+`node -v`
 
