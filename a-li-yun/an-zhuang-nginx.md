@@ -21,7 +21,6 @@ make && make install
 <hr/>
 ##### 2、安装SSL库
 
-
 ```json
 
 cd /usr/local/
@@ -33,7 +32,7 @@ make && make install
 ```
 
 </hr>
-##### 2、安装SSL库
+##### 2、安装zlib库
 
 ```json
 
