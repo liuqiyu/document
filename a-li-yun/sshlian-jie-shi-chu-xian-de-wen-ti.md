@@ -21,3 +21,4 @@ RSA host key for 192.168.1.90 has changed and you have requested strict checking
 Host key verification failed.
 ```
 
+**解决方案**： `vi ~/.ssh/known_hosts`
