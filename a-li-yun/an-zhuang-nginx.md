@@ -2,14 +2,14 @@
 
 <hr/>
 
-```
- yum install -y gcc gcc-c++
- cd /usr/local/
- wget http://jaist.dl.sourceforge.net/project/pcre/pcre/8.33/pcre-8.33.tar.gz
- tar -zxvf pcre-8.36.tar.gz
- cd pcre-8.36
- ./configure
- make && make install
+```json
+yum install -y gcc gcc-c++
+cd /usr/local/
+wget http://jaist.dl.sourceforge.net/project/pcre/pcre/8.33/pcre-8.33.tar.gz
+tar -zxvf pcre-8.36.tar.gz
+cd pcre-8.36
+./configure
+make && make install
 
 如报错:configure: error: You need a C++ compiler for C++ support
 解决:yum install -y gcc gcc-c++
