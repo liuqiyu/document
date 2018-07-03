@@ -53,3 +53,12 @@ $ make && make install
 在–prefix后面接以下命令:
 --with-pcre=/usr/local/pcre-8.36 指的是pcre-8.36 的源码路径。--with-zlib=/usr/local/zlib-1.2.8 指的是zlib-1.2.8 的源码路径。
 ```
+
+<hr/>
+```json
+启动： /usr/local/nginx/sbin/nginx
+
+重启： /usr/local/nginx/sbin/nginx -s reload
+
+停止： /usr/local/nginx/sbin/nginx -s stop
+```
