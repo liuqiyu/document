@@ -49,4 +49,7 @@ $ ./configure --user=nobody --group=nobody --prefix=/usr/local/nginx --with-http
 $ make && make install
  
 报错:./configure: error: the HTTP gzip module requires the zlib library
+
+在–prefix后面接以下命令:
+--with-pcre=/usr/local/pcre-8.36 指的是pcre-8.36 的源码路径。--with-zlib=/usr/local/zlib-1.2.8 指的是zlib-1.2.8 的源码路径。
 ```
