@@ -64,7 +64,7 @@ $ make && make install
 ```
 
 <hr/>
-##### 4、使用nginx
+##### 5、使用nginx
 
 ```json
 启动： /usr/local/nginx/sbin/nginx
