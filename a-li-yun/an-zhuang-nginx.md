@@ -35,3 +35,18 @@ tar -zxvf zlib-1.2.11.tar.gz
 ./configure
 make && make install
 ```
+
+<hr/>
+
+```json
+
+$ cd /usr/local/
+$ wget http://nginx.org/download/nginx-1.8.0.tar.gz
+$ tar -zxvf nginx-1.8.0.tar.gz
+$ cd nginx-1.8.0 
+$ ./configure --user=nobody --group=nobody --prefix=/usr/local/nginx --with-http_stub_status_module --with-http_gzip_static_module --with-http_realip_module --with-http_sub_module --with-http_ssl_module
+(注: --with-http_ssl_module:这个不加后面在nginx.conf配置ssl:on后,启动会报nginx: [emerg] unknown directive "ssl" in /opt/nginx/conf/nginx.conf 异常)
+$ make && make install
+ 
+报错:./configure: error: the HTTP gzip module requires the zlib library
+```
