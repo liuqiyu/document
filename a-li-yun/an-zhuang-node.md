@@ -20,5 +20,9 @@ export PATH=$NODE_HOME:$PATH
 ```
 #### 4、重启
 
-`node -v`
+```
+node -v
+
+// v8.4.0
+````
 
