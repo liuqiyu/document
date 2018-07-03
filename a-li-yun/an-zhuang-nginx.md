@@ -55,6 +55,7 @@ $ make && make install
 ```
 
 <hr/>
+
 ```json
 启动： /usr/local/nginx/sbin/nginx
 
