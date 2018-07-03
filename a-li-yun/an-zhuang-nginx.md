@@ -32,7 +32,7 @@ make && make install
 ```
 
 </hr>
-##### 2、安装zlib库
+##### 3、安装zlib库
 
 ```json
 
@@ -45,7 +45,7 @@ make && make install
 
 <hr/>
 
-##### 3、安装nginx
+##### 4、安装nginx
 
 ```json
 
