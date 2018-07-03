@@ -66,4 +66,5 @@
   * [nginx.conf](nginx/nginxconf.md)
 * [阿里云](a-li-yun.md)
   * [安装node](a-li-yun/an-zhuang-node.md)
+  * [安装git](a-li-yun/an-zhuang-git.md)
 
