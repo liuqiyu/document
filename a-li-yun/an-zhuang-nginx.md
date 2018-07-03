@@ -62,4 +62,6 @@ $ make && make install
 重启： /usr/local/nginx/sbin/nginx -s reload
 
 停止： /usr/local/nginx/sbin/nginx -s stop
+
+测试配置文件是否正常: /usr/local/nginx/sbin/nginx -t
 ```
