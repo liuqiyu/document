@@ -43,7 +43,7 @@ make && make install
 ```
 
 <hr/>
-##### 安装nginx
+##### 3=、安装nginx
 
 ```json
 
