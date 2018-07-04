@@ -3,6 +3,7 @@
 ##### 1、MYSQL安装
 
 ```json
+安装rpm包
 rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 
 
