@@ -19,5 +19,9 @@ systemctl start mysqld
 mysql_secure_installation
 
 ```
-
 ![](/assets/1138059-20170614201554493-1071737203.png)
+
+```json
+开启一个新的shell窗口，链接数据库
+mysql -u root -p
+```
