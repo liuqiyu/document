@@ -25,3 +25,15 @@ mysql_secure_installation
 开启一个新的shell窗口，链接数据库
 mysql -u root -p
 ```
+
+#### 2、遇到问题
+
+`Host 'xxx' is not allowed to connect to this MySQL server`
+
+**解决方案**
+
+* 登录mysql： `mysql -uroot -ppwd`
+* 查看user表： `use mysql`
+* `select host,user,password from user;`
+* `update user set host = '%' where user = 'root';`
+* 更新： `FLUSH PRIVILEGES;`
