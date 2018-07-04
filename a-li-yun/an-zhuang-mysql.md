@@ -5,8 +5,10 @@
 ```json
 rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 
+加入开机启动
 yum -y install mysql-community-server
 
+启动MySQL服务进程
 systemctl enable mysqld
 
 systemctl start mysqld
