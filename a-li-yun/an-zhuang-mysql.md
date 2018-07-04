@@ -6,7 +6,7 @@
 安装rpm包
 rpm -Uvh http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 
-
+安装mysql
 yum -y install mysql-community-server
 
 加入开机启动
