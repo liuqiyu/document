@@ -70,4 +70,5 @@
   * [SSH连接时出现的问题](a-li-yun/sshlian-jie-shi-chu-xian-de-wen-ti.md)
   * [安装nginx](a-li-yun/an-zhuang-nginx.md)
   * [安装mysql](a-li-yun/an-zhuang-mysql.md)
+* [mysql](mysql.md)
 
