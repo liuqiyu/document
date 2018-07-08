@@ -15,7 +15,7 @@ MYSQL是最流行的关系型数据库管理系统。
 ## 基本入门
 
 <a name="connect"></a>
-### 连接MYSQL
+#### 连接MYSQL
 
 我们先连接mysql服务器：
 
@@ -24,7 +24,7 @@ mysql -u root -p
 Enter password: *****
 ```
 
-### 查看、选择、创建、删除数据库
+#### 查看、选择、创建、删除数据库
 
 * 查看数据库
 
@@ -66,7 +66,7 @@ mysql> drop database test;
 Query OK, 0 rows affected (0.00 sec)
 ```
 
-### MYSQL 数据类型
+#### MYSQL 数据类型
 
 MySql支持多种类型，大致可以分为三类： 数值、日期/时间和字符串类型。
 
