@@ -38,6 +38,7 @@ Enter password: *****
 <a name="operationDatabase"></a>
 #### 数据库操作
 
+<a name="showDatabase"></a>
 * 查看数据库
 
 ```json
@@ -54,6 +55,7 @@ mysql> show databases;
 4 rows in set (0.00 sec)
 ```
 
+<a name="selectDatabase"></a>
 * 选择数据库
 
 ```json
@@ -62,6 +64,7 @@ mysql> use mysql;
 Database changed
 ```
 
+<a name="createDatabase"></a>
 * 创建数据库
 
 ```json
@@ -70,6 +73,7 @@ mysql> create database test;
 Query OK, 1 row affected (0.00 sec)
 ```
 
+<a name="dropDatabase"></a>
 * 删除数据库
 
 ```json
