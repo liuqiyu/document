@@ -11,7 +11,11 @@ MYSQL是最流行的关系型数据库管理系统。
  * [连接MYSQL](#connect)
  * [查看、选择、创建、删除数据库](#operationDatabase)
  * [mysql数据类型](#datatype)
- * [mysql数据类型](#operationTables)
+ * [创建、删除数据表
+
+
+
+](#operationTables)
 
 <a name="base"></a>
 ## 基本入门
