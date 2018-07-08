@@ -77,5 +77,17 @@ MySql支持多种类型，大致可以分为三类： 数值、日期/时间和�
 <a name="operationTables"></a>
 #### 创建、删除数据表
 
+* 创建数据库
+
+```json
+CREATE TABLE IF NOT EXISTS `runoob_tbl`(
+   `runoob_id` INT UNSIGNED AUTO_INCREMENT,
+   `runoob_title` VARCHAR(100) NOT NULL,
+   `runoob_author` VARCHAR(40) NOT NULL,
+   `submission_date` DATE,
+   PRIMARY KEY ( `runoob_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
 
 
