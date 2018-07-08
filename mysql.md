@@ -7,10 +7,17 @@ MYSQL是最流行的关系型数据库管理系统。
 
 ## 目录
 
-* [连接MYSQL](#connect)
+* [基本入门](#base)
+ * [连接MYSQL](#connect)
+
+
+<a name="base"></a>
+## 基本入门
+
+<a name="connect"></a>
+### 连接MYSQL
 
 
 
-## 连接MYSQL
 
 
