@@ -42,5 +42,13 @@ mysql> show databases;
 4 rows in set (0.00 sec)
 ```
 
+* 创建数据库
+
+```json
+mysql> create database test;
+
+
+```
+
 
 
