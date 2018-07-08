@@ -11,7 +11,7 @@ MYSQL是最流行的关系型数据库管理系统。
  * [连接MYSQL](#connect)
  * [查看、选择、创建、删除数据库](#operationDatabase)
  * [mysql数据类型](#datatype)
-
+ * [mysql数据类型](#operationTables)
 
 <a name="base"></a>
 ## 基本入门
@@ -74,7 +74,7 @@ Query OK, 0 rows affected (0.00 sec)
 
 MySql支持多种类型，大致可以分为三类： 数值、日期/时间和字符串类型。
 
-<a name="datatype"></a>
+<a name="operationTables"></a>
 #### 创建、删除数据表
 
 
