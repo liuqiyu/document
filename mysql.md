@@ -10,7 +10,7 @@ MYSQL是最流行的关系型数据库管理系统。
 * [基本入门](#base)
   * [连接MYSQL](#connect)
   * [数据库操作](#operationDatabase)
-    * [查看](#showDataBase)
+    * [查看](#aa)
     * [选择](#selectDtaBase)
     * [创建](#createDataBase)
     * [删除](#dropDataBase)
@@ -39,7 +39,7 @@ Enter password: *****
 <a name="operationDatabase"></a>
 #### 数据库操作
 
-<a name="showDataBase"></a>
+<a name="aa"></a>
 * 查看数据库
 
 ```json
