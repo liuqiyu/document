@@ -17,7 +17,12 @@ MYSQL是最流行的关系型数据库管理系统。
 <a name="connect"></a>
 ### 连接MYSQL
 
+我们先连接mysql服务器：
 
+```json
+mysql -u root -p
+Enter password: *****
+```
 
 
 
