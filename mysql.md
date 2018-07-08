@@ -65,7 +65,7 @@ mysql> use mysql;
 Database changed
 ```
 
-<a name="createDatabase"></a>
+<a name="createDataBase"></a>
 * 创建数据库
 
 ```json
