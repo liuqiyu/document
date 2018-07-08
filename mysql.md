@@ -80,7 +80,7 @@ MySql支持多种类型，大致可以分为三类： 数值、日期/时间和�
 * 创建数据库
 
 ```json
-CREATE TABLE IF NOT EXISTS `runoob_tbl`(
+mysql> CREATE TABLE IF NOT EXISTS `runoob_tbl`(
    `runoob_id` INT UNSIGNED AUTO_INCREMENT,
    `runoob_title` VARCHAR(100) NOT NULL,
    `runoob_author` VARCHAR(40) NOT NULL,
@@ -89,5 +89,10 @@ CREATE TABLE IF NOT EXISTS `runoob_tbl`(
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
+* 删除数据库
+
+```json
+mysql> DROP TABLE runoob_tbl;
+```
 
 
