@@ -10,10 +10,10 @@ MYSQL是最流行的关系型数据库管理系统。
 * [基本入门](#base)
   * [连接MYSQL](#connect)
   * [数据库操作](#operationDatabase)
-    * [查看]
-    * [选择]
-    * [创建]
-    * [删除]
+    * [查看](#showDataBase)
+    * [选择](#selectDtaBase)
+    * [创建](#createDataBase)
+    * [删除](#dropDataBase)
   * [mysql数据类型](#datatype)
   * [数据表操作](#operationTables)
     * [创建数据表](#createTable)
@@ -124,7 +124,3 @@ Query OK, 1 row affected (0.00 sec)
 ```json
 select * from arms;
 ```
-
-
-
-
