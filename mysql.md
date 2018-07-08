@@ -8,13 +8,15 @@ MYSQL是最流行的关系型数据库管理系统。
 ## 目录
 
 * [基本入门](#base)
- * [连接MYSQL](#connect)
- * [查看、选择、创建、删除数据库](#operationDatabase)
- * [mysql数据类型](#datatype)
- * [数据表操作](#operationTables)
- * [数据操作](#operationData)
-  * [插入数据](#insertData)
-  * [查询数据](#selectData)
+  * [连接MYSQL](#connect)
+  * [查看、选择、创建、删除数据库](#operationDatabase)
+  * [mysql数据类型](#datatype)
+  * [数据表操作](#operationTables)
+    * [创建数据表](#createTable)
+    * [删除数据表](#dropTable)
+  * [数据操作](#operationData)
+    * [插入数据](#insertData)
+    * [查询数据](#selectData)
  
 <a name="base"></a>
 ## 基本入门
@@ -81,7 +83,7 @@ MySql支持多种类型，大致可以分为三类： 数值、日期/时间和�
 #### 数据表操作
 
 <a name="createTable"></a>
-* 创建数据库
+* 创建数据表
 
 ```json
 mysql> CREATE TABLE IF NOT EXISTS `runoob_tbl`(
@@ -94,7 +96,7 @@ mysql> CREATE TABLE IF NOT EXISTS `runoob_tbl`(
 ```
 
 <a name="dropTable"></a>
-* 删除数据库
+* 删除数据表
 
 ```json
 mysql> DROP TABLE runoob_tbl;
