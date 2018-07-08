@@ -103,7 +103,6 @@ mysql> DROP TABLE runoob_tbl;
 
 ```json
 insert into arms (name, img_src, type_id, descript, remarks) values ('碎 片手雷', 'www', 8, '手雷手雷', '哈哈，炸死你');
-
 ```
 
 
