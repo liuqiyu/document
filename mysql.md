@@ -1,1 +1,1 @@
-![](/assets/mysql.png = 600)
+<img src="/assets/mysql.png " width="500" hegiht="313" align=center />
