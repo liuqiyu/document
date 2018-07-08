@@ -48,7 +48,6 @@ mysql> show databases;
 mysql> create database test;
 
 Query OK, 1 row affected (0.00 sec)
-
 ```
 
 
