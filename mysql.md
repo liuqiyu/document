@@ -44,6 +44,12 @@ mysql> show databases;
 
 * 选择数据库
 
+```json
+mysql> use mysql;
+
+Database changed
+```
+
 * 创建数据库
 
 ```json
