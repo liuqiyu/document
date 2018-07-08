@@ -76,7 +76,7 @@ Query OK, 0 rows affected (0.00 sec)
 MySql支持多种类型，大致可以分为三类： 数值、日期/时间和字符串类型。
 
 <a name="operationTables"></a>
-##### 创建、删除数据表
+##### 数据表操作
 
 * 创建数据库
 
