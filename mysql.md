@@ -42,6 +42,8 @@ mysql> show databases;
 4 rows in set (0.00 sec)
 ```
 
+* 选择数据库
+
 * 创建数据库
 
 ```json
