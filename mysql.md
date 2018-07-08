@@ -143,5 +143,5 @@ update arms set name = '手雷1' where id = 30;
 * 删除数据
 
 ```json
-update arms set name = '手雷1' where id = 30;
+delete from arms where id = 30;
 ```
