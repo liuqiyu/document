@@ -110,6 +110,9 @@ insert into arms (name, img_src, type_id, descript, remarks) values ('碎 片手
 Query OK, 1 row affected (0.00 sec)
 ```
 
+<a name="selectData"></a>
+* 查询数据
+
 
 
 
