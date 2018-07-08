@@ -39,7 +39,7 @@ Enter password: *****
 <a name="operationDatabase"></a>
 #### 数据库操作
 
-<a name="showDatabase"></a>
+<a name="showDataBase"></a>
 * 查看数据库
 
 ```json
