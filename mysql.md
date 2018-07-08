@@ -24,5 +24,24 @@ mysql -u root -p
 Enter password: *****
 ```
 
+### 查看、创建删除数据库
+
+* 查看数据库
+
+```json
+mysql> show databases;
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| test               |
++--------------------+
+4 rows in set (0.00 sec)
+
+```
+
 
 
