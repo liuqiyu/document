@@ -21,6 +21,8 @@ MYSQL是最流行的关系型数据库管理系统。
   * [数据操作](#operationData)
     * [插入数据](#insertData)
     * [查询数据](#selectData)
+    * [更新数据](#updateData)
+    * [删除数据](#deleteData)
 
 <hr/> 
 <a name="base"></a>
@@ -128,4 +130,11 @@ Query OK, 1 row affected (0.00 sec)
 
 ```json
 select * from arms where id = 1;
+```
+
+<a name="updateData"></a>
+* 更新数据
+
+```json
+update arms set name = '手雷1' where id = 30;
 ```
