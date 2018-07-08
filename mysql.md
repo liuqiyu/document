@@ -50,5 +50,13 @@ mysql> create database test;
 Query OK, 1 row affected (0.00 sec)
 ```
 
+* 删除数据库
+
+```json
+mysql> drop database test;
+
+Query OK, 0 rows affected (0.00 sec)
+```
+
 
 
