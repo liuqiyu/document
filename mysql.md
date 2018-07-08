@@ -17,7 +17,7 @@ MYSQL是最流行的关系型数据库管理系统。
 ## 基本入门
 
 <a name="connect"></a>
-#### 连接MYSQL
+##### 连接MYSQL
 
 我们先连接mysql服务器：
 
@@ -27,7 +27,7 @@ Enter password: *****
 ```
 
 <a name="operationDatabase"></a>
-#### 查看、选择、创建、删除数据库
+##### 查看、选择、创建、删除数据库
 
 * 查看数据库
 
@@ -70,12 +70,12 @@ Query OK, 0 rows affected (0.00 sec)
 ```
 
 <a name="datatype"></a>
-#### MYSQL 数据类型
+##### MYSQL 数据类型
 
 MySql支持多种类型，大致可以分为三类： 数值、日期/时间和字符串类型。
 
 <a name="operationTables"></a>
-#### 创建、删除数据表
+##### 创建、删除数据表
 
 * 创建数据库
 
@@ -95,6 +95,6 @@ mysql> CREATE TABLE IF NOT EXISTS `runoob_tbl`(
 mysql> DROP TABLE runoob_tbl;
 ```
 
-#### 数据增、删、该、查
+##### 数据增、删、该、查
 
 
