@@ -97,7 +97,7 @@ mysql> DROP TABLE runoob_tbl;
 ```
 
 <a name="operationData"></a>
-##### 操作数据
+##### 数据操作
 
 
 
