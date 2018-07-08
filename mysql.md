@@ -13,6 +13,7 @@ MYSQL是最流行的关系型数据库管理系统。
  * [mysql数据类型](#datatype)
  * [数据表操作](#operationTables)
  * [数据操作](#operationData)
+  * [插入数据](#insertData)
  
 <a name="base"></a>
 ## 基本入门
