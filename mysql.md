@@ -127,5 +127,5 @@ Query OK, 1 row affected (0.00 sec)
 * 查询数据
 
 ```json
-select * from arms;
+select * from arms where id = 1;
 ```
