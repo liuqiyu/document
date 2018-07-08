@@ -1,1 +1,1 @@
-![](/assets/mysql.png = 600*300)
+![](/assets/mysql.png = 600)
