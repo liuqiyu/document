@@ -66,5 +66,9 @@ mysql> drop database test;
 Query OK, 0 rows affected (0.00 sec)
 ```
 
+### MYSQL 数据类型
+
+
+
 
 
