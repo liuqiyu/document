@@ -138,3 +138,10 @@ select * from arms where id = 1;
 ```json
 update arms set name = '手雷1' where id = 30;
 ```
+
+<a name="deleteData"></a>
+* 删除数据
+
+```json
+update arms set name = '手雷1' where id = 30;
+```
