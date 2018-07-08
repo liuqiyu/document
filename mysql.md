@@ -93,6 +93,7 @@ mysql> CREATE TABLE IF NOT EXISTS `runoob_tbl`(
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 
+<a name="dropTable"></a>
 * 删除数据库
 
 ```json
