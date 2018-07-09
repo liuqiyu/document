@@ -26,6 +26,10 @@ mysql_secure_installation
 mysql -u root -p
 ```
 
+* 查看mysql是否开始
+
+`service mysqld status`
+
 #### 2、遇到问题
 
 `Host 'xxx' is not allowed to connect to this MySQL server`
