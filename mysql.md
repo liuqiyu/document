@@ -145,3 +145,6 @@ update arms set name = '手雷1' where id = 30;
 ```json
 delete from arms where id = 30;
 ```
+
+<a name="deleteData"></a>
+* like查询
