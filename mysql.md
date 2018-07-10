@@ -149,6 +149,12 @@ delete from arms where id = 30;
 
 <a name="likeData"></a>
 * like查询
+  * `%a`  // 以A结尾的数据
+  * `a%`  // 以a开始的数据
+  * `%a%` // 包含a的数据
+  * `_a_` // 三位且中间字母是a的数据
+  * `_a`  // 两位且结尾字母是a的数据
+  * `a_`  // 两位且开头字母是a的数据
 
 ```json
 select * from arms where img_src like '%5200%';
