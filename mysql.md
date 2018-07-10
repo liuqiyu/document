@@ -146,5 +146,5 @@ update arms set name = '手雷1' where id = 30;
 delete from arms where id = 30;
 ```
 
-<a name="deleteData"></a>
+<a name="likeData"></a>
 * like查询
