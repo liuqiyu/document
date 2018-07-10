@@ -168,3 +168,7 @@ select * from arms where img_src like '%5200%';
 <a name="orderBy"></a>
 * order by
 
+```json
+select * from arms order by id asc limit 0, 20;
+```
+
