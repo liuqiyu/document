@@ -163,7 +163,7 @@ select * from arms where img_src like '%5200%';
 ```
 
 <a name="union"></a>
-* union
+* union: 用于连接两个或者两个以上的数据表
 
 <a name="orderBy"></a>
 * order by
