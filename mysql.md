@@ -23,6 +23,7 @@ MYSQL是最流行的关系型数据库管理系统。
     * [查询数据](#selectData)
     * [更新数据](#updateData)
     * [删除数据](#deleteData)
+    * [like查询](#likeData)
 
 <hr/> 
 <a name="base"></a>
