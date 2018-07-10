@@ -148,3 +148,7 @@ delete from arms where id = 30;
 
 <a name="likeData"></a>
 * like查询
+
+```json
+select * from arms where img_src like '%5200%';
+```
