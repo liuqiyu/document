@@ -161,3 +161,6 @@ delete from arms where id = 30;
 ```json
 select * from arms where img_src like '%5200%';
 ```
+
+<a name="union"></a>
+* like查询
