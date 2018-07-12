@@ -73,4 +73,6 @@
 * [mysql](mysql.md)
 * [玩转gitlab](wan-zhuan-gitlab.md)
 * [google analytics](google-analytics.md)
+  * 1
+  * [跳出率和退出率](google-analytics/tiao-chu-lv-he-tui-chu-lv.md)
 
