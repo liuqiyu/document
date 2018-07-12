@@ -25,7 +25,7 @@
 * Users: 用户数，
 * Pageviews：网页浏览是指浏览器加载（或重新加载）网页的实例。网页浏览量可以定义为网页浏览总次数的指标。
 * Bounce Rate： 跳出率 -> 是单页会话（即用户从入口页离开网站而未与该网页互动的会话）所占的百分比
-* % New Sessions: 第一次访问的百分比
+* New Sessions: 第一次访问的百分比
 * Active Users: 期间内网站或应用上发起会话的唯一身份用户数
 * New visitor: 基于clientID计算，跟cookie相关，不同设备，浏览器都会生成一个新的，也就是new user会计算1
 * Return visitor: 回访用户，时间区间内第二次回访就算回访用户，应该有个时间间隔才生效的
