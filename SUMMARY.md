@@ -72,4 +72,5 @@
   * [安装mysql](a-li-yun/an-zhuang-mysql.md)
 * [mysql](mysql.md)
 * [玩转gitlab](wan-zhuan-gitlab.md)
+* [google analytics](google-analytics.md)
 
