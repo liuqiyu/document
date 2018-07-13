@@ -12,6 +12,7 @@ andthe repository exists.
 
 * ssh-keygen -t rsa -C "1064839051@qq.com"
 
+*cat ~/.ssh/id_rsa.pub
 
 * 将公钥复制到`github` `alicode` ssh.
 
