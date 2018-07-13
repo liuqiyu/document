@@ -42,6 +42,7 @@
   * [版本回退](git-note/ban-ben-hui-tui.md)
   * [标签管理](git-note/biao-qian-guan-li.md)
   * [小技巧](git-note/xiao-ji-qiao.md)
+  * [服务器克隆不了文件解决方案](git-note/fu-wu-qi-ke-long-bu-le-wen-jian-jie-jue-fang-an.md)
 * [如何优雅的使用工具](tools/readme.md)
   * [better-scroll](tools/better-scroll/better-scroll.md)
   * [echarts](vue/shi-yong-echarts.md)
