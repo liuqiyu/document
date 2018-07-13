@@ -10,7 +10,8 @@ Pleasemake sure you have the correct access rights
 andthe repository exists.
 ```
 
-* ssh-keygen -t rsa -C "邮箱地址"
+* ssh-keygen -t rsa -C "1064839051@qq.com"
+
 
 * 将公钥复制到`github` `alicode` ssh.
 
