@@ -34,6 +34,7 @@
   * [浅谈闭包](javascript/qian-tan-bi-bao.md)
   * [垃圾回收](javascript/la-ji-hui-shou.md)
   * [函数参数解构](javascript/han-shu-can-shu-jie-gou.md)
+  * [继承](javascript/ji-cheng.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [服务器](git-note/fu-wu-qi.md)
