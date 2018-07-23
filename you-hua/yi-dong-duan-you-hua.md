@@ -70,6 +70,7 @@
 ## 5、渲染优化
 
 * HTML使用Viewport
+    * <meta name=”viewport” content=”width=device-width, initial-scale=1″>
 * 减少Dom节点
 * 尽量使用CSS3动画
 * 合理使requestAnimationFrame动画代替setTimeout
