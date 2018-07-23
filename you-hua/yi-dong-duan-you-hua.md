@@ -39,3 +39,32 @@
 * 值为0时不需要任何单位
 * 标准化各种浏览器前缀
 * 避免让选择符看起来像正则表达式
+
+### 3、图片优化
+
+* 使用智图
+* 使用（css3、SVG、IconFont）代替图片
+* 使用Srcset
+* webP优于JPG
+* PNG8优于GIF
+* 首次加载不大于1014KB(基于3秒联通平均网速所能达到值)
+* 图片不宽于640
+
+### 4、脚本优化
+
+* 减少重绘和回流
+* 缓存DOM选择与计算
+* 缓存列表length
+* 尽量使用时间代理，避免批量绑定事件
+* 尽量使用ID选择器
+* 使用touchStart、touchend代替click
+
+## 5、渲染优化
+
+* HTML使用Viewport
+* 减少Dom节点
+* 尽量使用CSS3动画
+* 合理使requestAnimationFrame动画代替setTimeout
+* 适当使用Canvas动画
+* Touchmove、Scroll时间会导致多次渲染
+* 使用{ CSS3 transitions、CSS 3D transforms、Opacity、Canvas、WebGL、Video } 来触发GPU渲染
