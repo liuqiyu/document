@@ -74,10 +74,12 @@
   * [安装mysql](a-li-yun/an-zhuang-mysql.md)
 * [mysql](mysql.md)
 * [玩转gitlab](wan-zhuan-gitlab.md)
-* [google analytics](google-analytics.md)
-  * [网页价值](google-analytics/1.md)
-  * [跳出率和退出率](google-analytics/tiao-chu-lv-he-tui-chu-lv.md)
-  * [会话次数](google-analytics/hui-hua-ci-shu.md)
 * [优化](you-hua.md)
   * [移动端优化](you-hua/yi-dong-duan-you-hua.md)
+* 电商那些事儿
+  * [关于购物车](guan-yu-gou-wu-che.md)
+  * [google analytics](google-analytics.md)
+    * [网页价值](google-analytics/1.md)
+    * [跳出率和退出率](google-analytics/tiao-chu-lv-he-tui-chu-lv.md)
+    * [会话次数](google-analytics/hui-hua-ci-shu.md)
 
