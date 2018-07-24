@@ -2,6 +2,12 @@
 
 ### 使用flex实现
 
+** html **
 ```
-
+<div class="wrapper">
+    <div class="left">左边固定</div>
+    <div class="right">
+        <div class="content">右边</div>
+    </div>
+</div>
 ```
