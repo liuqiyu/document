@@ -48,5 +48,37 @@
 ### 其他解决方案
 
 ```css
+   <style>
+        .wrapper {
+            width: 400px;
+            height: 200px;
+            position: relative;
+        }
 
+        .left {
+            width: 100px;
+            height: 100%;
+            background: red;
+            line-height: 200px;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+            opacity: 0.1;
+            top: 0;
+            left: 0;
+        }
+        .right {
+            background: blue;
+            height: 100%;
+            overflow: hidden;
+            margin-left: 100px;
+        }
+        .content {
+            width: 100%;
+            height: 100px;
+            background: pink;
+            line-height: 100px;
+            text-align: center;
+        }
+    </style>
 ```
