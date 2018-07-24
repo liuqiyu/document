@@ -1,6 +1,5 @@
 # 左边固定，右边自适应解决方案
 
-
 ** html **
 ```
 <div class="wrapper">
