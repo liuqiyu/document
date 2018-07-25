@@ -145,6 +145,13 @@
 
 ### 项目的属性
 
+* order
+* flex-grow
+* flex-shrink
+* flex-basis
+* flex
+*align-self
+
 
 ### 兼容性
 
