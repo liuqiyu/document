@@ -102,8 +102,8 @@
 
 ![](/assets/企业微信截图_15324875992670.png)
 
-<a name="justify-content"></a>
-### 4、justify-content
+<a name="align-items"></a>
+### 4、align-items
 
 
 ### 兼容性
