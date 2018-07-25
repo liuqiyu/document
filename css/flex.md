@@ -76,7 +76,9 @@
 定义了项目在主轴上的对其方式
 
 ```css
-
+.box {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
 ```
 
 ### 兼容性
