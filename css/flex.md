@@ -16,7 +16,7 @@
 * [align-content](align-content)
 
 <a name="flex-direction"></a>
-#### flex-direction
+#### flex-direction (方向)
 
 ```css
 .box {
