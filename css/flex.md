@@ -153,7 +153,8 @@
   }
 ```
   
-* [flex-grow](#flex-frow)
+* flex-grow
+  
 * [flex-shrink](#flex-shrink)
 * [flex-basis](#flex-basis)
 * flex
