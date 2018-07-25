@@ -93,4 +93,5 @@
     * [会话次数](google-analytics/hui-hua-ci-shu.md)
 * [面面面面试~](mian-mian-mian-mian-8bd57e.md)
   * [vue双向绑定](mian-mian-mian-mian-8bd57e/vueshuang-xiang-bang-ding.md)
+  * [input与textarea的区别，并用div模拟textarea](mian-mian-mian-mian-8bd57e/inputyu-textarea-de-qu-bie-ff0c-bing-yong-div-mo-ni-textarea.md)
 
