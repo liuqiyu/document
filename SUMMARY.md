@@ -66,7 +66,7 @@
     * [圣杯布局2](css/flex/sheng-bei-bu-ju-2.md)
     * [骰子教学](css/flex/shai-zi-jiao-xue.md)
       * [一点](css/flex/shai-zi-jiao-xue/yi-dian.md)
-      * 二点
+      * [二点](css/flex/shai-zi-jiao-xue/er-dian.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
