@@ -145,12 +145,12 @@
 
 ### 项目的属性
 
-* order
-* flex-grow
-* flex-shrink
-* flex-basis
-* flex
-* align-self
+* [order](#order)
+* [flex-grow](#flex-frow)
+* [flex-shrink](#flex-shrink)
+* [flex-basis](#flex-basis)
+* [flex](#flex)
+* [align-self](#align-self)
 
 
 ### 兼容性
