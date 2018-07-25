@@ -23,4 +23,5 @@
             margin-top: -50px;
             background: red;
         }
+        // 或者 margin 换成transform: translate(-50%,-50%);
 ```
