@@ -105,7 +105,7 @@
 <a name="align-items"></a>
 ### 4、align-items
 
-align-items属性定义项目在交叉轴上如何对齐
+`align-items`属性定义项目在交叉轴上如何对齐。(Y轴)
 
 ```css
 .box {
