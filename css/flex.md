@@ -57,6 +57,7 @@
 
 <a name="flex-flow"></a>
 ### flex-flow
+`flex-flow`其实是`flex-direction`和`flex-wrap`的简写方式， `flex-flow: row wrap`
 
 ### 兼容性
 
