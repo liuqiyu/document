@@ -145,8 +145,7 @@
 
 ### 项目的属性
 
-* [order](#order)
-排序
+* order： 排序
   
 ```css
   .item {
