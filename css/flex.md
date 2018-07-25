@@ -105,6 +105,8 @@
 <a name="align-items"></a>
 ### 4、align-items
 
+align-items属性定义项目在交叉轴上如何对齐
+
 ```css
 .box {
   align-items: flex-start | flex-end | center | baseline | stretch;
