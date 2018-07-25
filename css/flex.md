@@ -8,12 +8,12 @@
 
 ### 容器属性
 
-* [flex-direction](flex-direction)
-* [flex-wrap](flex-wrap)
-* [flex-flow](flex-flow)
-* [justify-content](justify-content)
-* [align-items](align-items)
-* [align-content](align-content)
+* [flex-direction](#flex-direction)
+* [flex-wrap](#flex-wrap)
+* [flex-flow](#flex-flow)
+* [justify-content](#justify-content)
+* [align-items](#align-items)
+* [align-content](#align-content)
 
 <a name="flex-direction"></a>
 #### flex-direction (方向)
