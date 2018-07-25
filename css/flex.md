@@ -71,6 +71,7 @@
   flex-flow: <flex-direction> || <flex-wrap>;
 }
 ```
+
 <a name="justify-content"></a>
 ### 4、justify-content
 定义了项目在主轴上的对其方式（X轴）
@@ -100,6 +101,10 @@
 * space-around: 每个两侧间隔相等，项目之间的间隔比项目与边框的间隔大一倍
 
 ![](/assets/企业微信截图_15324875992670.png)
+
+<a name="justify-content"></a>
+### 4、justify-content
+
 
 ### 兼容性
 
