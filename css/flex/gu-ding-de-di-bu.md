@@ -1,5 +1,7 @@
 # 固定的底部
 
+![](/assets/企业微信截图_20180725164203.png)
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
