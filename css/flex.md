@@ -64,9 +64,7 @@
   flex-flow: <flex-direction> || <flex-wrap>;
 }
 ```
-<a name="justify-content
-
-"></a>
+<a name="justify-content"></a>
 ### justify-content
 
 ### 兼容性
