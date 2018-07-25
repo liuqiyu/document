@@ -106,7 +106,9 @@
 ### 4、align-items
 
 ```css
-
+.box {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}
 ```
 
 
