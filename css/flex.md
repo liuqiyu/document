@@ -156,7 +156,8 @@
 * [flex-grow](#flex-frow)
 * [flex-shrink](#flex-shrink)
 * [flex-basis](#flex-basis)
-* [flex](#flex)
+* flex
+  * `flex`是 `flex-grow` `flex-shrink` `flex-basis`的简写，默认值为`0 1 auto`。后两个属性选填
 * align-self
   * 如果没有设置，则继承父级的`align-items`，如果设置了，则覆盖父级。
 
