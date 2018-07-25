@@ -29,6 +29,9 @@
 * row-reverse: 
 ![](/assets/企业微信截图_15324859699106.png)
 
+* column:
+
+
 
 ### 兼容性
 
