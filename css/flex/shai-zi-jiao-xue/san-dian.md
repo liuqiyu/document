@@ -1,13 +1,13 @@
 # 三点
 
-![](/assets/企业微信截图_20180725161537.png)
+![](/assets/企业微信截图_20180725161727.png)
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>二点</title>
+    <title>三点</title>
     <style>
         body, html {
             width: 100%;
@@ -25,7 +25,7 @@
             border: 1px solid #111;
             border-radius: 10px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-between;
         }
        .item {
@@ -39,8 +39,10 @@
            text-align: center;
            border: 1px solid #333;
        }
-
         .item:nth-child(2) {
+            align-self: center;
+        }
+        .item:nth-child(3) {
             align-self: flex-end;
         }
     </style>
@@ -49,6 +51,7 @@
 <div class="demo">
   <div class="item">1</div>
   <div class="item">2</div>
+  <div class="item">3</div>
 </div>
 </body>
 </html>
