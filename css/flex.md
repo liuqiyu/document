@@ -81,6 +81,8 @@
 }
 ```
 
+* flex-start
+
 ### 兼容性
 
 ![](/assets/8712d713c7d0b884a5cb9770efc422b4.jpg)
