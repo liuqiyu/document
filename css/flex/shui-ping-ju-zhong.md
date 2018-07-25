@@ -42,8 +42,12 @@
         }
 ```
 
-### 方案3
+### 方案3 - flex
 
 ```css
-
+#container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
 ```
