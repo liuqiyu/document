@@ -150,7 +150,7 @@
 * flex-shrink
 * flex-basis
 * flex
-*align-self
+* align-self
 
 
 ### 兼容性
