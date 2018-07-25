@@ -64,6 +64,7 @@
     * [水平居中](css/flex/shui-ping-ju-zhong.md)
     * [圣杯布局1](css/flex/sheng-bei-bu-ju-1.md)
     * [圣杯布局2](css/flex/sheng-bei-bu-ju-2.md)
+    * [筛子教学](css/flex/shai-zi-jiao-xue.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
