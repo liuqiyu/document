@@ -18,6 +18,7 @@
 <style>
     .wrapper {
         display: flex;
+        display: -webkit-flex; /* Safari */
         width: 400px;
         height: 200px;
     }
