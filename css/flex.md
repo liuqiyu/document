@@ -2,6 +2,10 @@
 
 ![](/assets/5a7d00514af1e464221c677c15e8e990.png)
 
+### 基本概念
+
+
+
 ### 容器属性
 
 * [flex-direction](flex-direction)
@@ -10,6 +14,8 @@
 * [justify-content](justify-content)
 * [align-items](align-items)
 * [align-content](align-content)
+
+
 
 
 
