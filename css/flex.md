@@ -16,7 +16,7 @@
 * [align-content](#align-content)
 
 <a name="flex-direction"></a>
-#### flex-direction (方向)
+#### 1、flex-direction (方向)
 
 ```css
 .box {
@@ -40,7 +40,7 @@
 ![](/assets/企业微信截图_15324860251421.png)
 
 <a name="flex-wrap"></a>
-#### flex-wrap
+#### 2、flex-wrap
 
 如果一条轴线排不下，如何换行
 
@@ -63,7 +63,7 @@
 ![](/assets/企业微信截图_15324868257680.png)
 
 <a name="flex-flow"></a>
-### flex-flow
+### 3、flex-flow
 `flex-flow`其实是`flex-direction`和`flex-wrap`的简写方式， `flex-flow: row wrap`
 
 ```css
@@ -72,7 +72,7 @@
 }
 ```
 <a name="justify-content"></a>
-### justify-content
+### 4、justify-content
 
 ### 兼容性
 
