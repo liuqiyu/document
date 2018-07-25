@@ -23,6 +23,11 @@
   flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
+* row: 
+![](/assets/企业微信截图_15324859183170.png)
+
+* row-reverse: 
+![](/assets/企业微信截图_15324859699106.png)
 
 
 ### 兼容性
