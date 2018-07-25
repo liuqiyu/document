@@ -73,7 +73,7 @@
 ```
 <a name="justify-content"></a>
 ### 4、justify-content
-定义了项目在主轴上的对其方式
+定义了项目在主轴上的对其方式（X轴）
 
 ```css
 .box {
