@@ -61,6 +61,7 @@
 * [css](css.md)
   * [flex](css/flex.md)
     * [左边固定，右边自适应解决方案](css/flex/zuo-bian-gu-ding-ff0c-you-bian-zi-shi-ying-jie-jue-fang-an.md)
+    * [水平居中](css/flex/shui-ping-ju-zhong.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
