@@ -35,6 +35,12 @@
 * column-reverse: 主轴在垂直方向， 起点在下端
 ![](/assets/企业微信截图_15324860251421.png)
 
+<a name="flex-direction"></a>
+#### flex-direction
+
+
+
+
 ### 兼容性
 
 ![](/assets/8712d713c7d0b884a5cb9770efc422b4.jpg)
