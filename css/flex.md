@@ -59,6 +59,12 @@
 ### flex-flow
 `flex-flow`其实是`flex-direction`和`flex-wrap`的简写方式， `flex-flow: row wrap`
 
+```css
+.box {
+  flex-flow: <flex-direction> || <flex-wrap>;
+}
+```
+
 ### 兼容性
 
 ![](/assets/8712d713c7d0b884a5cb9770efc422b4.jpg)
