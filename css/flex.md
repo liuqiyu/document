@@ -6,6 +6,7 @@
 
 ![](/assets/3791e575c48b3698be6a94ae1dbff79d.png)
 
+<hr/>
 ### 容器属性
 
 * [flex-direction](#flex-direction)
