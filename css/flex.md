@@ -18,6 +18,11 @@
 <a name="flex-direction"></a>
 #### flex-direction
 
+```css
+.box {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+```
 
 
 ### 兼容性
