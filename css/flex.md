@@ -41,7 +41,9 @@
 如果一条轴线排不下，如何换行
 
 ```css
-
+.box{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
 ```
 
 
