@@ -23,7 +23,7 @@
   flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
-* row: 
+* row: 主轴为水平方向，起点在左端
 ![](/assets/企业微信截图_15324859183170.png)
 
 * row-reverse: 
