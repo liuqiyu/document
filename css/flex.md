@@ -128,7 +128,7 @@
 * baseline： 项目的第一行文字的基线对齐
 * stretch（默认值）： 如果项目未设置高度或设为auto，将占满整个容器的高度
 
-<a name="align-items"></a>
+<a name="align-content"></a>
 ### 6、align-items
 
 
