@@ -15,7 +15,8 @@
             padding: 0;
             margin: 0;
         }
-        .demo{
+
+        .box {
             margin-left: 200px;
             margin-top: 200px;
             padding: 10px;
@@ -28,30 +29,36 @@
             flex-direction: column;
             justify-content: space-between;
         }
-       .item {
-           overflow: hidden;
-           width: 40px;
-           height: 40px;
-           background: #111111;
-           color: #fff;
-           border-radius: 10px;
-           line-height: 40px;
-           text-align: center;
-           border: 1px solid #333;
-       }
-        .item:nth-child(2) {
-            align-self: center;
+
+        .column {
+            display: flex;
+            justify-content: space-between;
         }
-        .item:nth-child(3) {
-            align-self: flex-end;
+
+        .item {
+            display: block;
+            overflow: hidden;
+            width: 40px;
+            height: 40px;
+            background: #111111;
+            color: #fff;
+            border-radius: 10px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #333;
         }
     </style>
 </head>
 <body>
-<div class="demo">
-  <div class="item">1</div>
-  <div class="item">2</div>
-  <div class="item">3</div>
+<div class="box">
+    <div class="column">
+        <span class="item">1</span>
+        <span class="item">2</span>
+    </div>
+    <div class="column">
+        <span class="item">3</span>
+        <span class="item">4</span>
+    </div>
 </div>
 </body>
 </html>
