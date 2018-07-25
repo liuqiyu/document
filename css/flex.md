@@ -146,6 +146,13 @@
 ### 项目的属性
 
 * [order](#order)
+  
+  ```css
+  .item {
+  order: <integer>;
+}
+  ```
+  
 * [flex-grow](#flex-frow)
 * [flex-shrink](#flex-shrink)
 * [flex-basis](#flex-basis)
