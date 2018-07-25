@@ -130,7 +130,7 @@
 
 <a name="align-content"></a>
 ### 6、align-content
-
+多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用
 
 ### 兼容性
 
