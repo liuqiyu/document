@@ -67,6 +67,7 @@
     * [骰子教学](css/flex/shai-zi-jiao-xue.md)
       * [一点](css/flex/shai-zi-jiao-xue/yi-dian.md)
       * [二点](css/flex/shai-zi-jiao-xue/er-dian.md)
+      * [三点](css/flex/shai-zi-jiao-xue/san-dian.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
