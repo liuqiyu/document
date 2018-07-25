@@ -103,7 +103,7 @@
 ![](/assets/企业微信截图_15324875992670.png)
 
 <a name="align-items"></a>
-### 4、align-items
+### 5、align-items
 
 `align-items`属性定义项目在交叉轴上如何对齐。(Y轴)
 
