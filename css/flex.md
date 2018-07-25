@@ -147,11 +147,11 @@
 
 * [order](#order)
   
-  ```css
+```css
   .item {
-  order: <integer>;
-}
-  ```
+    order: <integer>;
+  }
+```
   
 * [flex-grow](#flex-frow)
 * [flex-shrink](#flex-shrink)
