@@ -132,6 +132,12 @@
 ### 6、align-content
 多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用
 
+```css
+.box {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+```
+
 ### 兼容性
 
 ![](/assets/8712d713c7d0b884a5cb9770efc422b4.jpg)
