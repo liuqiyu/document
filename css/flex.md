@@ -2,8 +2,6 @@
 
 ![](/assets/5a7d00514af1e464221c677c15e8e990.png)
 
-
-
 ### 容器属性
 
 * [flex-direction](flex-direction)
