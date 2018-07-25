@@ -129,7 +129,7 @@
 * stretch（默认值）： 如果项目未设置高度或设为auto，将占满整个容器的高度
 
 <a name="align-content"></a>
-### 6、align-items
+### 6、align-content
 
 
 ### 兼容性
