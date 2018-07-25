@@ -157,7 +157,8 @@
 * [flex-shrink](#flex-shrink)
 * [flex-basis](#flex-basis)
 * [flex](#flex)
-* [align-self](#align-self)
+* align-self
+  * 如果没有设置，则继承父级的`align-items`，如果设置了，则覆盖父级。
 
 
 ### 兼容性
