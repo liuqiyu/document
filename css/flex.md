@@ -32,7 +32,7 @@
 * column: 主轴在垂直方向， 起点在上端
 ![](/assets/企业微信截图_15324860154034.png)
 
-* column-reverse:
+* column-reverse: 主轴在垂直方向， 起点在下端
 ![](/assets/企业微信截图_15324860251421.png)
 
 ### 兼容性
