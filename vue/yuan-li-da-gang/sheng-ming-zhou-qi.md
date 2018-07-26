@@ -72,7 +72,7 @@ var vm = new Vue({
 * 可以看到template中的模板优先级要高于outer HTML的优先级。
 > render函数选项 > template选项 > outer HTML.
 
-在`mounte`d之前h1中还是通过`{{message}}`进行占位的，因为此时还有挂在到页面上，还是JavaScript中的虚拟DOM形式存在的。在`mounted`之后可以看到h1中的内容发生了变化。
+在`mounted`之前h1中还是通过`{{message}}`进行占位的，因为此时还有挂在到页面上，还是JavaScript中的虚拟DOM形式存在的。在`mounted`之后可以看到h1中的内容发生了变化。
 
 在使用`.vue`文件开发的过程中，我们会写`template`模板。在结果`vue-loader`处理之后，就变成了`render function`,最终放到了`vue-loader`解析的文件里面。这样做有什么好处呢？原因是由于在解析template变成render function的过程，是一个非常耗时的过程，vue-loader帮我们处理了这些内容之后，当我们在页面上执行vue代码的时候，效率会变得更高。
 
