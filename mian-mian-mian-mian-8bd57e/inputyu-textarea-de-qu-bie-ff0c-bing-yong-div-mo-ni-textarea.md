@@ -4,3 +4,7 @@
 * `<textarea>`的值是纯文本；`<input>`的值根据类型不同而不同；
 * `<textarea>`没有type属性；`<input>`有多种type来满足表单与用户的数据交互；
 * `<textarea>`的值可以是多行的，并且有rows和cols来控制多行结构；`<input>`的值是单行的；
+
+<hr/>
+
+用div模拟textarea标签
