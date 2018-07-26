@@ -7,4 +7,22 @@
 
 <hr/>
 
-用div模拟textarea标签
+### 用div模拟textarea标签
+
+```html
+<div class="textarea" contenteditable="true" placeholder="This is placeholder"></div>
+
+.textarea {
+  height: 200px;
+  width: 300px;
+  padding: 4px;
+  border: 1px solid #888;
+  resize: vertical;
+  overflow: auto;
+}
+
+.textarea:empty:before {
+  content: attr(placeholder);
+  color: #bbb;
+}
+```
