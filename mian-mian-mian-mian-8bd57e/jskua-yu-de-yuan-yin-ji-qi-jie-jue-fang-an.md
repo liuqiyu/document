@@ -11,3 +11,6 @@
 * JSONP
 * 服务器代理
 * 服务端设置Request Header头中Access-Control-Allow-Origin为指定可获取数据的域名
+
+
+##### jsonp实现原理
