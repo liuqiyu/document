@@ -85,7 +85,7 @@
 * [mysql](mysql.md)
 * [优化](you-hua.md)
   * [移动端优化](you-hua/yi-dong-duan-you-hua.md)
-* 电商那些事儿
+* [电商那些事儿](dian-shang-na-xie-shi-er.md)
   * [关于购物车](guan-yu-gou-wu-che.md)
   * [google analytics](google-analytics.md)
     * [网页价值](google-analytics/1.md)
