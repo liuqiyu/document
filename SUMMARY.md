@@ -96,4 +96,5 @@
   * [input与textarea的区别，并用div模拟textarea](mian-mian-mian-mian-8bd57e/inputyu-textarea-de-qu-bie-ff0c-bing-yong-div-mo-ni-textarea.md)
   * [js跨域的原因及其解决方案](mian-mian-mian-mian-8bd57e/jskua-yu-de-yuan-yin-ji-qi-jie-jue-fang-an.md)
   * [http](mian-mian-mian-mian-8bd57e/http.md)
+  * [变量](mian-mian-mian-mian-8bd57e/bian-liang.md)
 
