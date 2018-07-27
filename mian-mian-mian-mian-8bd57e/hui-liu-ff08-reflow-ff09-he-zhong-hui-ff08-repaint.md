@@ -1,4 +1,4 @@
-# 回流（reflow）和重绘（repaint）
+# 回流（重排）（reflow）和重绘（repaint）
 
 ![](/assets/企业微信截图_15326609313718.png)
 
