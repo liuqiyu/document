@@ -103,7 +103,6 @@
 </div>
 <script>
     var $search = document.getElementById('search');
-    console.log($search);
     $search.addEventListener('click', function() {
         var class1 = 'height';
         var classList = this.className.split(' ');
