@@ -70,7 +70,7 @@ export const m = {
 
 ###### html使用 -- 切换语言
 
-```vue
+```
 
 {{$t('m.title')}}
 
