@@ -71,6 +71,7 @@
       * [三点](css/flex/shai-zi-jiao-xue/san-dian.md)
       * [四点](css/flex/shai-zi-jiao-xue/si-dian.md)
     * [固定的底部](css/flex/gu-ding-de-di-bu.md)
+    * [经典的后台布局](css/flex/jing-dian-de-hou-tai-bu-ju.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
 * [html5](html5.md)
   * [webSocket](html5/websocket.md)
