@@ -29,3 +29,5 @@
 * resize
 
 *减少回流、重绘*
+
+尽量减少对render tree的操作。
