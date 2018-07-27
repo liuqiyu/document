@@ -97,4 +97,5 @@
   * [js跨域的原因及其解决方案](mian-mian-mian-mian-8bd57e/jskua-yu-de-yuan-yin-ji-qi-jie-jue-fang-an.md)
   * [http](mian-mian-mian-mian-8bd57e/http.md)
   * [变量](mian-mian-mian-mian-8bd57e/bian-liang.md)
+  * [堆和栈](mian-mian-mian-mian-8bd57e/dui-he-zhan.md)
 
