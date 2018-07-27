@@ -36,6 +36,7 @@
   * [垃圾回收](javascript/la-ji-hui-shou.md)
   * [函数参数解构](javascript/han-shu-can-shu-jie-gou.md)
   * [继承](javascript/ji-cheng.md)
+  * [数组](javascript/shu-zu.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
   * [服务器](git-note/fu-wu-qi.md)
@@ -82,7 +83,6 @@
   * [安装nginx](a-li-yun/an-zhuang-nginx.md)
   * [安装mysql](a-li-yun/an-zhuang-mysql.md)
 * [mysql](mysql.md)
-* [玩转gitlab](wan-zhuan-gitlab.md)
 * [优化](you-hua.md)
   * [移动端优化](you-hua/yi-dong-duan-you-hua.md)
 * 电商那些事儿
