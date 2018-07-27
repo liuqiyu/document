@@ -1,4 +1,4 @@
-[](suan-fa.md)# Summary
+# Summary
 
 * [前言](README.md)
 * [vue](vue/vue.md)
@@ -98,4 +98,5 @@
   * [http](mian-mian-mian-mian-8bd57e/http.md)
   * [变量](mian-mian-mian-mian-8bd57e/bian-liang.md)
   * [堆和栈](mian-mian-mian-mian-8bd57e/dui-he-zhan.md)
+  * [回流（reflow）和重绘（repaint）](mian-mian-mian-mian-8bd57e/hui-liu-ff08-reflow-ff09-he-zhong-hui-ff08-repaint.md)
 
