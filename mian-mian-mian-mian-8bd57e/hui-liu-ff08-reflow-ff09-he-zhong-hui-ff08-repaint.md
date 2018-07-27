@@ -4,7 +4,7 @@
 
 当我们请求一个地址，获取返回的html时。浏览器会进行如下的操作
 
-1、浏览器将`html`代码解析成一个`DOM`树
+1、浏览器将`html`代码解析成一个`DOM`树(包含dispaly: none, 以及js动态添加的dom)
 2、浏览器将`css`解析成样式结构体
 3、浏览器根据`DOM`树和`css`结构体结合生成`render tree`
 4、浏览器会根据`render tree`去绘制页面
