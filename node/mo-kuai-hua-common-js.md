@@ -28,3 +28,18 @@ var { add, del }= require('./func');
 add(1);   
 add(1);   
 ```
+
+</hr>
+
+* func.js
+
+```js
+exports.add = function (num) {
+    return num += 1;
+};
+
+exports.delete = function (num) {
+    return num -= 1;
+};
+
+```
