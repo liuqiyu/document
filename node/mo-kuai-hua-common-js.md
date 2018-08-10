@@ -25,8 +25,8 @@ module.exports = {
 ```js
 var { add, del }= require('./func');
 
-add(1);   
-add(1);   
+add(1); // 1 
+del(1); // 0   
 ```
 
 </hr>
@@ -41,4 +41,13 @@ exports.add = function (num) {
 exports.delete = function (num) {
     return num -= 1;
 };
+```
+
+* app.js
+
+```js
+var func = require('./func');
+
+func.add(1); // 2
+func.del(1); // 0
 ```
