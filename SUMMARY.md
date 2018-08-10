@@ -55,6 +55,7 @@
 * [nginx](nginx.md)
   * [nginx.conf](nginx/nginxconf.md)
 * [node](node.md)
+  * [模块化 - common.js](node/mo-kuai-hua-common-js.md)
 * [mysql](mysql.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
