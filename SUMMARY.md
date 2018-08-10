@@ -54,6 +54,7 @@
   * [webSocket](html5/websocket.md)
 * [nginx](nginx.md)
   * [nginx.conf](nginx/nginxconf.md)
+* [node](node.md)
 * [mysql](mysql.md)
 * [git](git-note/readme.md)
   * [git常用代码](git-note/git常用代码.md)
@@ -99,7 +100,5 @@
   * [堆和栈](mian-mian-mian-mian-8bd57e/dui-he-zhan.md)
   * [回流（reflow）和重绘（repaint）](mian-mian-mian-mian-8bd57e/hui-liu-ff08-reflow-ff09-he-zhong-hui-ff08-repaint.md)
 * [gitbooks使用说明](gitbooksshi-yong-shuo-ming.md)
-* [正则强记策略](zheng-ze-qiang-ji-ce-lve.md)
-  * [base](zheng-ze-qiang-ji-ce-lve/base.md)
-  * [表单](zheng-ze-qiang-ji-ce-lve/biao-dan.md)
+* node
 
