@@ -41,5 +41,4 @@ exports.add = function (num) {
 exports.delete = function (num) {
     return num -= 1;
 };
-
 ```
